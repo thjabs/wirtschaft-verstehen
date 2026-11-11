@@ -97,8 +97,9 @@ Eine neue Schublade ist ein weiterer Eintrag unter `schubladen` (`id`, `nummer`,
 ## Schreibkonventionen in den Markdown-Dateien
 
 - **Glossarbegriffe:** `[[Mehrwert]]` markiert einen Begriff. Weicht die Form im Satz ab, steht zuerst der Glossareintrag, dann der angezeigte Text: `[[Externer Effekt|externen Effekten]]`. Beim Drüberfahren oder Antippen erscheint die Kurzerklärung.
-- **Glossar (`inhalte/glossar.md`):** Jeder Begriff ist eine Überschrift der Ebene 2. Der erste Absatz ist die Kurzerklärung für den Tooltip (1–2 Sätze), alles danach erscheint nur in der Glossar-Ansicht. Bei umstrittenen Begriffen stehen dort die Bedeutungen je Schule.
+- **Glossar (`inhalte/glossar.md`):** Jeder Begriff ist eine Überschrift der Ebene 2, die Reihenfolge in der Datei ist egal (die Seite sortiert alphabetisch). Der erste Absatz ist die Kurzerklärung für den Tooltip (1–2 Sätze), alles danach erscheint nur in der Glossar-Ansicht. Bei umstrittenen Begriffen stehen dort die Bedeutungen je Schule.
 - **Modellbilder:** `![Alt-Text](assets/diagramme/datei.svg "Bildunterschrift")` in einer eigenen Zeile. Der Titel in Anführungszeichen wird zur Bildunterschrift.
+- **Grundlagentexte:** Zwischenüberschriften mit `###`, weil der Titel der Schublade schon Ebene 2 ist. Weitere Unterschubladen einer Schule (wie „Zum Weiterlesen“) sind ein Eintrag unter `teile` im Manifest plus eine Datei.
 - **Externe Links** öffnen automatisch in einem neuen Tab.
 - Keine langen Gedankenstriche, keine erfundenen Quellen. Unsicheres wird mit `[ungeprüft]` markiert und in `REVIEW.md` eingetragen.
 

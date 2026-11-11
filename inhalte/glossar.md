@@ -76,3 +76,73 @@ Zustand, in dem mehr Kapital vorhanden ist, als sich zur gewohnten Profitrate an
 ## Ungleicher Tausch
 
 These marxistischer Ökonomen wie Arghiri Emmanuel und Samir Amin: Im Handel zwischen Ländern mit sehr unterschiedlichen Löhnen fließt Wert von der Peripherie in die Zentren, obwohl zu Weltmarktpreisen getauscht wird.
+
+## Arbeitswerttheorie
+
+Lehre, nach der sich der Wert einer Ware an der Arbeitszeit bemisst, die zu ihrer Herstellung gesellschaftlich nötig ist. Smith und Ricardo vertraten sie, Marx baute darauf seine Theorie des [[Mehrwert|Mehrwerts]] auf. Die Neoklassik ersetzte sie durch die subjektive Wertlehre.
+
+## Effektive Nachfrage
+
+Die Nachfrage, die tatsächlich mit Kaufkraft am Markt auftritt. Nach Keynes bestimmt sie, wie viel Unternehmen produzieren und wie viele Menschen sie beschäftigen.
+
+## Endogenes Geld
+
+Geld entsteht im Wirtschaftsprozess selbst: Banken schaffen es, wenn sie Kredite vergeben, und es verschwindet bei der Tilgung. Die Zentralbank legt den Zins fest, die Geldmenge ergibt sich aus der Kreditnachfrage.
+
+## Geld
+
+Zwischen den Schulen umstritten: Für die Neoklassik vor allem ein Tauschmittel, das langfristig nur die Preise beeinflusst. Für Postkeynesianer und Marxisten steht Geld im Zentrum der Wirtschaft.
+
+- **Neoklassik:** Tauschmittel, Recheneinheit und Wertaufbewahrungsmittel. Langfristig neutral, kurzfristig wirkt Geldpolitik auf Produktion und Beschäftigung.
+- **Postkeynesianismus:** Geld ist Kredit und entsteht in Banken ([[Endogenes Geld|endogenes Geld]]). Es ist nie neutral, weil produziert wird, um Geld zu verdienen. Die MMT betont, dass der Staat es als Währung durchsetzt, indem er Steuern in ihr verlangt.
+- **Marxismus:** Die notwendige Erscheinungsform des Werts. Als [[Kapital]] wird es zum Selbstzweck: Geld soll zu mehr Geld werden.
+
+## Gleichgewicht
+
+Zwischen den Schulen umstritten: In der Neoklassik der Zustand, in dem Angebot und Nachfrage übereinstimmen und auf den Märkte zustreben. Postkeynesianer und Marxisten bestreiten, dass die Wirtschaft von selbst dorthin findet.
+
+- **Neoklassik:** Bezugspunkt der Analyse. Im Gleichgewicht passen die Pläne aller zusammen, bei Wettbewerb ist das Ergebnis effizient.
+- **Postkeynesianismus:** Die Wirtschaft kann dauerhaft bei Unterbeschäftigung verharren. Wichtiger als ein Ruhepunkt ist der Weg durch die historische Zeit.
+- **Marxismus:** Der Kapitalismus ist ein Prozess ständiger Umwälzung. Gleichgewichte stellen sich allenfalls vorübergehend und durch Krisen her.
+
+## Grenznutzen
+
+Der zusätzliche Nutzen, den die letzte verbrauchte Einheit eines Gutes stiftet. Er sinkt meist mit der Menge: Das dritte Glas Wasser ist weniger wert als das erste. In der Neoklassik erklärt er, wie viel Menschen für ein Gut zu zahlen bereit sind.
+
+## Historischer Materialismus
+
+Marx' Auffassung der Geschichte: Die Art, wie Menschen produzieren und wem die Produktionsmittel gehören, prägt Recht, Politik und Denken einer Epoche. Gesellschaften verändern sich durch Konflikte zwischen Klassen.
+
+## Homo oeconomicus
+
+Modellfigur der Wirtschaftstheorie: ein Akteur, der seine Ziele kennt und unter den gegebenen Möglichkeiten die für ihn beste wählt. In der Neoklassik eine vereinfachende Annahme, keine Beschreibung wirklicher Menschen.
+
+## Marktversagen
+
+Lage, in der ein Markt nicht zum bestmöglichen Ergebnis führt. Die wichtigsten Fälle sind [[Externer Effekt|externe Effekte]], öffentliche Güter, Marktmacht und ungleich verteilte Information. In der Neoklassik ist Marktversagen die zentrale Begründung für Staatseingriffe.
+
+## Modern Monetary Theory
+
+Kurz MMT. Strömung im Postkeynesianismus: Ein Staat, der sich in eigener Währung verschuldet, kann nicht zahlungsunfähig werden. Die Grenze seiner Ausgaben setzen Inflation und verfügbare Arbeitskräfte und Güter, nicht die Einnahmen.
+
+## Multiplikator
+
+Maß dafür, wie stark das Gesamteinkommen steigt, wenn eine Ausgabe (etwa des Staates) um einen Euro steigt. Er ist größer als eins, wenn die Empfänger das Geld wieder ausgeben und so weitere Einkommen entstehen.
+
+**Umstritten:** Postkeynesianer halten den Multiplikator vor allem bei Unterauslastung für groß. Im Mainstream hängt seine Größe stark von der Lage ab: hoch in tiefen Krisen und bei Nullzinsen, gering bei ausgelasteter Wirtschaft.
+
+## Profitrate
+
+Verhältnis des Profits zum insgesamt vorgeschossenen Kapital. Bei Marx sinkt sie der Tendenz nach, weil immer mehr Kapital in Maschinen und immer weniger in Arbeitskraft fließt, die allein [[Mehrwert]] schafft.
+
+## Rationale Erwartungen
+
+Annahme, dass Menschen alle verfügbaren Informationen nutzen und sich über die Zukunft nicht systematisch irren. Sie wurde in den 1970er-Jahren von Robert Lucas in die Makroökonomik eingeführt. Angekündigte Politik wirkt dann anders als überraschende, weil die Menschen sie vorwegnehmen.
+
+## Wert
+
+Zwischen den Schulen umstritten: Für die Neoklassik ist Wert subjektiv und zeigt sich im Preis, für den Marxismus ist er vergegenständlichte gesellschaftliche Arbeit.
+
+- **Neoklassik:** Ein Gut ist so viel wert, wie Menschen für die letzte Einheit zu geben bereit sind ([[Grenznutzen]]). Wert und Marktpreis fallen im Gleichgewicht zusammen.
+- **Postkeynesianismus:** Keine eigene Werttheorie im engen Sinn. Preise entstehen aus Kosten plus Aufschlag und hängen von Marktmacht und Verteilung ab.
+- **Marxismus:** Wert ist ein gesellschaftliches Verhältnis: die in Waren steckende, im Tausch anerkannte Arbeit ([[Arbeitswerttheorie]]). Preise schwanken um die Werte.

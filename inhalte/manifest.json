@@ -22,7 +22,8 @@
             { "id": "entstehung", "titel": "Entstehung, Entwicklung und Annahmen", "datei": "grundlagen/neoklassik/entstehung.md" },
             { "id": "aktuell", "titel": "Aktueller Stand", "datei": "grundlagen/neoklassik/aktuell.md" },
             { "id": "debatten", "titel": "Aktuelle Debatten", "datei": "grundlagen/neoklassik/debatten.md" },
-            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/neoklassik/stroemungen.md" }
+            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/neoklassik/stroemungen.md" },
+            { "id": "literatur", "titel": "Zum Weiterlesen", "datei": "grundlagen/neoklassik/literatur.md" }
           ]
         },
         {
@@ -35,7 +36,8 @@
             { "id": "entstehung", "titel": "Entstehung, Entwicklung und Annahmen", "datei": "grundlagen/postkeynesianismus/entstehung.md" },
             { "id": "aktuell", "titel": "Aktueller Stand", "datei": "grundlagen/postkeynesianismus/aktuell.md" },
             { "id": "debatten", "titel": "Aktuelle Debatten", "datei": "grundlagen/postkeynesianismus/debatten.md" },
-            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/postkeynesianismus/stroemungen.md" }
+            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/postkeynesianismus/stroemungen.md" },
+            { "id": "literatur", "titel": "Zum Weiterlesen", "datei": "grundlagen/postkeynesianismus/literatur.md" }
           ]
         },
         {
@@ -48,7 +50,8 @@
             { "id": "entstehung", "titel": "Entstehung, Entwicklung und Annahmen", "datei": "grundlagen/marxismus/entstehung.md" },
             { "id": "aktuell", "titel": "Aktueller Stand", "datei": "grundlagen/marxismus/aktuell.md" },
             { "id": "debatten", "titel": "Aktuelle Debatten", "datei": "grundlagen/marxismus/debatten.md" },
-            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/marxismus/stroemungen.md" }
+            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/marxismus/stroemungen.md" },
+            { "id": "literatur", "titel": "Zum Weiterlesen", "datei": "grundlagen/marxismus/literatur.md" }
           ]
         },
         {

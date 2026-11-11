@@ -200,8 +200,8 @@
   animation: herausfahren .3s ease-out;
 }
 @keyframes herausfahren {
-  from { opacity: 0; transform: translateY(-8px); }
-  to { opacity: 1; transform: none; }
+  from { transform: translateY(-8px); }
+  to { transform: none; }
 }
 
 .lade-klein { margin: 1.2rem 0 0; max-width: 68ch; background: var(--papier); box-shadow: none; }

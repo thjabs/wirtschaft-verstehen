@@ -61,3 +61,37 @@ Prüfliste. Stand: Ende Sitzung 1. Bisher gibt es nur Kernsätze und einen Gloss
 
 ## Glossar
 - [ ] Heikle Stelle: Alle 17 Kurzdefinitionen sind ohne Quellenabgleich geschrieben – in Sitzung 2 gegen ein Lehrbuch (Mankiw, Lavoie, Heinrich) prüfen.
+
+---
+
+# Sitzung 2 – Grundlagen
+
+Per Websuche bestätigt (Stand 11.11.2026): Nobelpreis 2025 (Mokyr, Aghion, Howitt), Grundgesetzänderung zur Schuldenbremse vom März 2025, Policy Brief des Sachverständigenrats vom Januar 2024, Besetzung des Sachverständigenrats 2026 (Truger weiter Mitglied), IMK (gegründet 2005, Dullien seit 2019), Flassbecks Ämter, Eichner/Kregel 1975 und das Journal of Post Keynesian Economics 1978, Abschluss der Kapital-Abteilung der MEGA 2012, englische Ausgabe von Saito 2024 sowie alle Titel unter „Zum Weiterlesen“. Alles Übrige stammt aus Fachwissen und steht unten.
+
+## Grundlagen – alle Schulen
+- [ ] Entscheidung: Zusätzlich zu den vier vorgegebenen Unterschubladen gibt es je Schule eine fünfte, „Zum Weiterlesen“, mit vier bis fünf geprüften Titeln. Wenn du sie nicht willst, genügt es, die drei Einträge `literatur` aus `inhalte/manifest.json` zu löschen.
+- [ ] Heikle Stelle: Jahreszahlen und Zuschreibungen der Theoriegeschichte (z. B. Veblen prägt „neoklassisch“ um 1900, Walras 1874, Marshall 1890, Hilferding 1910, Luxemburg 1913, Lenin 1917) sind Lehrbuchwissen und nicht einzeln nachgeschlagen.
+
+## Grundlagen – Neoklassik
+- [ ] Entscheidung: „Neoklassik“ wird im weiten Sinn als heutiger Mainstream einschließlich Neukeynesianismus dargestellt. Die Abgrenzung steht in „Entstehung“ und „Ähnliche Strömungen“.
+- [ ] Heikle Stelle: Aktueller Stand, Satz zu den Zentralbanken („Inflationsziel von zwei Prozent“, „neukeynesianische Modelle“) – stark verkürzt, für die Antworten zu Frage 3 und 11 genauer fassen.
+- [ ] Heikle Stelle: Aktueller Stand, Beschreibung des CORE-Lehrwerks („beginnt mit Wachstum, Ungleichheit und Umwelt“) – aus dem Gedächtnis, Inhaltsverzeichnis prüfen.
+- [ ] Quelle ungeprüft: In „Aktuelle Debatten“ genannte Arbeiten (Blanchard 2019, Romer 2016, Bernanke/Blanchard 2023, Card/Krueger 1994, Dustmann u. a. 2022, Autor u. a. zum China-Schock) – Inhalt aus Fachwissen wiedergegeben, bibliografisch noch nicht belegt. Werden in den Fragen 3, 4, 6, 8 und 11 gebraucht und dort mit Quelle versehen.
+
+## Grundlagen – Postkeynesianismus
+- [ ] Heikle Stelle: Aktueller Stand, Liste der Hochschulen (Leeds, SOAS, New School, Paris, HWR Berlin, Duisburg-Essen) – aus Fachwissen, Auswahl nicht vollständig.
+- [ ] Heikle Stelle: Aktueller Stand, Bank of England (2014) und Bundesbank (2017) zur Geldschöpfung – Jahr und Inhalt aus Fachwissen, Fundstellen für Frage 3 nachtragen.
+- [ ] Heikle Stelle: Aktuelle Debatten, Positionen von Lavoie (Kritik an der MMT), Flassbeck (MMT, Inflation, Euro) und Isabella Weber sind sinngemäß zusammengefasst – an den Originaltexten prüfen, vor allem Flassbeck, den du gut kennst.
+- [ ] Entscheidung: Höfgens Kanal habe ich nicht namentlich genannt, weil die Suche den Namen nicht bestätigt hat.
+
+## Grundlagen – Marxismus
+- [ ] Entscheidung: Die Darstellung von Wert und Geld in „Entstehung“ folgt weitgehend der Neuen Marx-Lektüre (Heinrich). Die traditionelle Lesart steht in „Aktuelle Debatten“.
+- [ ] Heikle Stelle: Aktueller Stand, „kaum ein volkswirtschaftlicher Lehrstuhl“ in Deutschland und die Liste der Hochschulen im Ausland – aus Fachwissen.
+- [ ] Heikle Stelle: Aktueller Stand, Saito als „Bestseller“ – die oft genannte Zahl von über 500.000 Exemplaren fand ich nur in einer schwachen Quelle und habe sie weggelassen.
+- [ ] Heikle Stelle: Aktuelle Debatten, Zuschreibungen (Kliman, Roberts, Carchedi, Smith, Patnaik, Huber, Varoufakis, Morozov) sinngemäß aus Fachwissen.
+
+## Weitere Theorien
+- [ ] Heikle Stelle: Jahreszahlen (Menger 1871, Georgescu-Roegen 1971, Nelson/Winter 1982, Nobelpreise 2002 und 2017, Santa Fe Institute in den 1980er-Jahren) aus Fachwissen, nicht nachgeschlagen.
+
+## Glossar (Stand Sitzung 2)
+- [ ] Heikle Stelle: Jetzt 31 Einträge, weiterhin ohne Abgleich mit einem Lehrbuch. Der in Sitzung 1 angekündigte Abgleich ist noch offen. Besonders die Einträge „Wert“, „Geld“ und „Gleichgewicht“ mit ihren drei Bedeutungen bitte gegenlesen.

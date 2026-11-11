@@ -1,6 +1,6 @@
 # PROGRESS
 
-Stand: 11.11.2026, Ende Sitzung 1. Bei „mach weiter“ geht es beim ersten offenen Punkt weiter.
+Stand: 11.11.2026, Ende Sitzung 2. Bei „mach weiter“ geht es beim ersten offenen Punkt weiter.
 
 ## Sitzung 1 – Fundament
 
@@ -15,11 +15,13 @@ Stand: 11.11.2026, Ende Sitzung 1. Bei „mach weiter“ geht es beim ersten off
 
 ## Sitzung 2 – Grundlagen
 
-- [ ] Neoklassik: Entstehung (400–600), Aktueller Stand (250–400), Debatten (200–400), Strömungen (150–300)
-- [ ] Postkeynesianismus: dieselben vier Texte
-- [ ] Marxismus: dieselben vier Texte
-- [ ] „Weitere Theorien“: sieben Steckbriefe (je 60–120 Wörter), Verweis auf Exploring Economics steht schon
-- [ ] Glossar ausbauen (umstrittene Begriffe: Wert, Gleichgewicht, Geld, Profit, Arbeit/Arbeitskraft)
+- [x] Neoklassik: Entstehung (513 Wörter), Aktueller Stand (291), Debatten (314), Strömungen (207)
+- [x] Postkeynesianismus: Entstehung (480), Aktueller Stand (285), Debatten (307), Strömungen (195)
+- [x] Marxismus: Entstehung (510), Aktueller Stand (293), Debatten (335), Strömungen (206)
+- [x] „Weitere Theorien“: sieben Steckbriefe (74 bis 87 Wörter) mit Verweis auf Exploring Economics
+- [x] Zusätzlich je Schule eine Schublade „Zum Weiterlesen“ mit geprüften Titeln (`literatur.md`)
+- [x] Glossar auf 31 Begriffe ausgebaut, umstritten markiert: Kapital, Wert, Geld, Gleichgewicht
+- [ ] Glossar gegen ein Lehrbuch abgleichen (steht in `REVIEW.md`)
 
 ## Sitzung 3 – Problemfelder I und II
 
@@ -58,3 +60,11 @@ Stand: 11.11.2026, Ende Sitzung 1. Bei „mach weiter“ geht es beim ersten off
 - Noch keine Modellbilder. Die Einbindung steht (siehe README, Abschnitt Schreibkonventionen), `assets/diagramme/` ist leer.
 - Die Kernsätze sind aus Fachwissen formuliert und noch nicht einzeln mit Quellen belegt. Die Belege entstehen zusammen mit den ausführlichen Antworten. Heikle Stellen stehen in `REVIEW.md`.
 - Feinschliff-Ideen für später: Schublade am Nachttisch sichtbar herausfahren lassen, Szene auf sehr breiten Bildschirmen (oberer Fensterrand wird beschnitten), Druckansicht, `assets/szene/` ist ungenutzt, weil die Szene inline in `index.html` liegt.
+
+## Geprüft in Sitzung 2
+
+- Wortzahl-Skript: 173 Abschnitte, 89 ok, 84 leer, 0 Ausreißer. Alle Grundlagentexte liegen im Sollbereich.
+- Alle `[[Begriffe]]` in allen Inhaltsdateien haben einen Glossareintrag (per Skript im Browser geprüft), keine langen Gedankenstriche.
+- Fakten per Websuche geprüft, Liste und offene Punkte in `REVIEW.md` unter „Sitzung 2“.
+- Im Browser angesehen (Nacht): Postkeynesianismus und „Weitere Theorien“ in Desktopbreite, Marxismus mit allen fünf Schubladen und das Glossar bei 375 px. Keine Konsolenfehler. Den Tagmodus habe ich in dieser Sitzung nicht erneut geprüft.
+- Zwischenüberschriften in Grundlagentexten stehen auf Ebene 3 (`###`), weil der Schubladentitel schon Ebene 2 ist.
