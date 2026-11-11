@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="15" fill="#2a241c">
+  <title>Ricardos Zahlenbeispiel für komparative Vorteile</title>
+  <text x="20" y="26" font-size="13" fill="#5b5142">Arbeiter, die ein Jahr lang nötig sind, um eine bestimmte Menge herzustellen (Ricardo 1817)</text>
+  <!-- Tabelle -->
+  <rect x="20" y="44" width="600" height="38" fill="#1f5f6b"/>
+  <rect x="20" y="82" width="600" height="44" fill="#1f5f6b" fill-opacity=".08"/>
+  <rect x="20" y="126" width="600" height="44" fill="#1f5f6b" fill-opacity=".16"/>
+  <path d="M20 44H620V170H20ZM200 44V170M340 44V170M480 44V170" fill="none" stroke="#1f5f6b" stroke-width="1.2"/>
+  <g fill="#fff" font-weight="600" text-anchor="middle">
+    <text x="270" y="69">Tuch</text>
+    <text x="410" y="69">Wein</text>
+    <text x="550" y="62" font-size="13">1 Wein kostet</text>
+    <text x="550" y="77" font-size="13">Verzicht auf</text>
+  </g>
+  <text x="36" y="110" font-weight="600">England</text>
+  <text x="36" y="154" font-weight="600">Portugal</text>
+  <g text-anchor="middle">
+    <text x="270" y="110">100</text>
+    <text x="410" y="110">120</text>
+    <text x="550" y="110">1,20 Tuch</text>
+    <text x="270" y="154">90</text>
+    <text x="410" y="154">80</text>
+    <text x="550" y="154" font-weight="700" fill="#1f5f6b">0,89 Tuch</text>
+  </g>
+  <!-- Folgerung -->
+  <g font-size="14">
+    <text x="20" y="206">Portugal braucht für beides weniger Arbeit (absoluter Vorteil).</text>
+    <text x="20" y="230">Wein „kostet“ in Portugal aber weniger Tuch als in England (komparativer Vorteil).</text>
+    <text x="20" y="262" font-weight="600" fill="#1f5f6b">Portugal stellt Wein her, England Tuch, und beide tauschen:</text>
+    <text x="20" y="284" font-weight="600" fill="#1f5f6b">Insgesamt entsteht mit derselben Arbeit mehr von beidem.</text>
+  </g>
+</svg>

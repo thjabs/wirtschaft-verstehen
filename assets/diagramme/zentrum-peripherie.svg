@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" fill="#2a241c">
+  <title>Zentrum und Peripherie im Weltsystem</title>
+  <!-- Peripherie -->
+  <rect x="20" y="70" width="210" height="160" rx="10" fill="#6b3a6e" fill-opacity=".14" stroke="#6b3a6e" stroke-width="1.5"/>
+  <text x="125" y="102" text-anchor="middle" font-size="18" font-weight="700">Peripherie</text>
+  <g text-anchor="middle" font-size="13">
+    <text x="125" y="134">Rohstoffe</text>
+    <text x="125" y="156">Landwirtschaft für den Export</text>
+    <text x="125" y="178">einfache Fertigung</text>
+    <text x="125" y="200">niedrige Löhne</text>
+  </g>
+  <!-- Zentrum -->
+  <rect x="410" y="70" width="210" height="160" rx="10" fill="#6b3a6e" stroke="#6b3a6e" stroke-width="1.5"/>
+  <g fill="#fff" text-anchor="middle">
+    <text x="515" y="102" font-size="18" font-weight="700">Zentrum</text>
+    <g font-size="13">
+      <text x="515" y="134">Industrie und Technik</text>
+      <text x="515" y="156">Banken und Währungen</text>
+      <text x="515" y="178">Konzernzentralen</text>
+      <text x="515" y="200">hohe Löhne</text>
+    </g>
+  </g>
+  <!-- Pfeile -->
+  <g fill="none" stroke="#2a241c" stroke-width="2.5">
+    <path d="M238 118H392"/>
+    <path d="M402 190H248"/>
+  </g>
+  <path d="M402 118l-12-6v12zM238 190l12-6v12z"/>
+  <g text-anchor="middle" font-size="13">
+    <text x="320" y="92">Rohstoffe, billige Waren,</text>
+    <text x="320" y="108">Gewinne, Zinsen</text>
+    <text x="320" y="210">Fertigwaren, Kredite,</text>
+    <text x="320" y="226">Investitionen</text>
+  </g>
+  <text x="320" y="270" text-anchor="middle" font-size="13" fill="#5b5142">Dazwischen liegt bei Wallerstein die Semiperipherie: Länder mit Merkmalen beider Seiten.</text>
+  <text x="320" y="32" text-anchor="middle" font-weight="600" fill="#6b3a6e">Im Tausch fließt netto Wert von der Peripherie ins Zentrum</text>
+</svg>
