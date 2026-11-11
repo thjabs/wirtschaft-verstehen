@@ -66,7 +66,7 @@ Prüfliste. Stand: Ende Sitzung 1. Bisher gibt es nur Kernsätze und einen Gloss
 
 # Sitzung 2 – Grundlagen
 
-Per Websuche bestätigt (Stand 11.11.2026): Nobelpreis 2025 (Mokyr, Aghion, Howitt), Grundgesetzänderung zur Schuldenbremse vom März 2025, Policy Brief des Sachverständigenrats vom Januar 2024, Besetzung des Sachverständigenrats 2026 (Truger weiter Mitglied), IMK (gegründet 2005, Dullien seit 2019), Flassbecks Ämter, Eichner/Kregel 1975 und das Journal of Post Keynesian Economics 1978, Abschluss der Kapital-Abteilung der MEGA 2012, englische Ausgabe von Saito 2024 sowie alle Titel unter „Zum Weiterlesen“. Alles Übrige stammt aus Fachwissen und steht unten.
+Per Websuche bestätigt (Stand 11.11.2026): Nobelpreis 2025 (Mokyr, Aghion, Howitt), Grundgesetzänderung zur Schuldenbremse vom März 2025, Policy Brief des Sachverständigenrats vom Januar 2024, Besetzung des Sachverständigenrats 2026 (Truger weiter Mitglied), IMK (gegründet 2005, Dullien seit 2019), Flassbecks Ämter, Eichner/Kregel 1975 und das Journal of Post Keynesian Economics 1978, Abschluss der Kapital-Abteilung der MEGA 2012, englische Ausgabe von Saito 2024 sowie die meisten Titel unter „Zum Weiterlesen“ (nicht einzeln gesucht: Keynes 1936, Marx 1867 und die Herausgeberschaft der MEGA). Alles Übrige stammt aus Fachwissen und steht unten.
 
 ## Grundlagen – alle Schulen
 - [ ] Entscheidung: Zusätzlich zu den vier vorgegebenen Unterschubladen gibt es je Schule eine fünfte, „Zum Weiterlesen“, mit vier bis fünf geprüften Titeln. Wenn du sie nicht willst, genügt es, die drei Einträge `literatur` aus `inhalte/manifest.json` zu löschen.

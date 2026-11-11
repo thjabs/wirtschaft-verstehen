@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" fill="#2a241c">
+  <title>Zusatzlast einer Steuer: Steueraufkommen und Wohlfahrtsverlust</title>
+  <!-- Steueraufkommen und Wohlfahrtsverlust -->
+  <rect x="70" y="175" width="199" height="80" fill="#1f5f6b" fill-opacity=".14"/>
+  <path d="M269 175V255L359 223Z" fill="#1f5f6b" fill-opacity=".4" stroke="#1f5f6b" stroke-width="1"/>
+  <!-- Hilfslinien -->
+  <g stroke="#5b5142" stroke-width="1" stroke-dasharray="4 4" fill="none">
+    <path d="M70 175H269M70 255H269M269 255V350M359 223V350"/>
+  </g>
+  <!-- Achsen -->
+  <path d="M70 40V350H600" fill="none" stroke="#2a241c" stroke-width="1.5"/>
+  <path d="M70 34l-5 10h10zM606 350l-10-5v10z"/>
+  <text x="78" y="38">Preis</text>
+  <text x="600" y="372" text-anchor="end">Menge</text>
+  <!-- Kurven -->
+  <path d="M90 80L560 330" fill="none" stroke="#5b5142" stroke-width="3" stroke-linecap="round"/>
+  <path d="M90 320L560 150" fill="none" stroke="#1f5f6b" stroke-width="3" stroke-linecap="round"/>
+  <text x="486" y="272">Nachfrage</text>
+  <text x="560" y="140" text-anchor="end" fill="#1f5f6b">Angebot</text>
+  <!-- Steuerkeil -->
+  <path d="M269 181V249" fill="none" stroke="#2a241c" stroke-width="2"/>
+  <path d="M269 175l-4 8h8zM269 255l-4-8h8z"/>
+  <text x="170" y="212" text-anchor="middle">Steuer-</text>
+  <text x="170" y="229" text-anchor="middle">aufkommen</text>
+  <text x="78" y="167" font-size="13">Käufer zahlen</text>
+  <text x="78" y="273" font-size="13">Verkäufer erhalten</text>
+  <!-- Beschriftung Wohlfahrtsverlust -->
+  <path d="M330 118L300 212" fill="none" stroke="#2a241c" stroke-width="1"/>
+  <text x="300" y="108">Wohlfahrtsverlust</text>
+  <circle cx="359" cy="223" r="5" fill="#5b5142"/>
+  <text x="269" y="372" text-anchor="middle">mit Steuer</text>
+  <text x="363" y="372" text-anchor="middle">ohne Steuer</text>
+</svg>

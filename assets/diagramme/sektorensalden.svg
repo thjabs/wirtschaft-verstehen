@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" fill="#2a241c">
+  <title>Sektorensalden: Überschüsse und Defizite summieren sich zu null (schematisch)</title>
+  <text x="40" y="30" font-size="13" fill="#5b5142">Finanzierungssaldo in Prozent der Wirtschaftsleistung (schematisches Beispiel)</text>
+  <!-- Überschüsse -->
+  <rect x="80" y="90" width="96" height="100" fill="#8a5a00"/>
+  <rect x="210" y="150" width="96" height="40" fill="#8a5a00"/>
+  <!-- Defizite -->
+  <rect x="340" y="190" width="96" height="60" fill="#8a5a00" fill-opacity=".3" stroke="#8a5a00" stroke-width="1.5"/>
+  <rect x="470" y="190" width="96" height="80" fill="#8a5a00" fill-opacity=".3" stroke="#8a5a00" stroke-width="1.5"/>
+  <!-- Nulllinie -->
+  <path d="M40 190H606" fill="none" stroke="#2a241c" stroke-width="1.5"/>
+  <text x="34" y="195" text-anchor="end">0</text>
+  <!-- Werte -->
+  <g font-size="16" font-weight="600" text-anchor="middle">
+    <text x="128" y="80">+5</text>
+    <text x="258" y="140">+2</text>
+    <text x="388" y="272">−3</text>
+    <text x="518" y="292">−4</text>
+  </g>
+  <!-- Sektoren -->
+  <g text-anchor="middle">
+    <text x="128" y="322">Private</text>
+    <text x="128" y="340">Haushalte</text>
+    <text x="258" y="322">Unternehmen</text>
+    <text x="388" y="322">Staat</text>
+    <text x="518" y="322">Ausland</text>
+  </g>
+  <text x="323" y="368" text-anchor="middle" font-weight="600">Überschüsse (+7) und Defizite (−7) ergeben zusammen null</text>
+</svg>

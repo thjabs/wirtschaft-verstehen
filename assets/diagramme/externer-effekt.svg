@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" fill="#2a241c">
+  <title>Externer Effekt: Marktmenge und gesellschaftliches Optimum</title>
+  <!-- Wohlfahrtsverlust -->
+  <path d="M269 175L359 143V223Z" fill="#1f5f6b" fill-opacity=".22" stroke="#1f5f6b" stroke-width="1"/>
+  <!-- Hilfslinien -->
+  <g stroke="#5b5142" stroke-width="1" stroke-dasharray="4 4" fill="none">
+    <path d="M269 175V350M359 143V350"/>
+  </g>
+  <!-- Achsen -->
+  <path d="M70 40V350H600" fill="none" stroke="#2a241c" stroke-width="1.5"/>
+  <path d="M70 34l-5 10h10zM606 350l-10-5v10z"/>
+  <text x="78" y="38">Preis, Kosten</text>
+  <text x="600" y="372" text-anchor="end">Menge</text>
+  <!-- Kurven -->
+  <path d="M90 80L560 330" fill="none" stroke="#5b5142" stroke-width="3" stroke-linecap="round"/>
+  <path d="M90 320L560 150" fill="none" stroke="#1f5f6b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M90 240L560 70" fill="none" stroke="#1f5f6b" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 6"/>
+  <text x="486" y="272">Nachfrage</text>
+  <text x="468" y="216" fill="#1f5f6b">private Grenzkosten</text>
+  <text x="560" y="58" text-anchor="end" fill="#1f5f6b">soziale Grenzkosten</text>
+  <!-- Schaden bei Dritten -->
+  <path d="M150 292V225" fill="none" stroke="#2a241c" stroke-width="1.5"/>
+  <path d="M150 219l-4 8h8zM150 298l-4-8h8z"/>
+  <text x="160" y="244">Schaden</text>
+  <text x="160" y="260">bei Dritten</text>
+  <!-- Punkte -->
+  <circle cx="269" cy="175" r="5" fill="#1f5f6b"/>
+  <circle cx="359" cy="223" r="5" fill="#5b5142"/>
+  <text x="269" y="372" text-anchor="middle">Optimum</text>
+  <text x="359" y="372" text-anchor="middle">Markt</text>
+  <text x="372" y="188" font-size="13">Wohlfahrts-</text>
+  <text x="372" y="204" font-size="13">verlust</text>
+</svg>
