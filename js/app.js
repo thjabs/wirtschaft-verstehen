@@ -236,7 +236,7 @@
       var absatz = bild.parentNode;
       if (!absatz || absatz.tagName !== 'P' || absatz.children.length !== 1) { return; }
       var figur = el('figure');
-      bild.loading = 'lazy';
+      /* bewusst ohne loading="lazy": Die Bilder sind winzig und sollen in aufgeklappten Schubladen sofort da sein */
       figur.appendChild(bild);
       if (bild.title) {
         figur.appendChild(el('figcaption', null, bild.title));

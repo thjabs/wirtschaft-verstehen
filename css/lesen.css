@@ -332,3 +332,10 @@
 @media (prefers-reduced-motion: reduce) {
   .lesen[open], .lade-inhalt { animation: none; }
 }
+
+/* Schmale Bildschirme: Diagramme bleiben lesbar und lassen sich seitlich verschieben */
+@media (max-width: 46rem) {
+  .prosa figure { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .prosa figure img { width: 34rem; max-width: none; }
+  .prosa figcaption { position: sticky; left: 0; }
+}

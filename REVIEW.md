@@ -165,3 +165,77 @@ Per Websuche bestätigt: fast alle Literaturangaben in den Quellen-Schubladen (T
 
 ## Fragen 1 bis 6 – Innensicht
 - [ ] Entscheidung: In den Konflikt-Schubladen steht jeweils am Ende ein Punkt, an dem sich die Schulen angenähert haben. Das ist meine Ergänzung zur Vorgabe „an welcher Annahme sich die Wege trennen“.
+
+---
+
+# Sitzung 4 – Fragen 7 bis 12
+
+Per Websuche bestätigt: die meisten Literaturangaben, dazu Bertelsmann-Studie zum Binnenmarkt (86 Milliarden Euro), Leistungsbilanzsaldo 2024 (5,7 Prozent), IWF-Zahlen zu Afrika (4,1 Prozent Wachstum, 20 Länder mit Schuldenproblemen), UNCTAD zu Kapitalabflüssen (88,6 Milliarden Dollar), CFA-Franc (14 Länder), Global Carbon Budget 2025, CO₂-Preise und Verschiebung des zweiten EU-Emissionshandels auf 2028, IMK/IW-Studie (600 Milliarden Euro), SIPRI 2025. Offen ist Folgendes.
+
+## 07 – Neoklassik
+- [ ] Heikle Stelle: „mehr als die Hälfte seiner Exporte geht in andere EU-Länder“ – die Suche fand den Wert für 2024 nicht, Angabe aus Fachwissen (rund 54 Prozent).
+- [ ] Quelle ungeprüft: Mundell 1961, Heft und Seiten – Aufsatz bestätigt, Seitenangabe nicht.
+- [ ] Heikle Stelle: Positionen von Hans-Werner Sinn und Paul De Grauwe sind sinngemäß wiedergegeben, Sinn ohne eigene Quelle.
+
+## 07 – Postkeynesianismus
+- [ ] Heikle Stelle: Flassbecks Aussagen zur Entwicklung der Lohnstückkosten (Deutschland unter der Linie, Frankreich auf der Linie, Südeuropa darüber) – sinngemäß, ohne Zahlen. Das Diagramm dazu ist bewusst schematisch.
+- [ ] Entscheidung: Statt einer Datengrafik steht ein Schema, weil ich keine geprüfte Datenreihe hatte. Eine echte Grafik mit AMECO- oder Eurostat-Daten wäre die bessere Lösung.
+
+## 07 – Marxismus
+- [ ] Heikle Stelle: „rund 450 Millionen Menschen“, „einer der größten Niedriglohnsektoren Westeuropas“ und die Zusammenfassung von Becker/Jäger – aus Fachwissen.
+
+## 08 – Neoklassik
+- [ ] Heikle Stelle: Handelsanteil an der Weltwirtschaftsleistung (25 Prozent 1970, 61 Prozent 2008, knapp 59 Prozent 2023) – aus Sekundärquellen, die die Weltbank zitieren. Eine Reihe weist für 2022 einen Wert über dem von 2008 aus, der Satz „seit der Finanzkrise wächst der Handel nicht mehr schneller als die Produktion“ vereinfacht also.
+- [ ] Heikle Stelle: Kernsatz „viel schneller gewachsen als die Produktion“ – das oft genannte Vielfache des Handelsvolumens seit 1950 habe ich nicht bestätigen können.
+- [ ] Quelle ungeprüft: Ricardos Zahlen (100/120 und 90/80) im Text und im Modellbild – Lehrbuchwissen, am Original nicht geprüft.
+
+## 08 – Postkeynesianismus
+- [ ] Quelle ungeprüft: Keynes, „Proposals for an International Clearing Union“, Fundstelle Collected Writings Band 25 – die Suche bestätigte das Weißbuch von 1943, nicht den Band. Gleiche Angabe in Frage 12.
+
+## 08 – Marxismus
+- [ ] Quelle ungeprüft: John Smith 2016 – nicht gesucht, Angabe aus Fachwissen.
+- [ ] Heikle Stelle: Hickel u. a., 188 Millionen Arbeitsjahre – aus der Zusammenfassung der Suche. Die Methode ist umstritten, das steht im Text.
+
+## 09 – Neoklassik
+- [ ] Heikle Stelle: Botswana (Details der Institutionen), Start des Handels in der Afrikanischen Freihandelszone 2021 und Colliers vier Fallen – aus Fachwissen.
+
+## 09 – Postkeynesianismus
+- [ ] Heikle Stelle: UNCTAD, „in Zentral- und Westafrika über 80 Prozent“ – aus Presseberichten zur Ausgabe 2025, den Bericht selbst habe ich nicht gelesen.
+- [ ] Heikle Stelle: Die Position von Fadhel Kaboub ist sinngemäß und ohne Quelle wiedergegeben.
+
+## 09 – Marxismus
+- [ ] Quelle ungeprüft: Amin 1976 (Jahr nur aus einer Fundstelle) und Nkrumah 1965 (nicht gesucht).
+- [ ] Heikle Stelle: Angaben zu Sklavenhandel, Kolonialwirtschaft und Rohstoffen für die Energiewende sind allgemein gehalten und aus Fachwissen.
+
+## 10 – Neoklassik
+- [ ] Heikle Stelle: „die erfassten Emissionen haben sich seither etwa halbiert“ (EU-Emissionshandel seit 2005) – nicht bestätigt, aus Fachwissen.
+- [ ] Heikle Stelle: Positionen von Nordhaus, Stern und Weitzman zum Tempo sind sinngemäß wiedergegeben.
+
+## 10 – Postkeynesianismus
+- [ ] Quelle ungeprüft: Titel der IMK/IW-Studie von 2024 – Autoren, Datum und Summe sind bestätigt, den genauen Titel habe ich nicht, deshalb der Link zur Pressemitteilung.
+
+## 10 – Marxismus
+- [ ] Quelle ungeprüft: Marx zur Untergrabung von Erde und Arbeiter (Kapitel 13) – sinngemäß, Wortlaut am MEW-Text prüfen. Foster wird im Text genannt, steht aber nicht in den Quellen.
+
+## 11 – Neoklassik
+- [ ] Heikle Stelle: Die Kritik von John Taylor an der Notenbank steht ohne Quelle, der Rückgang der deutschen Wirtschaftsleistung 2009 um 5,7 Prozent stammt aus Fachwissen.
+
+## 11 – Postkeynesianismus
+- [ ] Quelle ungeprüft: Godley 1999 – das Levy Institute führt den Text teils als „Special Report“, teils als „Strategic Analysis“.
+
+## 11 – Marxismus
+- [ ] Quelle ungeprüft: Brenner 2006, Harvey 2010 und Kliman 2012 – Titel bestätigt, Verlag und Jahr nur teilweise.
+- [ ] Heikle Stelle: „Millionen Familien in den USA verloren ihre Häuser“ – aus Fachwissen, ohne Zahl.
+
+## 12 – Neoklassik
+- [ ] Quelle ungeprüft: Fearon 1995 – die Suche fand den Aufsatz nicht, Angabe aus Fachwissen.
+
+## 12 – Postkeynesianismus
+- [ ] Heikle Stelle: historische Angaben (Rücktritt von Keynes 1919, über sechs Millionen Arbeitslose 1932, Schuldenerlass 1953) – aus Fachwissen.
+
+## 12 – Marxismus
+- [ ] Quelle ungeprüft: Harvey 2003 – nicht bestätigt. Baran/Sweezy 1966 werden im Text genannt, stehen aber nicht in den Quellen. Ausgaben von Lenin und Luxemburg aus Fachwissen.
+
+## Modellbilder
+- [ ] Entscheidung: Frage 10 (Neoklassik) verwendet dasselbe Bild wie Frage 1 (externer Effekt) mit anderer Bildunterschrift.
+- [ ] Heikle Stelle: Auf schmalen Bildschirmen sind die Diagramme breiter als der Text und lassen sich seitlich verschieben. Das ist eine Stilregel, die ich nicht auf einem echten Telefon geprüft habe.
