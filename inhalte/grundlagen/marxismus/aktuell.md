@@ -1,0 +1,4 @@
+---
+schule: marxismus
+thema: aktuell
+---

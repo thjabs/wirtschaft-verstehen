@@ -1,0 +1,407 @@
+/* Szene: Zimmer, Fenster mit Stadt, Nachttisch, Schubladenfach. */
+
+.buehne {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--wand);
+  transition: background-color var(--wechsel) ease, filter .4s ease;
+}
+
+/* Die Szene ist 1600 x 900 Einheiten gross und wird per --s skaliert (js/szene.js). */
+.szene {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 1600px;
+  height: 900px;
+  transform-origin: 50% 100%;
+  transform: translateX(-50%) scale(var(--s, 1));
+}
+
+.zimmer { display: block; position: absolute; inset: 0; }
+
+/* Während gelesen wird: Szene gedimmt, leicht unscharf, Animationen angehalten */
+.liest .buehne { filter: blur(3px) brightness(.9); }
+.liest .leiste,
+.liest .fach { visibility: hidden; }
+
+/* Farben der SVG-Teile (wechseln weich zwischen Tag und Nacht) */
+.zimmer * { transition: fill var(--wechsel) ease, stroke var(--wechsel) ease, opacity var(--wechsel) ease; }
+
+.f-wand { fill: var(--wand); }
+.f-leiste { fill: var(--leiste); }
+.f-boden { fill: var(--boden); }
+.s-boden-linie { stroke: var(--boden-linie); }
+.f-teppich { fill: var(--teppich); }
+.s-teppich { stroke: var(--teppich-linie); }
+.f-rahmen { fill: var(--rahmen); }
+.f-rahmen-kante { fill: var(--rahmen-kante); }
+.f-vorhang { fill: var(--vorhang); }
+.s-vorhang-falte { stroke: var(--vorhang-falte); }
+.f-holz { fill: var(--holz); }
+.f-holz-dunkel { fill: var(--holz-dunkel); }
+.f-matratze { fill: var(--matratze); }
+.f-kissen { fill: var(--kissen); }
+.f-kissen2 { fill: var(--kissen2); }
+.f-decke { fill: var(--decke); }
+.s-decke { stroke: var(--decke-dunkel); }
+.f-tuerrahmen { fill: var(--tuerrahmen); }
+.f-tuer { fill: var(--tuer); }
+.s-tuer { stroke: var(--tuer-linie); }
+.f-messing { fill: var(--messing); }
+.f-schirm { fill: var(--schirm); }
+.f-lampenfuss { fill: var(--lampenfuss); }
+.f-bild { fill: var(--bild); }
+.f-buch1 { fill: var(--buch1); }
+.f-buch2 { fill: var(--buch2); }
+.f-buch3 { fill: var(--buch3); }
+
+.f-huegel { fill: var(--huegel); }
+.f-haus-fern { fill: var(--haus-fern); }
+.f-dach-fern { fill: var(--dach-fern); }
+.f-haus-nah { fill: var(--haus-nah); }
+.f-dach-nah { fill: var(--dach-nah); }
+.f-fenster { fill: var(--fenster); }
+.f-kirche { fill: var(--kirche); }
+.f-kirchdach { fill: var(--kirchdach); }
+.s-kirchdach { stroke: var(--kirchdach); }
+.f-uhr { fill: var(--uhr); }
+.f-fluss { fill: var(--fluss); }
+.s-glanz { stroke: var(--fluss-glanz); }
+.f-bruecke { fill: var(--bruecke); }
+.s-bruecke { stroke: var(--bruecke-kante); }
+.f-wolke { fill: var(--wolke); }
+
+/* Tag/Nacht: sanfte Überblendung */
+.nur-nacht, .nur-tag { opacity: 0; }
+[data-thema="nacht"] .nur-nacht { opacity: 1; }
+[data-thema="tag"] .nur-tag { opacity: 1; }
+/* Elemente mit eigener Deckkraft im Markup */
+[data-thema="tag"] path.nur-tag { opacity: .16; }
+[data-thema="nacht"] path.nur-nacht { opacity: .05; }
+
+/* --- Bewegung --------------------------------------------------------------- */
+
+.stern { fill: #fff; animation: funkeln 5s ease-in-out infinite; }
+@keyframes funkeln {
+  0%, 100% { opacity: .95; }
+  50% { opacity: .25; }
+}
+
+.wolke { animation: ziehen 150s linear infinite; }
+.wolke.w1 { animation-duration: 170s; animation-delay: -40s; }
+.wolke.w2 { animation-duration: 230s; animation-delay: -150s; }
+.wolke.w3 { animation-duration: 130s; animation-delay: -95s; }
+@keyframes ziehen {
+  from { transform: translateX(350px); }
+  to { transform: translateX(1260px); }
+}
+
+.vogel { animation: fliegen 70s linear infinite; }
+.vogel.v1 { animation-delay: -12s; }
+.vogel.v2 { animation-duration: 82s; animation-delay: -40s; }
+.vogel.v3 { animation-duration: 82s; animation-delay: -37s; }
+@keyframes fliegen {
+  0% { transform: translate(1190px, 250px); }
+  50% { transform: translate(800px, 205px); }
+  100% { transform: translate(400px, 235px); }
+}
+.vogel.v3 { translate: 14px 9px; }
+
+.licht { fill: #ffd27a; }
+.licht.wechselt { animation: licht 60s linear infinite; }
+@keyframes licht {
+  0%, 44% { opacity: 1; }
+  46%, 94% { opacity: 0; }
+  96%, 100% { opacity: 1; }
+}
+
+.glanz { animation: schimmern 7s ease-in-out infinite; }
+.glanz.g2 { animation-delay: -2.5s; }
+.glanz.g3 { animation-delay: -4.5s; }
+@keyframes schimmern {
+  0%, 100% { opacity: .15; }
+  50% { opacity: .8; }
+}
+
+.schnuppe { opacity: 0; animation: schnuppe 41s linear infinite; animation-delay: 9s; }
+@keyframes schnuppe {
+  0% { transform: translate(560px, 168px); opacity: 0; }
+  .4% { opacity: 1; }
+  2.2% { opacity: 1; }
+  2.8% { transform: translate(712px, 224px); opacity: 0; }
+  100% { transform: translate(712px, 224px); opacity: 0; }
+}
+
+.vorhang {
+  transform-box: fill-box;
+  transform-origin: 50% 0;
+  animation: wehen 7s ease-in-out infinite alternate;
+}
+.vorhang.links { animation-duration: 9s; animation-delay: -3s; }
+@keyframes wehen {
+  from { transform: skewX(0deg) scaleX(1); }
+  to { transform: skewX(-1.6deg) scaleX(1.05); }
+}
+.vorhang.links { animation-name: wehen-sanft; }
+@keyframes wehen-sanft {
+  from { transform: skewX(0deg); }
+  to { transform: skewX(.8deg); }
+}
+
+:root[data-bewegung="aus"] .szene *,
+:root.liest .szene * {
+  animation-play-state: paused !important;
+}
+
+/* --- Nachttisch (echte Buttons über dem SVG) --------------------------------- */
+
+.nachttisch {
+  position: absolute;
+  left: 640px;
+  top: 490px;
+  width: 320px;
+  height: 330px;
+}
+.nt-platte {
+  height: 14px;
+  border-radius: 4px;
+  background-color: var(--nt-platte);
+  background-image: linear-gradient(rgba(255, 255, 255, .16), rgba(0, 0, 0, .1));
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .35);
+  transition: background-color var(--wechsel) ease;
+  position: relative;
+  z-index: 1;
+}
+.nt-korpus {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 304px;
+  margin: 0 10px;
+  padding: 6px;
+  background-color: var(--nt-holz-dunkel);
+  transition: background-color var(--wechsel) ease;
+}
+.nt-fuesse {
+  display: flex;
+  justify-content: space-between;
+  height: 12px;
+  margin: 0 14px;
+}
+.nt-fuesse span {
+  width: 18px;
+  background-color: var(--nt-holz-dunkel);
+  border-radius: 0 0 4px 4px;
+  transition: background-color var(--wechsel) ease;
+}
+
+.schub {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, .38);
+  border-radius: 3px;
+  background-color: var(--nt-holz);
+  background-image: linear-gradient(rgba(255, 255, 255, .13), rgba(255, 255, 255, 0) 45%, rgba(0, 0, 0, .16));
+  color: var(--tinte);
+  font: 600 16px/1 var(--sans);
+  cursor: pointer;
+  transition: transform .35s cubic-bezier(.2, .8, .2, 1), box-shadow .35s ease, background-color var(--wechsel) ease;
+}
+.schub:hover { transform: translateY(1px) scale(1.012); box-shadow: 0 4px 6px rgba(0, 0, 0, .35); z-index: 2; }
+.schub[aria-expanded="true"] {
+  transform: translateY(4px) scale(1.045);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, .5);
+  z-index: 3;
+}
+.schub:focus-visible { z-index: 4; }
+
+.etikett {
+  display: block;
+  min-width: 190px;
+  padding: 5px 10px 4px;
+  border: 2px solid var(--messing);
+  border-radius: 2px;
+  background-color: var(--etikett);
+  color: var(--tinte);
+  font: 600 16px/1 var(--sans);
+  letter-spacing: .04em;
+  text-align: center;
+  transition: background-color var(--wechsel) ease, border-color var(--wechsel) ease;
+}
+.etikett-nr {
+  display: inline-block;
+  margin-right: .5em;
+  font-family: var(--serif);
+  font-weight: 700;
+}
+.griff {
+  display: block;
+  width: 54px;
+  height: 7px;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--messing);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+  transition: background-color var(--wechsel) ease;
+}
+
+/* --- Lichtschalter neben der Tür -------------------------------------------- */
+
+.lichtschalter {
+  position: absolute;
+  left: 1236px;
+  top: 498px;
+  width: 38px;
+  height: 56px;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 5px;
+  background-color: var(--schalter);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+  cursor: pointer;
+  transition: background-color var(--wechsel) ease;
+}
+.wippe {
+  position: absolute;
+  inset: 11px 10px;
+  border-radius: 3px;
+  background: linear-gradient(rgba(0, 0, 0, .28), rgba(0, 0, 0, .05) 45%, rgba(255, 255, 255, .5) 55%, rgba(255, 255, 255, .2));
+  border: 1px solid rgba(0, 0, 0, .3);
+}
+[data-thema="tag"] .wippe {
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .2) 45%, rgba(0, 0, 0, .05) 55%, rgba(0, 0, 0, .28));
+}
+
+/* --- Aufgezogene Schublade mit Karteikarten ---------------------------------- */
+
+.fach {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  z-index: 20;
+  width: min(56rem, 100%);
+  transform: translate(-50%, 104%);
+  transition: transform .45s cubic-bezier(.2, .8, .2, 1);
+}
+.fach.offen { transform: translate(-50%, 0); }
+
+.fach-kasten {
+  padding: 12px 12px 0;
+  border-radius: 12px 12px 0 0;
+  background-color: var(--nt-holz);
+  background-image: linear-gradient(rgba(255, 255, 255, .14), rgba(0, 0, 0, .12));
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, .5);
+  transition: background-color var(--wechsel) ease;
+}
+.fach-innen {
+  max-height: min(60vh, 30rem);
+  overflow-y: auto;
+  padding: 1rem 1rem 1.25rem;
+  border-radius: 6px 6px 0 0;
+  background: #2b2229;
+  box-shadow: inset 0 6px 14px rgba(0, 0, 0, .55);
+}
+.fach-titel {
+  margin: 0 0 .9rem;
+  color: #f1ead9;
+  font: 600 1.15rem/1.3 var(--serif);
+  letter-spacing: .01em;
+}
+.fach-titel:focus { outline: none; }
+
+.karten {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 1rem .9rem;
+  margin: 0;
+  padding: .6rem 0 0;
+  list-style: none;
+}
+.karte {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  height: 100%;
+  min-height: 7.5rem;
+  padding: 1rem .9rem .9rem;
+  border-radius: 2px 6px 3px 3px;
+  border-top: 5px solid var(--schulfarbe, #b9a887);
+  background: var(--papier);
+  background-image: repeating-linear-gradient(transparent 0 1.55rem, rgba(90, 70, 30, .1) 1.55rem calc(1.55rem + 1px));
+  color: var(--tinte);
+  font-family: var(--serif);
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .45);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.karte:hover, .karte:focus-visible {
+  transform: translateY(-5px);
+  box-shadow: 0 9px 14px rgba(0, 0, 0, .5);
+}
+.karte-reiter {
+  position: absolute;
+  left: .7rem;
+  top: -1.05rem;
+  padding: .12rem .6rem .1rem;
+  border-radius: 5px 5px 0 0;
+  background: var(--schulfarbe, #b9a887);
+  color: #fff;
+  font: 700 .72rem/1.3 var(--sans);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.karte:not([data-schule]) .karte-reiter { color: var(--tinte); }
+.karte-titel { font-size: 1.02rem; font-weight: 600; line-height: 1.32; }
+.karte-text { font-size: .9rem; line-height: 1.4; color: var(--tinte-leise); }
+
+.fach-front {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  padding: .6rem .5rem .7rem;
+}
+.fach-front .etikett { min-width: 0; font-size: .95rem; white-space: nowrap; }
+.fach-zu { white-space: nowrap; }
+.fach-zu {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  min-height: 2.5rem;
+  padding: .3rem .9rem;
+  border: 1px solid rgba(0, 0, 0, .4);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .28);
+  color: #f6efdf;
+  font: 600 .9rem/1.2 var(--sans);
+  cursor: pointer;
+}
+.fach-zu:hover { background: rgba(0, 0, 0, .42); }
+.fach-zu .griff { width: 34px; }
+
+[data-schule="neoklassik"] { --schulfarbe: var(--petrol); }
+[data-schule="postkeynesianismus"] { --schulfarbe: var(--ocker); }
+[data-schule="marxismus"] { --schulfarbe: var(--aubergine); }
+
+.fach-front .etikett { flex: 0 1 auto; overflow: hidden; text-overflow: ellipsis; }
+.fach-zu { flex: none; }
+
+@media (max-width: 34rem) {
+  .fach-innen { max-height: 62vh; padding: .85rem .75rem 1rem; }
+  .karte { min-height: 0; }
+  .fach-zu { padding: .3rem .75rem; }
+  .fach-zu .griff { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fach, .schub, .karte { transition: none; }
+}

@@ -1,0 +1,108 @@
+{
+  "titel": "Wirtschaft verstehen",
+  "schulen": [
+    { "id": "neoklassik", "name": "Neoklassik" },
+    { "id": "postkeynesianismus", "name": "Postkeynesianismus" },
+    { "id": "marxismus", "name": "Marxismus" }
+  ],
+  "schubladen": [
+    {
+      "id": "grundlagen",
+      "nummer": "",
+      "etikett": "Grundlagen",
+      "titel": "Grundlagen: Drei Denkschulen",
+      "karten": [
+        {
+          "id": "grundlagen-neoklassik",
+          "typ": "schule",
+          "schule": "neoklassik",
+          "titel": "Neoklassik",
+          "beschreibung": "Märkte, Preise und Gleichgewicht: das dominante Paradigma.",
+          "teile": [
+            { "id": "entstehung", "titel": "Entstehung, Entwicklung und Annahmen", "datei": "grundlagen/neoklassik/entstehung.md" },
+            { "id": "aktuell", "titel": "Aktueller Stand", "datei": "grundlagen/neoklassik/aktuell.md" },
+            { "id": "debatten", "titel": "Aktuelle Debatten", "datei": "grundlagen/neoklassik/debatten.md" },
+            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/neoklassik/stroemungen.md" }
+          ]
+        },
+        {
+          "id": "grundlagen-postkeynesianismus",
+          "typ": "schule",
+          "schule": "postkeynesianismus",
+          "titel": "Postkeynesianismus",
+          "beschreibung": "Nachfrage, Geld und Unsicherheit: Keynes weitergedacht.",
+          "teile": [
+            { "id": "entstehung", "titel": "Entstehung, Entwicklung und Annahmen", "datei": "grundlagen/postkeynesianismus/entstehung.md" },
+            { "id": "aktuell", "titel": "Aktueller Stand", "datei": "grundlagen/postkeynesianismus/aktuell.md" },
+            { "id": "debatten", "titel": "Aktuelle Debatten", "datei": "grundlagen/postkeynesianismus/debatten.md" },
+            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/postkeynesianismus/stroemungen.md" }
+          ]
+        },
+        {
+          "id": "grundlagen-marxismus",
+          "typ": "schule",
+          "schule": "marxismus",
+          "titel": "Marxismus",
+          "beschreibung": "Kapital, Klassen und Krise: die Kritik der politischen Ökonomie.",
+          "teile": [
+            { "id": "entstehung", "titel": "Entstehung, Entwicklung und Annahmen", "datei": "grundlagen/marxismus/entstehung.md" },
+            { "id": "aktuell", "titel": "Aktueller Stand", "datei": "grundlagen/marxismus/aktuell.md" },
+            { "id": "debatten", "titel": "Aktuelle Debatten", "datei": "grundlagen/marxismus/debatten.md" },
+            { "id": "stroemungen", "titel": "Ähnliche Strömungen", "datei": "grundlagen/marxismus/stroemungen.md" }
+          ]
+        },
+        {
+          "id": "weitere-theorien",
+          "typ": "text",
+          "titel": "Weitere Theorien",
+          "beschreibung": "Sieben kurze Steckbriefe jenseits der drei Schulen.",
+          "datei": "grundlagen/weitere-theorien.md"
+        }
+      ]
+    },
+    {
+      "id": "staat",
+      "nummer": "I",
+      "etikett": "Staat",
+      "titel": "Der Staat: Steuern und Schulden",
+      "karten": [
+        { "id": "frage-01", "typ": "frage", "datei": "fragen/01-rolle-des-staates.md", "titel": "Welche Rolle spielt der Staat in unserem Wirtschaftssystem?" },
+        { "id": "frage-02", "typ": "frage", "datei": "fragen/02-steuern.md", "titel": "Warum werden Steuern erhoben und wofür braucht man sie?" },
+        { "id": "frage-03", "typ": "frage", "datei": "fragen/03-staatsschulden.md", "titel": "Warum verschulden sich Staaten? Was sind die Konsequenzen?" }
+      ]
+    },
+    {
+      "id": "arbeit",
+      "nummer": "II",
+      "etikett": "Arbeit",
+      "titel": "Der Arbeitsmarkt: Arbeitgeber und Arbeitnehmer",
+      "karten": [
+        { "id": "frage-04", "typ": "frage", "datei": "fragen/04-arbeitsmarkt.md", "titel": "Wie stehen sich Arbeitgeber und Arbeitnehmer auf dem Arbeitsmarkt gegenüber?" },
+        { "id": "frage-05", "typ": "frage", "datei": "fragen/05-ziel-der-unternehmen.md", "titel": "Welches Ziel verfolgen Unternehmen?" },
+        { "id": "frage-06", "typ": "frage", "datei": "fragen/06-arbeitsrecht.md", "titel": "Welchen Grad an Arbeitsrecht verträgt ein nationales Wirtschaftssystem?" }
+      ]
+    },
+    {
+      "id": "aussenhandel",
+      "nummer": "III",
+      "etikett": "Außenhandel",
+      "titel": "Außenhandel: Die EU und Wirtschaftsinstitutionen",
+      "karten": [
+        { "id": "frage-07", "typ": "frage", "datei": "fragen/07-eu-und-euro.md", "titel": "Profitiert Deutschland von der EU und dem europäischen Währungssystem?" },
+        { "id": "frage-08", "typ": "frage", "datei": "fragen/08-aussenhandel.md", "titel": "Wer profitiert vom Außenhandel und wie hat sich dieser seit dem Zweiten Weltkrieg entwickelt?" },
+        { "id": "frage-09", "typ": "frage", "datei": "fragen/09-afrika.md", "titel": "Warum entwickelt sich der afrikanische Kontinent so langsam und welche Rollen spielen internationale Wirtschaftsinstitutionen dabei?" }
+      ]
+    },
+    {
+      "id": "krisen",
+      "nummer": "IV",
+      "etikett": "Krisen",
+      "titel": "Krisen: Klima, Wirtschaft und Krieg",
+      "karten": [
+        { "id": "frage-10", "typ": "frage", "datei": "fragen/10-klima.md", "titel": "Wie lässt sich die Klimakatastrophe verhindern?" },
+        { "id": "frage-11", "typ": "frage", "datei": "fragen/11-finanzkrise.md", "titel": "Wie kam es zur Finanzkrise 2007/2008?" },
+        { "id": "frage-12", "typ": "frage", "datei": "fragen/12-kriege.md", "titel": "Warum gibt es Kriege? Hat das Wirtschaftssystem etwas damit zu tun?" }
+      ]
+    }
+  ]
+}

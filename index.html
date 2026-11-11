@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="de" data-thema="nacht" data-bewegung="an">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wirtschaft verstehen</title>
+<meta name="description" content="Zwölf zentrale Wirtschaftsfragen, beantwortet aus drei Denkschulen: Neoklassik, Postkeynesianismus und Marxismus. Lektüre vor dem Schlafengehen.">
+<meta name="theme-color" content="#2a2640">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232a2640'/%3E%3Crect x='7' y='8' width='18' height='4' rx='1' fill='%232d7f8c'/%3E%3Crect x='7' y='14' width='18' height='4' rx='1' fill='%23c29233'/%3E%3Crect x='7' y='20' width='18' height='4' rx='1' fill='%238d5a90'/%3E%3C/svg%3E">
+<script>
+(function () {
+  var r = document.documentElement, t = null, b = null;
+  try { t = localStorage.getItem('wv-thema'); b = localStorage.getItem('wv-bewegung'); } catch (e) {}
+  if (t !== 'tag' && t !== 'nacht') {
+    t = (window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches) ? 'tag' : 'nacht';
+  }
+  if (b !== 'an' && b !== 'aus') {
+    b = (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) ? 'aus' : 'an';
+  }
+  r.setAttribute('data-thema', t);
+  r.setAttribute('data-bewegung', b);
+})();
+</script>
+<link rel="stylesheet" href="css/basis.css">
+<link rel="stylesheet" href="css/szene.css">
+<link rel="stylesheet" href="css/lesen.css">
+</head>
+<body>
+
+<a class="sprung" href="#inhalt">Zum Inhaltsverzeichnis</a>
+
+<header class="leiste">
+  <div class="marke">
+    <h1 class="marke-titel"><a href="#">Wirtschaft verstehen</a></h1>
+    <p class="marke-unter">Zwölf Fragen, drei Denkschulen. Zieh eine Schublade auf.</p>
+  </div>
+  <nav class="werkzeuge" aria-label="Werkzeuge">
+    <a class="knopf" href="#inhalt">Inhalt</a>
+    <a class="knopf" href="#glossar">Glossar</a>
+    <button class="knopf" type="button" id="thema-knopf">Zum Tag</button>
+    <button class="knopf" type="button" id="pause-knopf">Pause</button>
+  </nav>
+</header>
+
+<main>
+  <div class="buehne" id="buehne">
+    <div class="szene" id="szene">
+
+      <svg class="zimmer" viewBox="0 0 1600 900" width="1600" height="900" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="himmel-nacht" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#12122e"/>
+            <stop offset=".55" stop-color="#2b2354"/>
+            <stop offset="1" stop-color="#6d4672"/>
+          </linearGradient>
+          <linearGradient id="himmel-tag" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#79b6e3"/>
+            <stop offset=".6" stop-color="#c4e2f1"/>
+            <stop offset="1" stop-color="#f4ecd6"/>
+          </linearGradient>
+          <radialGradient id="lampenschein">
+            <stop offset="0" stop-color="#ffd58a" stop-opacity=".5"/>
+            <stop offset=".35" stop-color="#ffb866" stop-opacity=".17"/>
+            <stop offset="1" stop-color="#ffb866" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="hof">
+            <stop offset="0" stop-color="#fff6d8" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="rand" cx=".5" cy=".55" r=".75">
+            <stop offset=".45" stop-color="#07061a" stop-opacity="0"/>
+            <stop offset="1" stop-color="#07061a" stop-opacity=".6"/>
+          </radialGradient>
+          <linearGradient id="decke-schatten" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#000" stop-opacity=".28"/>
+            <stop offset="1" stop-color="#000" stop-opacity="0"/>
+          </linearGradient>
+          <clipPath id="glas"><rect x="428" y="148" width="744" height="280"/></clipPath>
+        </defs>
+
+        <!-- Wand und Boden -->
+        <rect class="f-wand" x="0" y="0" width="1600" height="820"/>
+        <rect x="0" y="0" width="1600" height="150" fill="url(#decke-schatten)"/>
+        <rect class="f-leiste" x="0" y="808" width="1600" height="12"/>
+        <rect class="f-boden" x="0" y="820" width="1600" height="80"/>
+        <g class="s-boden-linie" fill="none" stroke-width="2">
+          <path d="M0 846H1600M0 873H1600M180 820v26M560 846v27M940 820v26M1310 846v27M330 873v27M760 873v27M1130 873v27M1490 820v26"/>
+        </g>
+        <ellipse class="f-teppich" cx="800" cy="866" rx="340" ry="24"/>
+        <ellipse class="s-teppich" cx="800" cy="866" rx="312" ry="17" fill="none" stroke-width="2"/>
+
+        <!-- Bild an der Wand: drei Balken in den Farben der Schulen -->
+        <rect class="f-holz" x="150" y="300" width="180" height="130" rx="3"/>
+        <rect class="f-bild" x="161" y="311" width="158" height="108"/>
+        <rect class="f-buch1" x="188" y="340" width="28" height="66"/>
+        <rect class="f-buch2" x="226" y="356" width="28" height="50"/>
+        <rect class="f-buch3" x="264" y="330" width="28" height="76"/>
+
+        <!-- Fenster mit Blick auf die Altstadt -->
+        <g clip-path="url(#glas)">
+          <rect class="nur-nacht" x="428" y="148" width="744" height="280" fill="url(#himmel-nacht)"/>
+          <rect class="nur-tag" x="428" y="148" width="744" height="280" fill="url(#himmel-tag)"/>
+
+          <g class="nur-nacht" id="sterne"></g>
+
+          <g class="nur-nacht">
+            <circle cx="930" cy="212" r="52" fill="url(#hof)"/>
+            <circle cx="930" cy="212" r="19" fill="#f6efd6"/>
+            <circle cx="924" cy="206" r="4" fill="#e4dcc0"/>
+            <circle cx="937" cy="219" r="2.6" fill="#e4dcc0"/>
+            <g class="schnuppe">
+              <path d="M0 0L-46 -17" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity=".5"/>
+              <path d="M0 0L-12 -4.4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+            </g>
+          </g>
+
+          <g class="nur-tag">
+            <circle cx="566" cy="214" r="62" fill="url(#hof)"/>
+            <circle cx="566" cy="214" r="22" fill="#fff4c9"/>
+            <g class="vogel v1"><path d="M0 0q4-5 8 0q4-5 8 0" fill="none" stroke="#51606b" stroke-width="1.5" stroke-linecap="round"/></g>
+            <g class="vogel v2"><path d="M0 0q3-4 6 0q3-4 6 0" fill="none" stroke="#51606b" stroke-width="1.3" stroke-linecap="round"/></g>
+            <g class="vogel v3"><path d="M0 0q3-4 6 0q3-4 6 0" fill="none" stroke="#51606b" stroke-width="1.3" stroke-linecap="round"/></g>
+          </g>
+
+          <g class="f-wolke">
+            <g transform="translate(0 196)"><g class="wolke w1"><ellipse rx="48" ry="11"/><ellipse cx="-22" cy="-8" rx="22" ry="11"/><ellipse cx="14" cy="-11" rx="27" ry="13"/></g></g>
+            <g transform="translate(0 252)"><g class="wolke w2"><ellipse rx="62" ry="12"/><ellipse cx="-26" cy="-9" rx="26" ry="12"/><ellipse cx="20" cy="-12" rx="32" ry="15"/></g></g>
+            <g transform="translate(0 172)"><g class="wolke w3"><ellipse rx="34" ry="8"/><ellipse cx="-12" cy="-6" rx="16" ry="8"/><ellipse cx="12" cy="-7" rx="18" ry="9"/></g></g>
+          </g>
+
+          <path class="f-huegel" d="M428 366C520 340 600 352 700 344S880 330 960 346S1100 338 1172 350V384H428Z"/>
+
+          <g id="haeuser-fern"></g>
+          <g class="nur-nacht" id="lichter-fern"></g>
+
+          <!-- Kirche -->
+          <g>
+            <rect class="f-kirche" x="770" y="262" width="22" height="114"/>
+            <path class="f-kirchdach" d="M766 262L781 212L796 262Z"/>
+            <path class="s-kirchdach" d="M781 212V201M777 205H785" fill="none" stroke-width="1.6" stroke-linecap="round"/>
+            <rect class="f-kirche" x="792" y="340" width="58" height="36"/>
+            <path class="f-kirchdach" d="M792 340V322H842L850 340Z"/>
+            <circle class="f-uhr" cx="781" cy="282" r="5"/>
+            <g class="f-fenster">
+              <rect x="778.5" y="300" width="5" height="12" rx="2.5"/>
+              <rect x="803" y="350" width="5" height="14" rx="2.5"/>
+              <rect x="818" y="350" width="5" height="14" rx="2.5"/>
+              <rect x="833" y="350" width="5" height="14" rx="2.5"/>
+            </g>
+            <g class="nur-nacht" fill="#ffd27a">
+              <rect class="licht wechselt" style="animation-duration:83s;animation-delay:-20s" x="803" y="350" width="5" height="14" rx="2.5"/>
+              <rect x="818" y="350" width="5" height="14" rx="2.5"/>
+            </g>
+          </g>
+
+          <!-- Fluss und Brücke -->
+          <path class="f-fluss" d="M900 372H1010C1040 400 1100 420 1172 430V440H780C840 420 885 398 900 372Z"/>
+          <g class="s-glanz" fill="none" stroke-width="1.6" stroke-linecap="round">
+            <path class="glanz g1" d="M930 380h26"/>
+            <path class="glanz g2" d="M958 416h34"/>
+            <path class="glanz g3" d="M900 422h22"/>
+            <path class="glanz g2" d="M1040 421h30"/>
+          </g>
+          <path class="f-bruecke" d="M862 384H1058V410H1050A26 20 0 0 0 998 410H986A26 20 0 0 0 934 410H922A26 20 0 0 0 870 410H862Z"/>
+          <path class="s-bruecke" d="M858 384H1062" fill="none" stroke-width="3" stroke-linecap="round"/>
+
+          <g id="haeuser-nah"></g>
+          <g class="nur-nacht" id="lichter-nah"></g>
+        </g>
+
+        <!-- Fensterrahmen, Sprossen, Fensterbank -->
+        <path class="f-rahmen" fill-rule="evenodd" d="M410 130H1190V440H410ZM428 148V428H1172V148Z"/>
+        <rect class="f-rahmen" x="795" y="148" width="10" height="280"/>
+        <rect class="f-rahmen" x="428" y="236" width="744" height="8"/>
+        <rect class="f-rahmen-kante" x="394" y="440" width="812" height="18" rx="3"/>
+
+        <!-- Vorhangstange und Vorhänge -->
+        <rect class="f-messing" x="352" y="110" width="896" height="6" rx="3"/>
+        <circle class="f-messing" cx="352" cy="113" r="7"/>
+        <circle class="f-messing" cx="1248" cy="113" r="7"/>
+        <g class="vorhang links">
+          <path class="f-vorhang" d="M368 116H466C462 220 474 330 458 472C442 480 424 468 406 477C392 482 380 472 368 479Z"/>
+          <path class="s-vorhang-falte" d="M392 118C396 240 388 360 394 474M420 118C426 240 416 360 424 472M446 118C448 240 452 350 442 474" fill="none" stroke-width="2"/>
+        </g>
+        <g transform="translate(1600 0) scale(-1 1)">
+          <g class="vorhang rechts">
+            <path class="f-vorhang" d="M368 116H466C462 220 474 330 458 472C442 480 424 468 406 477C392 482 380 472 368 479Z"/>
+            <path class="s-vorhang-falte" d="M392 118C396 240 388 360 394 474M420 118C426 240 416 360 424 472M446 118C448 240 452 350 442 474" fill="none" stroke-width="2"/>
+          </g>
+        </g>
+
+        <!-- Tür -->
+        <rect class="f-tuerrahmen" x="1300" y="262" width="226" height="558"/>
+        <rect class="f-tuer" x="1314" y="276" width="198" height="544"/>
+        <rect class="s-tuer" x="1338" y="300" width="150" height="196" rx="3" fill="none" stroke-width="3"/>
+        <rect class="s-tuer" x="1338" y="560" width="150" height="230" rx="3" fill="none" stroke-width="3"/>
+        <circle class="f-messing" cx="1332" cy="528" r="8"/>
+
+        <!-- Bett -->
+        <rect class="f-holz-dunkel" x="566" y="556" width="24" height="264" rx="6"/>
+        <rect class="f-holz" x="-20" y="748" width="592" height="36"/>
+        <rect class="f-holz-dunkel" x="548" y="784" width="18" height="36"/>
+        <rect class="f-holz-dunkel" x="40" y="784" width="18" height="36"/>
+        <rect class="f-matratze" x="-20" y="700" width="590" height="52" rx="10"/>
+        <rect class="f-kissen2" x="458" y="648" width="104" height="44" rx="17"/>
+        <rect class="f-kissen" x="438" y="664" width="126" height="46" rx="19"/>
+        <path class="f-decke" d="M-20 690C120 676 300 680 420 692C434 722 428 762 438 794L-20 800Z"/>
+        <path class="s-decke" d="M-20 716C120 704 290 708 424 720M120 690C128 730 122 770 130 798M300 684C310 724 302 766 312 796" fill="none" stroke-width="2"/>
+
+        <!-- Lampe und Bücher auf dem Nachttisch -->
+        <ellipse class="f-lampenfuss" cx="705" cy="487" rx="27" ry="5"/>
+        <rect class="f-lampenfuss" x="702" y="428" width="6" height="59"/>
+        <path class="f-schirm" d="M670 430H740L727 374H683Z"/>
+        <rect class="f-buch1" x="852" y="478" width="82" height="12" rx="2"/>
+        <rect class="f-buch2" x="859" y="466" width="72" height="12" rx="2"/>
+        <rect class="f-buch3" x="866" y="455" width="60" height="11" rx="2"/>
+
+        <!-- Licht -->
+        <path class="nur-tag" d="M470 822H1150L1050 900H330Z" fill="#fff8dc" opacity=".16"/>
+        <path class="nur-nacht" d="M470 822H1150L1050 900H330Z" fill="#aab4ff" opacity=".05"/>
+        <circle class="nur-nacht" cx="705" cy="420" r="430" fill="url(#lampenschein)"/>
+        <rect class="nur-nacht" x="0" y="0" width="1600" height="900" fill="url(#rand)"/>
+      </svg>
+
+      <div class="nachttisch" id="nachttisch">
+        <div class="nt-platte"></div>
+        <div class="nt-korpus" id="nt-korpus"></div>
+        <div class="nt-fuesse"><span></span><span></span></div>
+      </div>
+
+      <button class="lichtschalter" type="button" id="lichtschalter" aria-label="Lichtschalter: zwischen Tag und Nacht wechseln">
+        <span class="wippe"></span>
+      </button>
+
+    </div>
+  </div>
+
+  <section class="fach" id="fach" aria-labelledby="fach-titel" hidden>
+    <div class="fach-kasten">
+      <div class="fach-innen">
+        <h2 class="fach-titel" id="fach-titel" tabindex="-1"></h2>
+        <ul class="karten" id="karten"></ul>
+      </div>
+      <div class="fach-front">
+        <span class="etikett" id="fach-etikett"></span>
+        <button class="fach-zu" type="button" id="fach-zu"><span class="griff" aria-hidden="true"></span>Schublade schließen</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<dialog class="lesen" id="lesen" aria-labelledby="blatt-titel">
+  <div class="lesen-rahmen" id="lesen-rahmen">
+    <div class="lesen-kopf"><button class="lesen-zu" type="button" id="lesen-zu">Schließen</button></div>
+    <div id="blatt-ort"></div>
+  </div>
+  <div class="tipp" id="tipp" role="tooltip" hidden></div>
+</dialog>
+
+<noscript>
+  <p class="ohne-js">Diese Seite braucht JavaScript, um die Texte aus den Markdown-Dateien im Ordner <code>inhalte/</code> zu laden.</p>
+</noscript>
+
+<script src="vendor/marked.min.js" defer></script>
+<script src="js/inhalte.js" defer></script>
+<script src="js/szene.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>

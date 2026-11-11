@@ -1,0 +1,334 @@
+/* Leseebene: Papierbogen über der Szene, Kernsätze, Schubladen, Glossar. */
+
+.lesen {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--tinte);
+  color-scheme: light;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.lesen::backdrop { background: rgba(12, 10, 24, .38); }
+.lesen[open] { animation: auflegen .35s ease-out; }
+@keyframes auflegen {
+  from { transform: translateY(18px); }
+  to { transform: none; }
+}
+
+.lesen-rahmen {
+  min-height: 100%;
+  padding: clamp(.5rem, 3vw, 2.5rem) clamp(.5rem, 3vw, 2rem) 4rem;
+}
+
+.lesen-kopf {
+  position: sticky;
+  top: .75rem;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 62rem;
+  height: 0;
+  margin: 0 auto;
+  padding-right: .75rem;
+  transform: translateY(.75rem);
+}
+.lesen-zu {
+  flex: none;
+  height: 2.5rem;
+  padding: .35rem 1rem;
+  border: 1px solid var(--papier-kante);
+  border-radius: 999px;
+  background: var(--papier-hell);
+  color: var(--tinte);
+  font: 600 .9rem/1.2 var(--sans);
+  box-shadow: 0 2px 6px rgba(40, 25, 5, .25);
+  cursor: pointer;
+}
+.lesen-zu:hover { border-color: var(--tinte-leise); }
+
+.blatt {
+  position: relative;
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: clamp(1.1rem, 4.5vw, 3.5rem);
+  padding-top: clamp(3.4rem, 5vw, 3.5rem);
+  border-radius: 3px;
+  background-color: var(--papier);
+  background-image: linear-gradient(90deg, rgba(120, 90, 40, .07), transparent 2.5rem, transparent calc(100% - 2.5rem), rgba(120, 90, 40, .06));
+  box-shadow: 0 1px 0 #fffaf0 inset, 0 18px 50px rgba(0, 0, 0, .45);
+  color: var(--tinte);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.blatt-ort {
+  margin: 0 0 .5rem;
+  padding-right: 6.5rem;
+  color: var(--tinte-leise);
+  font: 600 .82rem/1.4 var(--sans);
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+.blatt-titel {
+  max-width: 28em;
+  margin: 0 0 1.6rem;
+  font-size: clamp(1.55rem, 3.6vw, 2.3rem);
+  font-weight: 600;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+.blatt-titel:focus { outline: none; }
+.blatt-vorspann { max-width: 68ch; margin: 0 0 1.5rem; }
+
+.folgt {
+  margin: .5rem 0;
+  color: var(--tinte-leise);
+  font-style: italic;
+}
+
+/* Kernsätze: drei Spalten nebeneinander, mobil untereinander */
+.kernsaetze {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.75rem;
+}
+.kernsatz {
+  padding: .95rem 1.05rem 1.05rem;
+  border: 1px solid var(--papier-kante);
+  border-top: 5px solid var(--schulfarbe);
+  border-radius: 3px;
+  background: var(--papier-hell);
+}
+.kernsatz-schule {
+  margin: 0 0 .45rem;
+  color: var(--schulfarbe);
+  font: 700 .8rem/1.3 var(--sans);
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.kernsatz-text { font-size: 1.04rem; line-height: 1.55; }
+.kernsatz-text p { margin: 0; }
+.kernsatz-text p + p { margin-top: .6em; }
+
+.blatt-werkzeug {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 .25rem;
+}
+.alle-knopf {
+  min-height: 2.5rem;
+  padding: .3rem 1rem;
+  border: 1px solid var(--papier-kante);
+  border-radius: 999px;
+  background: var(--papier-hell);
+  color: var(--tinte);
+  font: 600 .9rem/1.2 var(--sans);
+  cursor: pointer;
+}
+.alle-knopf:hover { border-color: var(--tinte-leise); }
+
+/* Schubladen auf dem Papier */
+.lade {
+  margin: .8rem 0;
+  border: 1px solid var(--papier-kante);
+  border-radius: 6px;
+  background: var(--papier-hell);
+  box-shadow: 0 1px 0 #fffdf6 inset, 0 2px 4px rgba(70, 45, 10, .1);
+}
+.lade.offen { box-shadow: 0 1px 0 #fffdf6 inset, 0 6px 14px rgba(70, 45, 10, .16); }
+.lade-kopf { margin: 0; font: inherit; }
+.lade-griff {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  width: 100%;
+  min-height: 3.4rem;
+  padding: .7rem 1.05rem .7rem .95rem;
+  border: 0;
+  border-left: 7px solid var(--schulfarbe, #a39676);
+  border-radius: 6px;
+  background: none;
+  color: var(--tinte);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.lade.offen > .lade-kopf > .lade-griff { border-bottom-left-radius: 0; }
+.lade-griff:hover .lade-leiste { transform: translateY(2px); }
+.lade-titel { display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem .7rem; flex: 1; }
+.lade-schule {
+  color: var(--schulfarbe);
+  font: 700 .82rem/1.3 var(--sans);
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.lade-art { font-size: 1.12rem; font-weight: 600; line-height: 1.3; }
+/* Griffleiste */
+.lade-leiste {
+  flex: none;
+  width: 3.4rem;
+  height: .55rem;
+  border-radius: 0 0 .5rem .5rem;
+  background: linear-gradient(#cdbd98, #a59572);
+  box-shadow: 0 2px 2px rgba(60, 40, 10, .3);
+  transition: transform .2s ease;
+}
+.lade-griff::after {
+  content: "";
+  flex: none;
+  width: .55rem;
+  height: .55rem;
+  margin-right: .2rem;
+  border-right: 2px solid var(--tinte-leise);
+  border-bottom: 2px solid var(--tinte-leise);
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .25s ease;
+}
+.lade-griff[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-2px); }
+
+.lade-inhalt {
+  padding: .4rem 1.25rem 1.3rem calc(.95rem + 7px);
+  border-top: 1px dashed var(--papier-kante);
+  animation: herausfahren .3s ease-out;
+}
+@keyframes herausfahren {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: none; }
+}
+
+.lade-klein { margin: 1.2rem 0 0; max-width: 68ch; background: var(--papier); box-shadow: none; }
+.lade-klein .lade-griff { min-height: 2.6rem; padding-top: .4rem; padding-bottom: .4rem; border-left-width: 4px; }
+.lade-klein .lade-art { font: 700 .82rem/1.3 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--tinte-leise); }
+.lade-klein .lade-leiste { width: 2.2rem; height: .4rem; }
+.lade-klein .lade-inhalt { padding-bottom: .9rem; }
+
+/* Fließtext */
+.prosa { max-width: 68ch; }
+.prosa > :first-child { margin-top: .7rem; }
+.prosa > :last-child { margin-bottom: 0; }
+.prosa p { margin: 0 0 1em; hyphens: auto; }
+.prosa h2, .prosa h3, .prosa h4 { margin: 1.6em 0 .5em; font-size: 1.15rem; line-height: 1.3; }
+.prosa ul, .prosa ol { margin: 0 0 1em; padding-left: 1.3em; }
+.prosa li { margin: .3em 0; }
+.prosa a { color: var(--petrol); text-underline-offset: .18em; }
+.prosa a:hover { text-decoration-thickness: 2px; }
+.prosa blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid var(--papier-kante); color: var(--tinte-leise); }
+.prosa table { border-collapse: collapse; margin: 1em 0; font: .95rem/1.4 var(--sans); }
+.prosa th, .prosa td { padding: .35rem .6rem; border-bottom: 1px solid var(--papier-kante); text-align: left; vertical-align: top; }
+.quellen { font-size: 1rem; line-height: 1.5; }
+
+.prosa figure { margin: 1.5rem 0; }
+.prosa figure img { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+.prosa figcaption { margin-top: .5rem; color: var(--tinte-leise); font: .88rem/1.45 var(--sans); }
+
+/* Glossarbegriffe im Text */
+.begriff {
+  border-bottom: 2px dotted var(--tinte-leise);
+  cursor: help;
+}
+.begriff:hover, .begriff[aria-describedby] { background: rgba(138, 90, 0, .14); border-bottom-style: solid; }
+
+.tipp {
+  position: fixed;
+  z-index: 30;
+  width: max-content;
+  max-width: min(22rem, calc(100vw - 1rem));
+  padding: .7rem .85rem .75rem;
+  border-radius: 6px;
+  background: #2a241c;
+  color: #f8f1df;
+  font: .92rem/1.45 var(--sans);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .4);
+}
+.tipp-begriff { display: block; margin-bottom: .2rem; font-size: .95rem; }
+.tipp-text { display: block; }
+.tipp-link { display: inline-block; margin-top: .45rem; color: #ffd98f; font-weight: 600; text-underline-offset: .18em; }
+
+/* Blättern */
+.blaettern {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.25rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--papier-kante);
+  font: .92rem/1.4 var(--sans);
+}
+.blaettern a {
+  flex: 0 1 46%;
+  color: var(--tinte);
+  text-decoration: none;
+}
+.blaettern a:hover .blaettern-titel { text-decoration: underline; text-underline-offset: .18em; }
+.blaettern .vor { margin-left: auto; text-align: right; }
+.blaettern-richtung { display: block; color: var(--tinte-leise); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; font-size: .76rem; }
+.blaettern-titel { display: block; font-family: var(--serif); font-size: 1rem; }
+
+/* Inhaltsverzeichnis */
+.verzeichnis { max-width: 68ch; }
+.verzeichnis h2 {
+  margin: 1.7rem 0 .4rem;
+  font: 700 .85rem/1.3 var(--sans);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--tinte-leise);
+}
+.verzeichnis ol, .verzeichnis ul { margin: 0; padding: 0; list-style: none; }
+.verzeichnis li { margin: 0; border-bottom: 1px solid var(--papier-kante); }
+.verzeichnis a {
+  display: flex;
+  gap: .8rem;
+  padding: .55rem .2rem;
+  color: var(--tinte);
+  text-decoration: none;
+}
+.verzeichnis a:hover { background: var(--papier-hell); }
+.verzeichnis a:hover .vz-titel { text-decoration: underline; text-underline-offset: .18em; }
+.vz-nr { flex: none; width: 2.2em; color: var(--tinte-leise); font: 600 .9rem/1.9 var(--sans); }
+
+/* Glossar */
+.glossar-filter {
+  display: block;
+  width: min(100%, 24rem);
+  min-height: 2.6rem;
+  margin: 0 0 1.25rem;
+  padding: .4rem .8rem;
+  border: 1px solid #a39676;
+  border-radius: 6px;
+  background: var(--papier-hell);
+  color: var(--tinte);
+  font: 1rem/1.3 var(--sans);
+}
+.glossar { max-width: 68ch; margin: 0; }
+.glossar dt {
+  margin: 1.5rem 0 .2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  scroll-margin-top: 4.5rem;
+}
+.glossar dt:focus { outline: none; }
+.glossar dt.ziel { background: linear-gradient(transparent 55%, rgba(138, 90, 0, .25) 55%); width: fit-content; }
+.glossar dd { margin: 0; }
+.glossar dd.prosa > :first-child { margin-top: 0; }
+
+@media (max-width: 46rem) {
+  .kernsaetze { grid-template-columns: 1fr; gap: .75rem; }
+  .blatt { font-size: 1.06rem; }
+  .lade-leiste { width: 2.4rem; }
+  .lade-inhalt { padding: .3rem .9rem 1.1rem .9rem; }
+  .blaettern { flex-direction: column; }
+  .blaettern a { flex: none; }
+  .blaettern .vor { margin-left: 0; text-align: left; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lesen[open], .lade-inhalt { animation: none; }
+}
