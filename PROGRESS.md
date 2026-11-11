@@ -10,7 +10,8 @@ Stand: 11.11.2026, Ende Sitzung 1. Bei „mach weiter“ geht es beim ersten off
 - [x] Wortzahl-Skript (`tools/wortzahl.ps1`) und Vorschau-Server (`tools/serve.ps1`)
 - [x] Alle Kernsätze für alle 12 Fragen (36 Stück)
 - [x] Vorgezogen: Glossar-Grundstock mit 17 Begriffen (nur die, die in den Kernsätzen vorkommen)
-- [ ] GitHub-Repo `thjabs/wirtschaft-verstehen` anlegen und GitHub Pages einschalten (**wartet auf dein Okay**)
+- [x] GitHub-Repo `thjabs/wirtschaft-verstehen` angelegt, GitHub Pages eingeschaltet (`main`, `/`), `.nojekyll` liegt im Wurzelordner. Live: https://thjabs.github.io/wirtschaft-verstehen/
+- [x] Entscheidung: `CLAUDE.md` bleibt nur lokal (steht in `.gitignore`), weil sie lokale Pfade enthält
 
 ## Sitzung 2 – Grundlagen
 
