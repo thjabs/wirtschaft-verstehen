@@ -95,3 +95,73 @@ Per Websuche bestätigt (Stand 11.11.2026): Nobelpreis 2025 (Mokyr, Aghion, Howi
 
 ## Glossar (Stand Sitzung 2)
 - [ ] Heikle Stelle: Jetzt 31 Einträge, weiterhin ohne Abgleich mit einem Lehrbuch. Der in Sitzung 1 angekündigte Abgleich ist noch offen. Besonders die Einträge „Wert“, „Geld“ und „Gleichgewicht“ mit ihren drei Bedeutungen bitte gegenlesen.
+
+---
+
+# Sitzung 3 – Fragen 1 bis 6
+
+Per Websuche bestätigt: fast alle Literaturangaben in den Quellen-Schubladen (Titel, Ort, Jahr, bei Aufsätzen Zeitschrift und meist Seiten), dazu Staatsquote 2024, Schuldenquoten 2024 und 2025, Steuereinnahmen 2024, Mindestlohn 2026 und 2027, Tarifbindung 2024. Was die Suche nicht oder nur teilweise bestätigt hat, steht unten. Alle Modellbilder sind schematisch und enthalten keine Messwerte.
+
+## 01 – Neoklassik
+- [ ] Heikle Stelle: Staatsquote 2024 von 49,5 Prozent – nur über einen Nachrichtenbericht bestätigt, der sich auf das Statistische Bundesamt beruft. Originalmeldung von Destatis nachtragen.
+- [ ] Quelle ungeprüft: Musgraves Dreiteilung (Allokation, Verteilung, Stabilisierung) – das Buch ist bestätigt, die Dreiteilung stammt aus Fachwissen.
+
+## 01 – Postkeynesianismus
+- [ ] Heikle Stelle: Minsky, „großer Staatshaushalt“ und Zentralbank als Kreditgeber (bei Minsky „Big Government“ und „Big Bank“) – Buch bestätigt, die Begriffe selbst nicht.
+- [ ] Heikle Stelle: Keynes, Kapitel 24, „weitgehende gesellschaftliche Lenkung der Investitionen“ – sinngemäß wiedergegeben, Wortlaut im Original prüfen.
+- [ ] Heikle Stelle: Flassbeck, deutsche Unternehmen als Sparer seit den frühen 2000er-Jahren – aus Fachwissen, in Frage 3 wiederholt. Eine Datenquelle (Bundesbank, Finanzierungsrechnung) wäre gut.
+
+## 01 – Marxismus
+- [ ] Quelle ungeprüft: Engels, „ideeller Gesamtkapitalist“ – Wortlaut über einen Kommentar bestätigt, Seitenzahl in MEW 20 nicht.
+- [ ] Heikle Stelle: Heinrich und Poulantzas sind sinngemäß zusammengefasst.
+
+## 02 – Neoklassik
+- [ ] Quelle ungeprüft: Ramsey 1927, Seitenangabe 47–61 – Titel und Jahr bestätigt, Seiten aus Fachwissen.
+- [ ] Heikle Stelle: „Die größten Posten sind die Umsatzsteuer und die Lohnsteuer“ – aus Fachwissen, Einzelbeträge für 2024 nicht gefunden.
+
+## 02 – Postkeynesianismus
+- [ ] Heikle Stelle: Lavoie („überzogen“) und Höfgen (Euro-Länder geben ihre Währung nicht selbst heraus) sind sinngemäß wiedergegeben.
+
+## 02 – Marxismus
+- [ ] Quelle ungeprüft: Marx, Kritik des Gothaer Programms – eine Fundstelle gibt den Satz mit „wirtschaftliche Grundlage“ wieder, der Kernsatz sagt „ökonomische Grundlage“. Am MEW-Text prüfen und angleichen.
+- [ ] Heikle Stelle: Steuerdaten (Vermögensteuer seit 1997 nicht erhoben, Spitzensteuersatz von 53 auf 42 Prozent, Körperschaftsteuer 15 Prozent seit 2008, Mehrwertsteuer 19 Prozent seit 2007) – aus Fachwissen, nicht nachgeschlagen.
+
+## 03 – Neoklassik
+- [ ] Quelle ungeprüft: Barro 1979, Band und Seiten – die Suche fand den Aufsatz nicht, Angabe aus Fachwissen.
+- [ ] Heikle Stelle: Japan „deutlich über 200 Prozent“ – Quellen nennen je nach Abgrenzung 236 bis 249 Prozent. Italien rund 135 Prozent laut Eurostat-Quartalsdaten.
+
+## 03 – Postkeynesianismus
+- [ ] Heikle Stelle: Griechenland (Wirtschaftsleistung minus ein Viertel, steigende Schuldenquote) und Zinskrise 2011/2012 mit EZB-Zusage im Sommer 2012 – aus Fachwissen.
+
+## 03 – Marxismus
+- [ ] Quelle ungeprüft: Marx zur Staatsschuld als Hebel der ursprünglichen Akkumulation (Kapital I, Kapitel 24) und zu Staatspapieren als fiktivem Kapital (Kapital III, Kapitel 29) – Stellen aus Fachwissen, Wortlaut nicht bestätigt, deshalb nur sinngemäß.
+- [ ] Heikle Stelle: Griechenland 2015 (Volksabstimmung, wenige Tage später neues Programm) und Streecks „zwei Auftraggeber“ – aus Fachwissen.
+- [ ] Entscheidung: Streeck ist kein Marxist im engen Sinn, argumentiert hier aber in der Linie O'Connors. Wenn dir das zu weit geht, den Absatz kürzen.
+
+## 04 – Neoklassik
+- [ ] Heikle Stelle: Effizienzlöhne ohne eigene Quelle (Shapiro/Stiglitz 1984 wäre der Beleg).
+
+## 04 – Postkeynesianismus
+- [ ] Quelle ungeprüft: IAB-Zahlen zur Tarifbindung (67 Prozent 1996, 41 Prozent 2024) – aus der Zusammenfassung der Suche, den verlinkten Aufsatz habe ich nicht selbst gelesen, Autoren und Titel fehlen in der Quellenangabe.
+
+## 04 und 06 – Marxismus
+- [ ] Quelle ungeprüft: Wörtliche Marx-Zitate „Zwischen gleichen Rechten entscheidet die Gewalt“ (Kapitel 8) und in Frage 5 „Akkumuliert, akkumuliert! Das ist Moses und die Propheten!“ (Kapitel 22) – die Suche bestätigte nur Übersetzungen. Wortlaut am MEW-Text prüfen.
+
+## 05 – Neoklassik
+- [ ] Quelle ungeprüft: Hart/Zingales 2017, Seiten 247–274 – eine Quelle nennt 247–275.
+
+## 05 – Postkeynesianismus
+- [ ] Quelle ungeprüft: Eichner 1976 – der Untertitel ist in den Fundstellen uneinheitlich, deshalb weggelassen.
+- [ ] Heikle Stelle: Kaleckis Gewinngleichung und Heins „finanzdominierter Kapitalismus“ sind aus Fachwissen wiedergegeben.
+
+## 06 – Neoklassik
+- [ ] Heikle Stelle: Aussagen zum Kündigungsschutz (weniger Entlassungen und Einstellungen, gespaltener Arbeitsmarkt in Südeuropa) und zu Dänemark – Lehrbuch- und OECD-Wissen, im OECD-Bericht nicht einzeln nachgeschlagen.
+
+## 06 – Postkeynesianismus
+- [ ] Heikle Stelle: „Länder mit starkem Schutz haben keine höhere Arbeitslosigkeit“ und die Zusammenfassung von Storm/Naastepad – aus Fachwissen, ohne Zahlen.
+
+## 06 – Marxismus
+- [ ] Heikle Stelle: Silvers Abfolge der Autoindustrie, Rana Plaza („mehr als tausend“ Tote, 2013) und Luxemburgs „Sisyphusarbeit“ – aus Fachwissen.
+
+## Fragen 1 bis 6 – Innensicht
+- [ ] Entscheidung: In den Konflikt-Schubladen steht jeweils am Ende ein Punkt, an dem sich die Schulen angenähert haben. Das ist meine Ergänzung zur Vorgabe „an welcher Annahme sich die Wege trennen“.

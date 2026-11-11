@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270" width="640" height="270" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" fill="#2a241c">
+  <title>Der Kreislauf des Kapitals: G – W – G′</title>
+  <!-- Stationen -->
+  <rect x="24" y="70" width="84" height="64" rx="8" fill="#6b3a6e" fill-opacity=".18" stroke="#6b3a6e" stroke-width="1.5"/>
+  <text x="66" y="100" text-anchor="middle" font-size="22" font-weight="700">G</text>
+  <text x="66" y="121" text-anchor="middle" font-size="13">Geld</text>
+
+  <rect x="158" y="56" width="170" height="92" rx="8" fill="#6b3a6e" fill-opacity=".18" stroke="#6b3a6e" stroke-width="1.5"/>
+  <text x="243" y="84" text-anchor="middle" font-size="22" font-weight="700">W</text>
+  <text x="243" y="108" text-anchor="middle" font-size="13">Produktionsmittel</text>
+  <text x="243" y="128" text-anchor="middle" font-size="13">und Arbeitskraft</text>
+
+  <rect x="412" y="70" width="84" height="64" rx="8" fill="#6b3a6e" fill-opacity=".18" stroke="#6b3a6e" stroke-width="1.5"/>
+  <text x="454" y="100" text-anchor="middle" font-size="22" font-weight="700">W′</text>
+  <text x="454" y="121" text-anchor="middle" font-size="13">neue Ware</text>
+
+  <rect x="532" y="62" width="92" height="80" rx="8" fill="#6b3a6e" stroke="#6b3a6e" stroke-width="1.5"/>
+  <text x="578" y="96" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">G′</text>
+  <text x="578" y="119" text-anchor="middle" font-size="13" fill="#fff">mehr Geld</text>
+
+  <!-- Pfeile -->
+  <g fill="none" stroke="#2a241c" stroke-width="2">
+    <path d="M112 102H148"/>
+    <path d="M332 102H402"/>
+    <path d="M500 102H522"/>
+    <path d="M578 146C578 232 66 232 66 146" stroke="#6b3a6e" stroke-dasharray="7 5"/>
+  </g>
+  <path d="M156 102l-10-5v10zM410 102l-10-5v10zM530 102l-10-5v10z"/>
+  <path d="M66 138l-6 11h12z" fill="#6b3a6e"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="130" y="92">Kauf</text>
+    <text x="367" y="92">Produktion</text>
+    <text x="511" y="56">Verkauf</text>
+    <text x="624" y="40" text-anchor="end" fill="#5b5142">G′ = G + Mehrwert</text>
+    <text x="322" y="252" fill="#6b3a6e" font-weight="600">wird erneut vorgeschossen: Akkumulation</text>
+  </g>
+  <text x="24" y="28" font-size="13" fill="#5b5142">Zweck des Kreislaufs ist der Zuwachs, nicht die Ware</text>
+</svg>

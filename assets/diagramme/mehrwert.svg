@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" width="640" height="230" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" fill="#2a241c">
+  <title>Der Arbeitstag bei Marx: notwendige Arbeit und Mehrarbeit</title>
+  <text x="320" y="28" text-anchor="middle" font-weight="600">Ein Arbeitstag von 8 Stunden (Zahlenbeispiel)</text>
+  <!-- Balken -->
+  <rect x="40" y="62" width="280" height="56" fill="#6b3a6e" fill-opacity=".22" stroke="#6b3a6e" stroke-width="1.5"/>
+  <rect x="320" y="62" width="280" height="56" fill="#6b3a6e" stroke="#6b3a6e" stroke-width="1.5"/>
+  <text x="180" y="95" text-anchor="middle" font-size="16" font-weight="600">notwendige Arbeit</text>
+  <text x="460" y="95" text-anchor="middle" font-size="16" font-weight="600" fill="#fff">Mehrarbeit</text>
+  <!-- Stundenskala -->
+  <g stroke="#2a241c" stroke-width="1">
+    <path d="M40 118v8M110 118v6M180 118v6M250 118v6M320 118v8M390 118v6M460 118v6M530 118v6M600 118v8"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#5b5142">
+    <text x="40" y="142">0</text>
+    <text x="180" y="142">2</text>
+    <text x="320" y="142">4</text>
+    <text x="460" y="142">6</text>
+    <text x="600" y="142">8 Std.</text>
+  </g>
+  <!-- Erläuterung -->
+  <path d="M40 160v8H320v-8M320 160v8H600v-8" fill="none" stroke="#2a241c" stroke-width="1.2"/>
+  <g text-anchor="middle">
+    <text x="180" y="190">ersetzt den Wert der Arbeitskraft</text>
+    <text x="180" y="208" fill="#5b5142" font-size="13">(entspricht dem Lohn)</text>
+    <text x="460" y="190">schafft Mehrwert</text>
+    <text x="460" y="208" fill="#5b5142" font-size="13">(fällt dem Unternehmen zu)</text>
+  </g>
+</svg>

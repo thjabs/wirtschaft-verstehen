@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" font-family="system-ui, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" fill="#2a241c">
+  <title>Arbeitsmarkt mit Mindestlohn im Wettbewerbsmodell</title>
+  <!-- Hilfslinien -->
+  <g stroke="#5b5142" stroke-width="1" stroke-dasharray="4 4" fill="none">
+    <path d="M70 223H359V350M269 175V350M491 175V350"/>
+  </g>
+  <!-- Achsen -->
+  <path d="M70 40V350H600" fill="none" stroke="#2a241c" stroke-width="1.5"/>
+  <path d="M70 34l-5 10h10zM606 350l-10-5v10z"/>
+  <text x="78" y="38">Lohn</text>
+  <text x="600" y="392" text-anchor="end">Beschäftigung</text>
+  <!-- Kurven -->
+  <path d="M90 80L560 330" fill="none" stroke="#5b5142" stroke-width="3" stroke-linecap="round"/>
+  <path d="M90 320L560 150" fill="none" stroke="#1f5f6b" stroke-width="3" stroke-linecap="round"/>
+  <text x="486" y="272">Arbeitsnachfrage</text>
+  <text x="500" y="138" fill="#1f5f6b">Arbeitsangebot</text>
+  <!-- Mindestlohn -->
+  <path d="M70 175H600" fill="none" stroke="#2a241c" stroke-width="2"/>
+  <text x="78" y="167" font-weight="600">Mindestlohn</text>
+  <text x="78" y="216" font-size="13">Gleichgewichtslohn</text>
+  <!-- Lücke -->
+  <path d="M277 158H483" fill="none" stroke="#2a241c" stroke-width="1.5"/>
+  <path d="M269 158l8-4v8zM491 158l-8-4v8z"/>
+  <text x="380" y="149" text-anchor="middle">Arbeitslosigkeit</text>
+  <circle cx="359" cy="223" r="5" fill="#5b5142"/>
+  <circle cx="269" cy="175" r="4" fill="#5b5142"/>
+  <circle cx="491" cy="175" r="4" fill="#1f5f6b"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="269" y="369">beschäftigt</text>
+    <text x="359" y="369">Gleichgewicht</text>
+    <text x="491" y="369">suchen Arbeit</text>
+  </g>
+</svg>
