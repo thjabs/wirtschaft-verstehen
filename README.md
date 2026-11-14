@@ -15,8 +15,9 @@ index.html              Seite mit der Szene (Inline-SVG)
 css/basis.css           Farben (Tag/Nacht), Schrift, Kopfleiste
 css/szene.css           Zimmer, Animationen, Nachttisch, Schubladenfach
 css/lesen.css           Leseebene: Papier, Kernsätze, Schubladen, Glossar
+css/jahreszeiten.css    Farben der vier Jahreszeiten, Lichterkette, Kalender, gemütliche Details
 js/inhalte.js           Dateien laden, Markdown und Abschnitte zerlegen
-js/szene.js             Skalierung, Stadt und Sterne, Tag/Nacht, Pause
+js/szene.js             Skalierung, Stadt, Bäume und Sterne, Tag/Nacht, Jahreszeiten, Pause
 js/app.js               Nachttisch, Karten, Leseebene, Deep-Links, Tooltips
 vendor/marked.min.js    Markdown-Parser (lokal, kein CDN)
 assets/diagramme/       Modellbilder als SVG (je unter 30 KB)
@@ -134,3 +135,12 @@ Das Skript meldet je Abschnitt `ok`, `leer`, `ZU KURZ` oder `ZU LANG` nach den V
 ## Veröffentlichung
 
 Gedacht für GitHub Pages (Zweig `main`, Ordner `/`). Da es keinen Build-Schritt gibt, wird der Ordner so veröffentlicht, wie er ist.
+
+## Jahreszeiten
+
+Die Szene gibt es in vier Jahreszeiten, jeweils bei Tag und bei Nacht, also in acht Varianten.
+
+- Umgeschaltet wird am Wandkalender neben der Tür oder mit dem Knopf in der Kopfleiste. Die Wahl landet in `localStorage` (`wv-jahreszeit`). Ohne gespeicherte Wahl gilt die Jahreszeit des aktuellen Datums.
+- Technisch ist es ein Attribut am `html`-Element (`data-jahreszeit` mit `fruehling`, `sommer`, `herbst` oder `winter`). Alle Farben stehen als CSS-Variablen in `css/jahreszeiten.css`, je ein Block pro Jahreszeit und Tageszeit.
+- Was sich ändert: Hügel, Bäume und im Winter die Dächer, der Farbton des Himmels, die Decken im Zimmer, der Gegenstand auf der Fensterbank (Tulpen, Sonnenblume, Kürbis, Kerze) und das, was vor dem Fenster schwebt (Blüten, Glühwürmchen, Laub, Schnee).
+- Bäume, Lichterkette und die schwebenden Teilchen erzeugt `js/szene.js`. Teile, die nur in einer Jahreszeit sichtbar sind, tragen die Klassen `jz` und `jz-winter` (oder die jeweilige Jahreszeit).

@@ -16,7 +16,7 @@ Zuerst zur Frage selbst. Afrika besteht aus 54 Staaten mit sehr verschiedenen We
 
 Die Schule nennt mehrere Ursachen und streitet über ihr Gewicht.
 
-**Institutionen.** Daron Acemoglu, Simon Johnson und James Robinson, die Nobelpreisträger von 2024, sehen hier den Kern. Wo Europäer wegen tödlicher Krankheiten nicht siedeln konnten, errichteten sie Kolonien mit dem Zweck, Rohstoffe und Arbeit auszubeuten. Diese „extraktiven“ Institutionen überdauerten die Unabhängigkeit, nur die Nutznießer wechselten. Wo Eigentum unsicher ist und eine kleine Elite Erträge an sich ziehen kann, investiert niemand. Das Gegenbeispiel ist Botswana. Das Land sicherte Eigentumsrechte, begrenzte die Macht der Regierenden und investierte die Einnahmen aus dem Diamantenabbau. Es gehörte über Jahrzehnte zu den am schnellsten wachsenden Volkswirtschaften der Welt.
+**Institutionen.** Daron Acemoglu, Simon Johnson und James Robinson, die Nobelpreisträger von 2024, sehen hier den Kern. Wo Europäer wegen tödlicher Krankheiten nicht siedeln konnten, errichteten sie Kolonien mit dem Zweck, Rohstoffe und Arbeit auszubeuten. Diese „extraktiven“ Institutionen überdauerten die Unabhängigkeit, nur die Nutznießer wechselten. Wo Eigentum unsicher ist und eine kleine Elite Erträge an sich ziehen kann, investiert niemand. Das Gegenbeispiel ist Botswana. Das Land sicherte Eigentumsrechte, begrenzte die Macht der Regierenden und investierte die Einnahmen aus dem Diamantenabbau. Zwischen 1965 und 1998 wuchs das Einkommen pro Kopf dort nach ihrer Rechnung um durchschnittlich 7,7 Prozent im Jahr, schneller als in jedem anderen Land.
 
 **Geografie und Fallen.** Paul Collier beschreibt vier Fallen, in denen arme Länder feststecken können: Bürgerkriege, Reichtum an Rohstoffen, der Kämpfe um die Erträge auslöst und andere Branchen verdrängt, eine Lage ohne Meereszugang neben schwachen Nachbarn und schlechte Regierungsführung. Jeffrey Sachs betont zusätzlich Krankheiten wie Malaria und schwierige Böden.
 
@@ -39,7 +39,7 @@ Das Fazit der Schule: Entscheidend sind die Regeln im Land. Hilfe von außen kan
 
 ### Kernsatz
 
-Viele afrikanische Länder stecken in einer Zahlungsbilanzfalle: Sie exportieren Rohstoffe zu schwankenden Preisen, müssen Maschinen, Energie und oft Nahrung gegen Devisen importieren und sich in fremder Währung verschulden. Die [[Strukturanpassungsprogramm|Strukturanpassungsprogramme]] von IWF und Weltbank haben seit den 1980er-Jahren mit Sparauflagen und Liberalisierung genau die Industriepolitik erschwert, mit der andere Länder aufgeholt haben.
+Viele afrikanische Länder stecken in einer [[Zahlungsbilanz|Zahlungsbilanzfalle]]: Sie exportieren Rohstoffe zu schwankenden Preisen, müssen Maschinen, Energie und oft Nahrung gegen Devisen importieren und sich in fremder Währung verschulden. Die [[Strukturanpassungsprogramm|Strukturanpassungsprogramme]] von IWF und Weltbank haben seit den 1980er-Jahren mit Sparauflagen und Liberalisierung genau die Industriepolitik erschwert, mit der andere Länder aufgeholt haben.
 
 ### Antwort
 
@@ -78,7 +78,7 @@ Der Marxismus dreht die Frage um. „Langsam“ unterstellt, alle Länder liefen
 
 Der Vorgang hat drei Abschnitte.
 
-**Sklavenhandel.** Über mehr als drei Jahrhunderte wurden Millionen Menschen nach Amerika verschleppt. Afrika verlor Arbeitskräfte im besten Alter, Gesellschaften wurden durch die Jagd auf Menschen zerrüttet. Die Gewinne aus Handel und Plantagen flossen in die europäische Industrialisierung. Marx zählt das zur ursprünglichen Akkumulation des Kapitals.
+**Sklavenhandel.** Über mehr als drei Jahrhunderte wurden Millionen Menschen nach Amerika verschleppt. Afrika verlor Arbeitskräfte im besten Alter, Gesellschaften wurden durch die Jagd auf Menschen zerrüttet. Die Gewinne aus Handel und Plantagen flossen in die europäische Industrialisierung. Marx zählt das zur [[Ursprüngliche Akkumulation|ursprünglichen Akkumulation]] des Kapitals.
 
 **Kolonialismus.** Nach der Aufteilung des Kontinents Ende des 19. Jahrhunderts wurden die Wirtschaften auf die Bedürfnisse der Kolonialmächte zugeschnitten. Jede Kolonie lieferte wenige Rohstoffe. Eisenbahnen führten von der Mine zum Hafen und nicht von Stadt zu Stadt. Verarbeitende Industrie entstand kaum. Steuern und Zwangsarbeit trieben die Bevölkerung in Bergwerke und auf Plantagen.
 
@@ -92,7 +92,7 @@ Die Peripherie liefert Rohstoffe und billige Arbeit, das Zentrum Fertigwaren, Kr
 
 Währungsfonds und Weltbank sind in dieser Sicht Werkzeuge der Gläubigerstaaten. Die Schuldenkrise der 1980er-Jahre gab ihnen den Hebel. Die Strukturanpassung öffnete Märkte, privatisierte Bergwerke und Land und senkte Löhne. David Harvey nennt das „Akkumulation durch Enteignung“. Der Schuldendienst übersteigt in vielen Ländern die Ausgaben für Gesundheit.
 
-Die Gegenwart bestätigt für die Schule das Muster. Für die Energiewende des Nordens werden Kobalt, Kupfer und Lithium gebraucht, abgebaut oft unter elenden Bedingungen. UNCTAD schätzt die unerlaubten Kapitalabflüsse auf 88,6 Milliarden Dollar im Jahr. Ob China als neuer Geldgeber dieselbe Rolle spielt wie die alten Mächte, ist umstritten.
+Die Gegenwart bestätigt für die Schule das Muster. Für die Energiewende des Nordens werden Kobalt, Kupfer und Lithium gebraucht, abgebaut oft unter elenden Bedingungen. Rund drei Viertel des weltweit geförderten Kobalts stammen aus der Demokratischen Republik Kongo, einem der ärmsten Länder der Erde. UNCTAD schätzt die unerlaubten Kapitalabflüsse auf 88,6 Milliarden Dollar im Jahr. Ob China als neuer Geldgeber dieselbe Rolle spielt wie die alten Mächte, ist umstritten.
 
 Amins Folgerung war die „Abkopplung“: die Entwicklung an den Bedürfnissen der eigenen Bevölkerung ausrichten und die Regeln des Weltmarkts nur so weit gelten lassen, wie sie dem dienen. Andere in der Schule, im Anschluss an Frantz Fanon, betonen den Kampf gegen die eigenen herrschenden Klassen.
 

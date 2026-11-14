@@ -14,7 +14,7 @@ Ja: Der Binnenmarkt senkt Handelskosten, vertieft die Arbeitsteilung und stärkt
 
 Die Antwort hat zwei Teile, denn Binnenmarkt und Währungsunion wirken verschieden.
 
-**Der Binnenmarkt.** Seit 1993 bewegen sich Waren, Dienstleistungen, Kapital und Menschen in der EU weitgehend frei. Ein größerer Markt erlaubt mehr Spezialisierung, größere Stückzahlen und schärferen Wettbewerb. Das senkt Preise und erhöht die Auswahl. Deutschland mit seiner starken Industrie profitiert davon besonders, mehr als die Hälfte seiner Exporte geht in andere EU-Länder. Eine Studie von Giordano Mion und Dominic Ponattu für die Bertelsmann Stiftung schätzt, dass der Binnenmarkt die Einkommen in Deutschland um rund 86 Milliarden Euro im Jahr erhöht, etwa 1.000 Euro pro Kopf. In absoluten Zahlen ist das der größte Gewinn aller Länder. Es handelt sich um eine Modellrechnung, die Größenordnung ist aber in der Forschung wenig umstritten.
+**Der Binnenmarkt.** Seit 1993 bewegen sich Waren, Dienstleistungen, Kapital und Menschen in der EU weitgehend frei. Ein größerer Markt erlaubt mehr Spezialisierung, größere Stückzahlen und schärferen Wettbewerb. Das senkt Preise und erhöht die Auswahl. Deutschland mit seiner starken Industrie profitiert davon besonders: 2024 gingen nach Zahlen des Statistischen Bundesamts rund 54 Prozent seiner Warenexporte in andere EU-Länder. Eine Studie von Giordano Mion und Dominic Ponattu für die Bertelsmann Stiftung schätzt, dass der Binnenmarkt die Einkommen in Deutschland um rund 86 Milliarden Euro im Jahr erhöht, etwa 1.000 Euro pro Kopf. In absoluten Zahlen ist das der größte Gewinn aller Länder. Es handelt sich um eine Modellrechnung, die Größenordnung ist aber in der Forschung wenig umstritten.
 
 **Der Euro.** Eine gemeinsame Währung beseitigt Wechselkursrisiken und Umtauschkosten und macht Preise vergleichbar. Deutsche Exporteure müssen keine plötzlichen Abwertungen der Nachbarn mehr fürchten, wie in den 1990er-Jahren bei der Lira.
 
@@ -49,7 +49,7 @@ In einer Währungsunion gibt es keinen Wechselkurs mehr. Was ein Land im Verhäl
 
 ![Schematisches Liniendiagramm: Vom Beginn der Währungsunion an verläuft eine Ziellinie mit zwei Prozent Anstieg pro Jahr. Die Lohnstückkosten eines Landes steigen schneller und liegen darüber, die eines anderen Landes steigen langsamer und liegen darunter. Der Abstand zwischen den beiden wächst von Jahr zu Jahr.](assets/diagramme/lohnstueckkosten-schema.svg "Lohnstückkosten in einer Währungsunion (schematisch, keine Messwerte): Weicht ein Land nach unten und ein anderes nach oben von der Ziellinie ab, entsteht ohne Wechselkurs eine wachsende Lücke in der Wettbewerbsfähigkeit.")
 
-Heiner Flassbeck hat immer wieder auf die Zahlen verwiesen. Deutschland blieb nach 1999 deutlich unter dieser Linie, durch Lohnzurückhaltung und die Arbeitsmarktreformen der 2000er-Jahre. Die südeuropäischen Länder lagen etwas darüber, Frankreich recht genau auf der Linie. Über zehn Jahre entstand so ein Kostenvorsprung, der einer kräftigen Abwertung gleichkam. Deutschland gewann Marktanteile und baute hohe Überschüsse auf. Die Partner bauten Defizite auf, finanziert durch Kredite aus den Überschussländern.
+Heiner Flassbeck hat immer wieder auf die Zahlen verwiesen. Deutschland blieb nach 1999 deutlich unter dieser Linie, durch Lohnzurückhaltung und die Arbeitsmarktreformen der 2000er-Jahre. Die südeuropäischen Länder lagen darüber, Frankreich nach Flassbeck recht genau auf der Linie. Nach einer Übersicht der Bundeszentrale für politische Bildung blieben die deutschen Lohnstückkosten zwischen 1999 und 2007 nahezu unverändert, in Spanien stiegen sie um rund 30 Prozent. So entstand ein Kostenvorsprung, der einer kräftigen Abwertung gleichkam. Deutschland gewann Marktanteile und baute hohe Überschüsse auf. Die Partner bauten Defizite auf, finanziert durch Kredite aus den Überschussländern.
 
 Als diese Kredite 2010 ausblieben, begann die Eurokrise. Abwerten konnten die Krisenländer nicht. Sie sollten ihre Löhne senken und ihre Staatsausgaben kürzen. Weil das viele Länder gleichzeitig taten, brach die Nachfrage ein.
 
@@ -64,12 +64,13 @@ Wer profitiert in Deutschland? Die Exportunternehmen und ihre Eigentümer. Die B
 - Heiner Flassbeck und Costas Lapavitsas: *Nur Deutschland kann den Euro retten. Der letzte Akt beginnt*. Westend, Frankfurt am Main 2015.
 - Wynne Godley: „Maastricht and All That“. *London Review of Books* 14 (19), 8. Oktober 1992.
 - Engelbert Stockhammer: „Neoliberal growth models, monetary union and the Euro crisis: a post-Keynesian perspective“. *New Political Economy* 21 (4), 2016, S. 365–379.
+- Bundeszentrale für politische Bildung: [„Löhne und Lohnstückkosten im Euroraum“](https://www.bpb.de/themen/wirtschaft/europa-wirtschaft/241605/loehne-und-lohnstueckkosten-im-euroraum/) (Entwicklung der Lohnstückkosten seit 1999).
 
 ## Marxismus
 
 ### Kernsatz
 
-Es kommt darauf an, wer mit „Deutschland“ gemeint ist: Das exportorientierte deutsche Kapital profitiert erheblich, von einem großen Binnenmarkt, einem für seine Stärke niedrig bewerteten Euro und von Zulieferketten mit niedrigen Löhnen in Ost- und Südeuropa. Die Lohnabhängigen zahlen mit Lohndruck und Standortkonkurrenz, die europäische Peripherie mit Deindustrialisierung und Sparpolitik.
+Es kommt darauf an, wer mit „Deutschland“ gemeint ist: Das exportorientierte deutsche Kapital profitiert erheblich, von einem großen Binnenmarkt, einem für seine Stärke niedrig bewerteten Euro und von Zulieferketten mit niedrigen Löhnen in Ost- und Südeuropa. Die Lohnabhängigen zahlen mit Lohndruck und Standortkonkurrenz, die europäische Peripherie mit Deindustrialisierung und [[Austerität|Sparpolitik]].
 
 ### Antwort
 
@@ -84,7 +85,7 @@ Für das deutsche Kapital ist diese Ordnung sehr vorteilhaft:
 - Der Euro nimmt Konkurrenten wie Italien die Möglichkeit abzuwerten, und er ist weniger wert, als es eine eigene deutsche Währung wäre.
 - Gut ausgebildete Arbeitskräfte wandern aus Ost- und Südeuropa zu. Ihre Ausbildung haben andere bezahlt.
 
-Die Lohnabhängigen in Deutschland haben daran nur begrenzt teil. Die Drohung, die Produktion zu verlagern, war seit den 1990er-Jahren das stärkste Argument in jeder Tarifrunde. Die Folgen waren Lohnzurückhaltung, Betriebe ohne Tarifvertrag und die Arbeitsmarktreformen der 2000er-Jahre. Deutschland bekam einen der größten Niedriglohnsektoren Westeuropas.
+Die Lohnabhängigen in Deutschland haben daran nur begrenzt teil. Die Drohung, die Produktion zu verlagern, war seit den 1990er-Jahren das stärkste Argument in jeder Tarifrunde. Die Folgen waren Lohnzurückhaltung, Betriebe ohne Tarifvertrag und die Arbeitsmarktreformen der 2000er-Jahre. 2014 wurde nach Angaben des Statistischen Bundesamts gut jeder fünfte Job in Deutschland mit einem Niedriglohn bezahlt.
 
 Am härtesten traf es die Peripherie. Costas Lapavitsas und seine Mitautoren beschreiben die Eurozone als Verhältnis von Zentrum und Peripherie. Die Überschüsse des Zentrums flossen als Kredite in den Süden. In der Krise sicherten die Hilfsprogramme vor allem die Forderungen der Banken des Zentrums. Die Auflagen trugen die Bevölkerungen: Lohnsenkungen, Rentenkürzungen, Privatisierungen. In Südeuropa gingen Industrien verloren, die dem Wettbewerb ohne Wechselkurs nicht standhielten.
 

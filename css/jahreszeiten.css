@@ -1,0 +1,299 @@
+/* Jahreszeiten (vier, jeweils bei Tag und Nacht) und die gemütlichen Details der Szene. */
+
+/* --- Farben der neuen Einrichtung ------------------------------------------- */
+
+:root,
+:root[data-thema="nacht"] {
+  --tapete: #3b3352;
+  --paneel: #2a2338;
+  --paneel-kante: #382e49;
+  --paneel-linie: #211b2e;
+  --pantoffel: #8f5d68;
+  --pantoffel-innen: #4b303a;
+  --ranke: #2f5f4c;
+  --topf: #7f4c3c;
+  --tasse: #d8cdb9;
+  --sessel: #6e4b47;
+  --sessel-hell: #805c55;
+  --sessel-dunkel: #3b2a2c;
+  --senf: #b38e39;
+  --senf-linie: #8c6d27;
+  --strick: rgba(255, 255, 255, .11);
+  --draht: #17142a;
+  --birne: #ffe3a0;
+  --stamm: #2a2238;
+  --kal-papier: #ddd2b9;
+  --baum: #1f4a40;
+  --baum2: #183c36;
+  --jahreston: rgba(10, 40, 90, 0);
+  --teil: #ffffff;
+}
+
+:root[data-thema="tag"] {
+  --tapete: #dccfb3;
+  --paneel: #e3d5b9;
+  --paneel-kante: #d3c3a2;
+  --paneel-linie: #d0c09f;
+  --pantoffel: #c97a78;
+  --pantoffel-innen: #8b4b4d;
+  --ranke: #5f9a5c;
+  --topf: #c4734f;
+  --tasse: #f7f0e1;
+  --sessel: #c98a63;
+  --sessel-hell: #d9a07b;
+  --sessel-dunkel: #7d5435;
+  --senf: #dba93b;
+  --senf-linie: #b98524;
+  --strick: rgba(255, 255, 255, .24);
+  --draht: #6b5a48;
+  --birne: #efe2bf;
+  --stamm: #7a5a3c;
+  --kal-papier: #fbf6ea;
+  --baum: #5c9a52;
+  --baum2: #4b8546;
+  --jahreston: rgba(255, 240, 170, 0);
+  --teil: #ffffff;
+}
+
+/* --- Frühling --------------------------------------------------------------- */
+:root[data-jahreszeit="fruehling"][data-thema="tag"] {
+  --huegel: #b6d491;
+  --baum: #f3b4c7;
+  --baum2: #f8d2dd;
+  --jahreston: rgba(255, 214, 231, .22);
+  --decke: #8fb89c;
+  --decke-dunkel: #729c80;
+  --teil: #f9c9d6;
+}
+:root[data-jahreszeit="fruehling"][data-thema="nacht"] {
+  --huegel: #2c3f52;
+  --baum: #7d658c;
+  --baum2: #8e769c;
+  --jahreston: rgba(160, 120, 180, .16);
+  --decke: #40605a;
+  --decke-dunkel: #314b46;
+  --teil: #d9b7cf;
+}
+
+/* --- Sommer ----------------------------------------------------------------- */
+:root[data-jahreszeit="sommer"][data-thema="tag"] {
+  --huegel: #88ba70;
+  --baum: #5c9a52;
+  --baum2: #4b8546;
+  --jahreston: rgba(255, 238, 160, .12);
+  --decke: #6f8fb0;
+  --decke-dunkel: #5a7896;
+}
+:root[data-jahreszeit="sommer"][data-thema="nacht"] {
+  --huegel: #22404a;
+  --baum: #1f4a40;
+  --baum2: #183c36;
+  --jahreston: rgba(10, 44, 96, .3);
+  --decke: #39456b;
+  --decke-dunkel: #2c3656;
+  --teil: #f4f19a;
+}
+
+/* --- Herbst ----------------------------------------------------------------- */
+:root[data-jahreszeit="herbst"][data-thema="tag"] {
+  --huegel: #cfa85c;
+  --baum: #d8742b;
+  --baum2: #e9a43a;
+  --jahreston: rgba(255, 164, 72, .27);
+  --decke: #c0703f;
+  --decke-dunkel: #a35a30;
+  --teil: #d9772e;
+}
+:root[data-jahreszeit="herbst"][data-thema="nacht"] {
+  --huegel: #3d2f4a;
+  --baum: #6e3d36;
+  --baum2: #815034;
+  --jahreston: rgba(150, 76, 50, .2);
+  --decke: #6d4037;
+  --decke-dunkel: #55302a;
+  --teil: #b0683a;
+}
+
+/* --- Winter ----------------------------------------------------------------- */
+:root[data-jahreszeit="winter"][data-thema="tag"] {
+  --huegel: #f2f5f9;
+  --baum: #e9eef4;
+  --baum2: #f8fafc;
+  --jahreston: rgba(240, 244, 252, .5);
+  --decke: #a8404c;
+  --decke-dunkel: #8a323d;
+  --dach-fern: #f5f8fb;
+  --dach-nah: #e9eef5;
+  --kirchdach: #dfe7ef;
+  --fluss: #cfe0ea;
+  --fluss-glanz: #ffffff;
+  --teil: #ffffff;
+}
+:root[data-jahreszeit="winter"][data-thema="nacht"] {
+  --huegel: #6a74a0;
+  --baum: #8591bb;
+  --baum2: #99a4cb;
+  --jahreston: rgba(150, 168, 226, .16);
+  --decke: #643245;
+  --decke-dunkel: #4d2535;
+  --dach-fern: #8f9ac6;
+  --dach-nah: #7d88b6;
+  --kirchdach: #8792bf;
+  --fluss: #4c5a90;
+  --fluss-glanz: #c5cff0;
+  --teil: #ffffff;
+}
+
+/* --- Zuordnung der Farben ---------------------------------------------------- */
+
+.f-tapete { fill: var(--tapete); }
+.f-paneel { fill: var(--paneel); }
+.f-paneel-kante { fill: var(--paneel-kante); }
+.s-paneel { stroke: var(--paneel-linie); }
+.f-pantoffel { fill: var(--pantoffel); }
+.f-pantoffel-innen { fill: var(--pantoffel-innen); }
+.s-ranke { stroke: var(--ranke); }
+.f-ranke { fill: var(--ranke); }
+.f-topf { fill: var(--topf); }
+.f-tasse { fill: var(--tasse); }
+.s-tasse { stroke: var(--tasse); }
+.f-sessel { fill: var(--sessel); }
+.f-sessel-hell { fill: var(--sessel-hell); }
+.f-sessel-dunkel { fill: var(--sessel-dunkel); }
+.f-kissen-senf { fill: var(--senf); }
+.s-kissen-senf { stroke: var(--senf-linie); }
+.s-strick { stroke: var(--strick); }
+.s-draht { stroke: var(--draht); }
+.f-jahreston { fill: var(--jahreston); }
+.f-baum { fill: var(--baum); }
+.f-baum2 { fill: var(--baum2); }
+.f-stamm { fill: var(--stamm); }
+
+/* Teile, die nur in einer Jahreszeit zu sehen sind */
+.jz { opacity: 0; transition: opacity var(--wechsel) ease; }
+[data-jahreszeit="fruehling"] .jz-fruehling,
+[data-jahreszeit="sommer"] .jz-sommer,
+[data-jahreszeit="herbst"] .jz-herbst,
+[data-jahreszeit="winter"] .jz-winter { opacity: 1; }
+
+/* --- Blüten, Glühwürmchen, Laub, Schnee -------------------------------------- */
+
+.teilchen { opacity: 0; fill: var(--teil); }
+.teilchen ellipse { transform-box: fill-box; transform-origin: center; }
+
+[data-jahreszeit="winter"] .teilchen {
+  opacity: .95;
+  animation: fallen var(--d) linear var(--v) infinite;
+}
+[data-jahreszeit="herbst"] .teilchen:nth-child(-n+13),
+[data-jahreszeit="fruehling"] .teilchen:nth-child(-n+15) {
+  opacity: .95;
+  animation: trudeln calc(var(--d) * 1.35) linear var(--v) infinite;
+}
+[data-jahreszeit="herbst"] .teilchen ellipse { animation: blatt 3.6s linear infinite; }
+[data-jahreszeit="fruehling"] .teilchen ellipse { animation: bluete 5.2s linear infinite; }
+[data-jahreszeit="sommer"][data-thema="nacht"] .teilchen:nth-child(-n+12) {
+  animation: gluehen calc(var(--d) * .55) ease-in-out var(--v) infinite;
+}
+
+@keyframes fallen {
+  from { transform: translate(var(--x), 130px); }
+  to { transform: translate(calc(var(--x) + var(--dx)), 442px); }
+}
+@keyframes trudeln {
+  0% { transform: translate(var(--x), 130px); }
+  25% { transform: translate(calc(var(--x) + 20px), 208px); }
+  50% { transform: translate(calc(var(--x) - 8px), 286px); }
+  75% { transform: translate(calc(var(--x) + 24px), 364px); }
+  100% { transform: translate(calc(var(--x) + var(--dx)), 442px); }
+}
+@keyframes gluehen {
+  0%, 100% { opacity: 0; transform: translate(var(--x), var(--y)); }
+  35%, 65% { opacity: 1; }
+  50% { transform: translate(calc(var(--x) + var(--dx)), calc(var(--y) - 12px)); }
+}
+@keyframes blatt {
+  from { transform: rotate(0deg) scale(2.1, 1.1); }
+  to { transform: rotate(360deg) scale(2.1, 1.1); }
+}
+@keyframes bluete {
+  from { transform: rotate(0deg) scale(1.4, .9); }
+  to { transform: rotate(360deg) scale(1.4, .9); }
+}
+
+/* --- Lichterkette, Kerze, Dampf ---------------------------------------------- */
+
+.birne-kern { fill: var(--birne); }
+.birne-hof { fill: #ffcf7a; opacity: 0; }
+[data-thema="nacht"] .birne-hof {
+  opacity: .3;
+  animation: glimmen 3.8s ease-in-out var(--v, 0s) infinite alternate;
+}
+@keyframes glimmen {
+  from { opacity: .16; }
+  to { opacity: .4; }
+}
+
+.flamme {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: flackern 1.7s ease-in-out infinite alternate;
+}
+@keyframes flackern {
+  from { transform: scale(1, 1) skewX(0deg); }
+  50% { transform: scale(.92, 1.08) skewX(3deg); }
+  to { transform: scale(1.05, .95) skewX(-3deg); }
+}
+
+.dampf { opacity: 0; animation: dampfen 4.6s ease-in-out infinite; }
+.dampf.d2 { animation-delay: -2.3s; }
+@keyframes dampfen {
+  0% { opacity: 0; transform: translateY(6px); }
+  30% { opacity: .5; }
+  100% { opacity: 0; transform: translateY(-12px); }
+}
+[data-thema="tag"] .dampf { stroke: #b9ae9a; }
+
+/* --- Wandkalender: schaltet die Jahreszeit ------------------------------------ */
+
+.kalender {
+  position: absolute;
+  left: 1212px;
+  top: 366px;
+  width: 86px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 0 4px 6px;
+  border: 1px solid rgba(0, 0, 0, .28);
+  border-radius: 5px;
+  background-color: var(--kal-papier);
+  color: var(--tinte);
+  font: 700 15px/1.1 var(--sans);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .32);
+  cursor: pointer;
+  transition: background-color var(--wechsel) ease, transform .2s ease;
+}
+.kalender:hover { transform: rotate(-2deg) translateY(-2px); }
+.kal-ringe {
+  align-self: stretch;
+  height: 15px;
+  margin: 0 -4px 2px;
+  border-radius: 4px 4px 0 0;
+  background:
+    radial-gradient(circle at 22px 7px, #f3ecdc 3px, transparent 3.5px),
+    radial-gradient(circle at 64px 7px, #f3ecdc 3px, transparent 3.5px),
+    #a8404c;
+}
+.kal-bild { width: 46px; height: 46px; }
+.kal-bild .jz { transition: opacity .6s ease; }
+.kal-name { letter-spacing: .02em; }
+
+/* --- Etwas mehr Wärme für die Bedienelemente ---------------------------------- */
+
+.knopf, .fach-zu, .lesen-zu, .alle-knopf { box-shadow: 0 1px 0 rgba(255, 255, 255, .12) inset, 0 2px 6px rgba(0, 0, 0, .18); }
+.karte { border-radius: 4px 10px 8px 8px; }
+.fach-kasten { border-radius: 18px 18px 0 0; }
+.fach-innen { border-radius: 10px 10px 0 0; }

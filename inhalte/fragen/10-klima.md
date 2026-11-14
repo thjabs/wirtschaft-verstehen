@@ -20,7 +20,7 @@ Die Lösung folgt aus der Diagnose: Die Schäden müssen in den Preis. Dafür gi
 
 Ein Preis hat gegenüber Vorschriften drei Vorteile. Emissionen werden zuerst dort vermieden, wo es am wenigsten kostet, ohne dass eine Behörde diese Stellen kennen muss. Jede eingesparte Tonne lohnt sich, das treibt neue Technik an. Und der Staat nimmt Geld ein, das er an die Haushalte zurückgeben kann, um die Belastung auszugleichen.
 
-Europa geht diesen Weg. Der EU-Emissionshandel erfasst seit 2005 Kraftwerke und Industrie. Die Obergrenze sinkt jedes Jahr, und die erfassten Emissionen haben sich seither etwa halbiert. Ein zweites System für Gebäude und Verkehr soll 2028 beginnen. Deutschland erhebt in diesen Bereichen seit 2021 einen eigenen CO₂-Preis. Er stieg von 25 Euro je Tonne auf 55 Euro im Jahr 2025, für 2026 und 2027 gilt ein Korridor von 55 bis 65 Euro.
+Europa geht diesen Weg. Der [[Emissionshandel|EU-Emissionshandel]] erfasst seit 2005 Kraftwerke und Industrie. Die Obergrenze sinkt jedes Jahr, und die erfassten Emissionen haben sich seither etwa halbiert. Ein zweites System für Gebäude und Verkehr soll 2028 beginnen. Deutschland erhebt in diesen Bereichen seit 2021 einen eigenen CO₂-Preis. Er stieg von 25 Euro je Tonne auf 55 Euro im Jahr 2025, für 2026 und 2027 gilt ein Korridor von 55 bis 65 Euro.
 
 Der Preis allein genügt nicht in jedem Fall. Neues Wissen nützt auch denen, die nicht dafür bezahlt haben, deshalb soll der Staat Forschung fördern. Netze sind öffentliche Infrastruktur. Diese Ergänzungen sollen den Preis aber nicht ersetzen.
 
@@ -41,7 +41,7 @@ Die weltweiten Emissionen aus fossilen Brennstoffen erreichten 2025 mit rund 38 
 
 ### Kernsatz
 
-Ein CO₂-Preis allein reicht nicht, weil ganze Infrastrukturen ersetzt werden müssen und private Investoren unter [[Fundamentale Unsicherheit|fundamentaler Unsicherheit]] zögern. Nötig sind massive öffentliche Investitionen, Industriepolitik und Regulierung (Green New Deal), finanziert auch über Staatsdefizite, sowie eine Geld- und Finanzmarktpolitik, die Kapital aus fossilen Anlagen herauslenkt.
+Ein CO₂-Preis allein reicht nicht, weil ganze Infrastrukturen ersetzt werden müssen und private Investoren unter [[Fundamentale Unsicherheit|fundamentaler Unsicherheit]] zögern. Nötig sind massive öffentliche Investitionen, Industriepolitik und Regulierung ([[Green New Deal]]), finanziert auch über Staatsdefizite, sowie eine Geld- und Finanzmarktpolitik, die Kapital aus fossilen Anlagen herauslenkt.
 
 ### Antwort
 
@@ -91,7 +91,7 @@ Daraus erklärt die Schule, warum Marktinstrumente nicht genügen.
 
 Als Beleg gilt die Bilanz. Nach drei Jahrzehnten Klimakonferenzen erreichten die fossilen Emissionen 2025 einen neuen Höchststand.
 
-Dazu kommt die Klassenfrage. Emissionen sind sehr ungleich verteilt, und über Investitionen in Kraftwerke, Fabriken und Verkehrsmittel entscheidet eine kleine Gruppe von Eigentümern. Die Folgen treffen zuerst jene, die am wenigsten beigetragen haben.
+Dazu kommt die Klassenfrage. Emissionen sind sehr ungleich verteilt: Nach Berechnungen der Hilfsorganisation Oxfam verursacht das reichste Zehntel der Weltbevölkerung rund die Hälfte. Und über Investitionen in Kraftwerke, Fabriken und Verkehrsmittel entscheidet eine kleine Gruppe von Eigentümern. Die Folgen treffen zuerst jene, die am wenigsten beigetragen haben.
 
 Die Folgerung lautet, die entscheidenden Bereiche dem Profitprinzip zu entziehen: Energieversorgung, Verkehr und Wohnen in öffentliches Eigentum überführen und den Umbau demokratisch planen. Über den Weg streitet die Schule.
 

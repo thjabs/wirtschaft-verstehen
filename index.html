@@ -5,12 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wirtschaft verstehen</title>
 <meta name="description" content="Zwölf zentrale Wirtschaftsfragen, beantwortet aus drei Denkschulen: Neoklassik, Postkeynesianismus und Marxismus. Lektüre vor dem Schlafengehen.">
-<meta name="theme-color" content="#2a2640">
+<meta name="theme-color" content="#33293d">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232a2640'/%3E%3Crect x='7' y='8' width='18' height='4' rx='1' fill='%232d7f8c'/%3E%3Crect x='7' y='14' width='18' height='4' rx='1' fill='%23c29233'/%3E%3Crect x='7' y='20' width='18' height='4' rx='1' fill='%238d5a90'/%3E%3C/svg%3E">
 <script>
 (function () {
-  var r = document.documentElement, t = null, b = null;
-  try { t = localStorage.getItem('wv-thema'); b = localStorage.getItem('wv-bewegung'); } catch (e) {}
+  var r = document.documentElement, t = null, b = null, j = null;
+  try { t = localStorage.getItem('wv-thema'); b = localStorage.getItem('wv-bewegung'); j = localStorage.getItem('wv-jahreszeit'); } catch (e) {}
+  if (['fruehling', 'sommer', 'herbst', 'winter'].indexOf(j) === -1) {
+    var m = new Date().getMonth();   /* ohne gespeicherte Wahl gilt die echte Jahreszeit */
+    j = m >= 2 && m <= 4 ? 'fruehling' : m >= 5 && m <= 7 ? 'sommer' : m >= 8 && m <= 10 ? 'herbst' : 'winter';
+  }
+  r.setAttribute('data-jahreszeit', j);
   if (t !== 'tag' && t !== 'nacht') {
     t = (window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches) ? 'tag' : 'nacht';
   }
@@ -24,6 +29,7 @@
 <link rel="stylesheet" href="css/basis.css">
 <link rel="stylesheet" href="css/szene.css">
 <link rel="stylesheet" href="css/lesen.css">
+<link rel="stylesheet" href="css/jahreszeiten.css">
 </head>
 <body>
 
@@ -38,6 +44,7 @@
     <a class="knopf" href="#inhalt">Inhalt</a>
     <a class="knopf" href="#glossar">Glossar</a>
     <button class="knopf" type="button" id="thema-knopf">Zum Tag</button>
+    <button class="knopf" type="button" id="jahreszeit-knopf" title="Jahreszeit wechseln">Herbst</button>
     <button class="knopf" type="button" id="pause-knopf">Pause</button>
   </nav>
 </header>
@@ -59,8 +66,9 @@
             <stop offset="1" stop-color="#f4ecd6"/>
           </linearGradient>
           <radialGradient id="lampenschein">
-            <stop offset="0" stop-color="#ffd58a" stop-opacity=".5"/>
-            <stop offset=".35" stop-color="#ffb866" stop-opacity=".17"/>
+            <stop offset="0" stop-color="#ffd58a" stop-opacity=".62"/>
+            <stop offset=".35" stop-color="#ffb866" stop-opacity=".27"/>
+            <stop offset=".7" stop-color="#ffa860" stop-opacity=".09"/>
             <stop offset="1" stop-color="#ffb866" stop-opacity="0"/>
           </radialGradient>
           <radialGradient id="hof">
@@ -68,26 +76,73 @@
             <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
           </radialGradient>
           <radialGradient id="rand" cx=".5" cy=".55" r=".75">
-            <stop offset=".45" stop-color="#07061a" stop-opacity="0"/>
-            <stop offset="1" stop-color="#07061a" stop-opacity=".6"/>
+            <stop offset=".5" stop-color="#140a14" stop-opacity="0"/>
+            <stop offset="1" stop-color="#140a14" stop-opacity=".46"/>
           </radialGradient>
           <linearGradient id="decke-schatten" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stop-color="#000" stop-opacity=".28"/>
             <stop offset="1" stop-color="#000" stop-opacity="0"/>
           </linearGradient>
           <clipPath id="glas"><rect x="428" y="148" width="744" height="280"/></clipPath>
+          <pattern id="tapete" width="56" height="56" patternUnits="userSpaceOnUse">
+            <g class="f-tapete">
+              <circle cx="14" cy="14" r="2.4"/><circle cx="42" cy="42" r="2.4"/>
+              <path d="M40 12q3-5 6 0q-3 5-6 0zM12 40q3-5 6 0q-3 5-6 0z"/>
+            </g>
+          </pattern>
+          <pattern id="strick" width="18" height="12" patternUnits="userSpaceOnUse">
+            <path class="s-strick" d="M0 2l4.5 6l4.5-6l4.5 6l4.5-6" fill="none" stroke-width="1.6"/>
+          </pattern>
         </defs>
 
         <!-- Wand und Boden -->
         <rect class="f-wand" x="0" y="0" width="1600" height="820"/>
+        <rect x="0" y="0" width="1600" height="820" fill="url(#tapete)"/>
+        <rect class="f-paneel" x="0" y="652" width="1600" height="156"/>
+        <rect class="f-paneel-kante" x="0" y="644" width="1600" height="10" rx="3"/>
+        <path class="s-paneel" fill="none" stroke-width="2" d="M100 660V806M220 660V806M340 660V806M460 660V806M580 660V806M1000 660V806M1120 660V806M1240 660V806M1560 660V806"/>
         <rect x="0" y="0" width="1600" height="150" fill="url(#decke-schatten)"/>
         <rect class="f-leiste" x="0" y="808" width="1600" height="12"/>
         <rect class="f-boden" x="0" y="820" width="1600" height="80"/>
         <g class="s-boden-linie" fill="none" stroke-width="2">
           <path d="M0 846H1600M0 873H1600M180 820v26M560 846v27M940 820v26M1310 846v27M330 873v27M760 873v27M1130 873v27M1490 820v26"/>
         </g>
-        <ellipse class="f-teppich" cx="800" cy="866" rx="340" ry="24"/>
-        <ellipse class="s-teppich" cx="800" cy="866" rx="312" ry="17" fill="none" stroke-width="2"/>
+        <ellipse class="f-teppich" cx="800" cy="866" rx="350" ry="26"/>
+        <ellipse class="s-teppich" cx="800" cy="866" rx="322" ry="19" fill="none" stroke-width="2"/>
+        <ellipse class="s-teppich" cx="800" cy="866" rx="286" ry="13" fill="none" stroke-width="2" stroke-dasharray="3 9" stroke-linecap="round"/>
+        <!-- Hausschuhe vor dem Bett -->
+        <g>
+          <ellipse class="f-pantoffel" cx="604" cy="858" rx="19" ry="8"/>
+          <ellipse class="f-pantoffel-innen" cx="611" cy="857" rx="9" ry="4.5"/>
+          <ellipse class="f-pantoffel" cx="636" cy="866" rx="19" ry="8"/>
+          <ellipse class="f-pantoffel-innen" cx="643" cy="865" rx="9" ry="4.5"/>
+        </g>
+
+        <!-- Wandbrett mit Pflanze und Büchern -->
+        <g>
+          <rect class="f-holz" x="60" y="500" width="270" height="10" rx="2"/>
+          <path class="f-holz-dunkel" d="M84 510h10v22zM296 510h10l-10 22z"/>
+          <path class="s-ranke" fill="none" stroke-width="3" stroke-linecap="round" d="M96 486C82 506 86 540 74 566M108 486C116 512 104 540 116 584M120 484C138 500 136 524 148 548"/>
+          <g class="f-ranke">
+            <ellipse cx="80" cy="530" rx="8" ry="5" transform="rotate(-30 80 530)"/>
+            <ellipse cx="76" cy="560" rx="8" ry="5" transform="rotate(28 76 560)"/>
+            <ellipse cx="112" cy="530" rx="8" ry="5" transform="rotate(30 112 530)"/>
+            <ellipse cx="110" cy="560" rx="8" ry="5" transform="rotate(-28 110 560)"/>
+            <ellipse cx="118" cy="582" rx="8" ry="5" transform="rotate(20 118 582)"/>
+            <ellipse cx="138" cy="516" rx="8" ry="5" transform="rotate(34 138 516)"/>
+            <ellipse cx="146" cy="544" rx="8" ry="5" transform="rotate(-20 146 544)"/>
+            <ellipse cx="100" cy="470" rx="12" ry="7" transform="rotate(-40 100 470)"/>
+            <ellipse cx="118" cy="466" rx="12" ry="7" transform="rotate(30 118 466)"/>
+          </g>
+          <path class="f-topf" d="M86 474h44l-5 26H91z"/>
+          <rect class="f-buch3" x="186" y="452" width="14" height="48" rx="2"/>
+          <rect class="f-buch1" x="202" y="444" width="16" height="56" rx="2"/>
+          <rect class="f-buch2" x="220" y="456" width="12" height="44" rx="2"/>
+          <rect class="f-kissen" x="234" y="450" width="15" height="50" rx="2"/>
+          <rect class="f-buch1" x="252" y="462" width="13" height="40" rx="2" transform="rotate(14 258 500)"/>
+          <rect class="f-tasse" x="290" y="478" width="20" height="22" rx="4"/>
+          <path class="f-schirm nur-nacht" d="M300 470q-6 4-3 8h6q3-4-3-8z"/>
+        </g>
 
         <!-- Bild an der Wand: drei Balken in den Farben der Schulen -->
         <rect class="f-holz" x="150" y="300" width="180" height="130" rx="3"/>
@@ -100,6 +155,7 @@
         <g clip-path="url(#glas)">
           <rect class="nur-nacht" x="428" y="148" width="744" height="280" fill="url(#himmel-nacht)"/>
           <rect class="nur-tag" x="428" y="148" width="744" height="280" fill="url(#himmel-tag)"/>
+          <rect class="f-jahreston" x="428" y="148" width="744" height="280"/>
 
           <g class="nur-nacht" id="sterne"></g>
 
@@ -132,6 +188,7 @@
 
           <g id="haeuser-fern"></g>
           <g class="nur-nacht" id="lichter-fern"></g>
+          <g id="baeume-fern"></g>
 
           <!-- Kirche -->
           <g>
@@ -166,6 +223,17 @@
 
           <g id="haeuser-nah"></g>
           <g class="nur-nacht" id="lichter-nah"></g>
+          <g id="baeume-nah"></g>
+
+          <!-- Jahreszeit: Blüten, Glühwürmchen, Laub oder Schnee (js/szene.js füllt die Gruppe) -->
+          <g id="wetter"></g>
+          <!-- Winter: Eisblumen in den Ecken der Scheibe -->
+          <g class="jz jz-winter" fill="#fff">
+            <path opacity=".5" d="M428 148h70q-40 10-52 30q-6 14-18 22z"/>
+            <path opacity=".5" d="M1172 148h-64q36 10 48 28q6 12 16 20z"/>
+            <path opacity=".45" d="M428 428v-44q14 22 34 30q14 6 26 14z"/>
+            <path opacity=".45" d="M1172 428v-40q-14 20-32 28q-12 6-22 12z"/>
+          </g>
         </g>
 
         <!-- Fensterrahmen, Sprossen, Fensterbank -->
@@ -173,6 +241,45 @@
         <rect class="f-rahmen" x="795" y="148" width="10" height="280"/>
         <rect class="f-rahmen" x="428" y="236" width="744" height="8"/>
         <rect class="f-rahmen-kante" x="394" y="440" width="812" height="18" rx="3"/>
+
+        <!-- Lichterkette im Fenster (Birnen setzt js/szene.js) -->
+        <path id="kette" class="s-draht" fill="none" stroke-width="1.6" d="M430 152Q500 196 590 166T760 170T930 166T1090 172T1170 152"/>
+        <g id="birnen"></g>
+
+        <!-- Auf der Fensterbank: je Jahreszeit etwas anderes -->
+        <g class="jz jz-fruehling">
+          <path d="M962 412C958 396 952 386 950 372M968 412V364M974 412C978 398 984 388 988 376" fill="none" stroke="#5f8f4e" stroke-width="2.6" stroke-linecap="round"/>
+          <ellipse cx="950" cy="366" rx="6.5" ry="9.5" fill="#e8799a"/>
+          <ellipse cx="968" cy="356" rx="6.5" ry="9.5" fill="#f2c14e"/>
+          <ellipse cx="988" cy="370" rx="6.5" ry="9.5" fill="#f08a6a"/>
+          <path d="M956 440q-11-16-1-30h26q10 14-1 30z" fill="#8fb7c9"/>
+          <path d="M957 420h24" stroke="#fff" stroke-width="2" opacity=".5"/>
+        </g>
+        <g class="jz jz-sommer">
+          <path d="M968 414V372" fill="none" stroke="#5f8f4e" stroke-width="3" stroke-linecap="round"/>
+          <path d="M968 396q-12-4-16-14q12 0 16 14z" fill="#5f8f4e"/>
+          <circle cx="968" cy="358" r="15" fill="#f4c430" stroke="#e8a600" stroke-width="4" stroke-dasharray="5 3"/>
+          <circle cx="968" cy="358" r="7" fill="#7a4a22"/>
+          <rect x="956" y="410" width="24" height="30" rx="4" fill="#cfe6ee" opacity=".85"/>
+          <rect x="956" y="424" width="24" height="16" rx="3" fill="#9fcfe0" opacity=".8"/>
+        </g>
+        <g class="jz jz-herbst">
+          <ellipse cx="968" cy="424" rx="22" ry="16" fill="#d9772e"/>
+          <ellipse cx="957" cy="424" rx="11" ry="16" fill="#e58a3a"/>
+          <ellipse cx="979" cy="424" rx="11" ry="16" fill="#e58a3a"/>
+          <ellipse cx="968" cy="424" rx="7" ry="16" fill="#f0a04e"/>
+          <path d="M966 409q0-8 6-10" fill="none" stroke="#5a6a3a" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M1000 438q-2-12 10-14q4 10-10 14z" fill="#c9502e"/>
+          <path d="M936 438q8-10-4-16q-8 8 4 16z" fill="#e0a030"/>
+        </g>
+        <g class="jz jz-winter">
+          <circle class="nur-nacht" cx="968" cy="392" r="34" fill="url(#hof)"/>
+          <path d="M938 438q14-10 30-6q16-6 30 6z" fill="#3f6b4f"/>
+          <path d="M940 436l10-9M952 433l8-10M986 433l-8-10M996 436l-10-9" stroke="#2f553f" stroke-width="2.4" stroke-linecap="round"/>
+          <rect x="961" y="402" width="14" height="34" rx="2" fill="#f6efe0"/>
+          <path class="flamme" d="M968 384q-7 9 0 17q7-8 0-17z" fill="#ffc24d"/>
+          <circle cx="948" cy="432" r="3.5" fill="#c9423f"/><circle cx="990" cy="431" r="3.5" fill="#c9423f"/>
+        </g>
 
         <!-- Vorhangstange und Vorhänge -->
         <rect class="f-messing" x="352" y="110" width="896" height="6" rx="3"/>
@@ -196,6 +303,22 @@
         <rect class="s-tuer" x="1338" y="560" width="150" height="230" rx="3" fill="none" stroke-width="3"/>
         <circle class="f-messing" cx="1332" cy="528" r="8"/>
 
+        <!-- Lesesessel mit Kissen und Decke -->
+        <g>
+          <ellipse cx="1098" cy="822" rx="112" ry="8" fill="#000" opacity=".16"/>
+          <rect class="f-sessel-dunkel" x="1022" y="800" width="14" height="22" rx="3"/>
+          <rect class="f-sessel-dunkel" x="1160" y="800" width="14" height="22" rx="3"/>
+          <rect class="f-sessel" x="1024" y="606" width="148" height="176" rx="50"/>
+          <rect class="f-sessel-hell" x="1012" y="716" width="172" height="82" rx="26"/>
+          <rect class="f-sessel" x="998" y="688" width="42" height="122" rx="19"/>
+          <rect class="f-sessel" x="1156" y="688" width="42" height="122" rx="19"/>
+          <rect class="f-kissen-senf" x="1064" y="660" width="68" height="62" rx="16" transform="rotate(-8 1098 692)"/>
+          <path class="s-kissen-senf" d="M1076 676l44 34M1118 672l-40 40" fill="none" stroke-width="2" transform="rotate(-8 1098 692)"/>
+          <path class="f-decke" d="M1150 686C1176 676 1202 690 1206 716L1208 798C1192 808 1172 806 1156 798Z"/>
+          <path d="M1150 686C1176 676 1202 690 1206 716L1208 798C1192 808 1172 806 1156 798Z" fill="url(#strick)"/>
+          <path class="s-decke" d="M1158 800v12M1168 803v12M1178 804v12M1188 803v12M1198 800v12" fill="none" stroke-width="2.5" stroke-linecap="round"/>
+        </g>
+
         <!-- Bett -->
         <rect class="f-holz-dunkel" x="566" y="556" width="24" height="264" rx="6"/>
         <rect class="f-holz" x="-20" y="748" width="592" height="36"/>
@@ -205,7 +328,9 @@
         <rect class="f-kissen2" x="458" y="648" width="104" height="44" rx="17"/>
         <rect class="f-kissen" x="438" y="664" width="126" height="46" rx="19"/>
         <path class="f-decke" d="M-20 690C120 676 300 680 420 692C434 722 428 762 438 794L-20 800Z"/>
+        <path d="M-20 690C120 676 300 680 420 692C434 722 428 762 438 794L-20 800Z" fill="url(#strick)"/>
         <path class="s-decke" d="M-20 716C120 704 290 708 424 720M120 690C128 730 122 770 130 798M300 684C310 724 302 766 312 796" fill="none" stroke-width="2"/>
+        <rect class="f-kissen-senf" x="398" y="672" width="62" height="40" rx="15" transform="rotate(-12 429 692)"/>
 
         <!-- Lampe und Bücher auf dem Nachttisch -->
         <ellipse class="f-lampenfuss" cx="705" cy="487" rx="27" ry="5"/>
@@ -214,11 +339,20 @@
         <rect class="f-buch1" x="852" y="478" width="82" height="12" rx="2"/>
         <rect class="f-buch2" x="859" y="466" width="72" height="12" rx="2"/>
         <rect class="f-buch3" x="866" y="455" width="60" height="11" rx="2"/>
+        <!-- Dampfende Tasse -->
+        <g>
+          <path class="dampf d1" d="M778 460q-5-8 0-14q5-6 0-14" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+          <path class="dampf d2" d="M788 458q5-8 0-14q-5-6 0-14" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+          <path class="s-tasse" d="M796 473q11 0 11 7.5q0 7.5-11 7.5" fill="none" stroke-width="3.2"/>
+          <rect class="f-tasse" x="770" y="466" width="26" height="24" rx="5"/>
+          <rect class="f-buch2" x="770" y="474" width="26" height="5"/>
+        </g>
 
         <!-- Licht -->
         <path class="nur-tag" d="M470 822H1150L1050 900H330Z" fill="#fff8dc" opacity=".16"/>
         <path class="nur-nacht" d="M470 822H1150L1050 900H330Z" fill="#aab4ff" opacity=".05"/>
-        <circle class="nur-nacht" cx="705" cy="420" r="430" fill="url(#lampenschein)"/>
+        <circle class="nur-nacht" cx="705" cy="420" r="520" fill="url(#lampenschein)"/>
+        <ellipse class="nur-nacht" cx="800" cy="170" rx="420" ry="70" fill="url(#hof)" opacity=".35"/>
         <rect class="nur-nacht" x="0" y="0" width="1600" height="900" fill="url(#rand)"/>
       </svg>
 
@@ -230,6 +364,17 @@
 
       <button class="lichtschalter" type="button" id="lichtschalter" aria-label="Lichtschalter: zwischen Tag und Nacht wechseln">
         <span class="wippe"></span>
+      </button>
+
+      <button class="kalender" type="button" id="kalender" aria-label="Wandkalender: Jahreszeit wechseln">
+        <span class="kal-ringe" aria-hidden="true"></span>
+        <svg class="kal-bild" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <g class="jz jz-fruehling"><circle cx="20" cy="11" r="6" fill="#e8799a"/><circle cx="29" cy="18" r="6" fill="#e8799a"/><circle cx="26" cy="29" r="6" fill="#e8799a"/><circle cx="14" cy="29" r="6" fill="#e8799a"/><circle cx="11" cy="18" r="6" fill="#e8799a"/><circle cx="20" cy="21" r="5" fill="#f2c14e"/></g>
+          <g class="jz jz-sommer"><circle cx="20" cy="20" r="8" fill="#f4b400"/><path d="M20 3v6M20 31v6M3 20h6M31 20h6M8 8l4 4M28 28l4 4M32 8l-4 4M12 28l-4 4" stroke="#f4b400" stroke-width="3" stroke-linecap="round"/></g>
+          <g class="jz jz-herbst"><path d="M20 4C30 8 35 18 30 28C27 33 22 35 20 36C18 35 13 33 10 28C5 18 10 8 20 4Z" fill="#d9772e"/><path d="M20 8V38M20 16l7-5M20 22l8-4M20 16l-7-5M20 22l-8-4" stroke="#8a4318" stroke-width="2" stroke-linecap="round" fill="none"/></g>
+          <g class="jz jz-winter"><path d="M20 3V37M5 11.5L35 28.5M35 11.5L5 28.5M20 9l-4-4M20 9l4-4M20 31l-4 4M20 31l4 4" stroke="#5d86b8" stroke-width="3" stroke-linecap="round" fill="none"/></g>
+        </svg>
+        <span class="kal-name" id="kal-name">Herbst</span>
       </button>
 
     </div>

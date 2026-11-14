@@ -7,7 +7,7 @@ Karl Marx (1818 bis 1883) wollte keine weitere Wirtschaftslehre schreiben. Sein 
 
 ### Wie sich die Schule entwickelt hat
 
-Die nächste Generation wandte die Theorie auf einen veränderten Kapitalismus an: Rudolf Hilferding auf Banken und Konzerne („Das Finanzkapital“, 1910), Rosa Luxemburg auf die Ausdehnung in nichtkapitalistische Gebiete (1913), Lenin auf den Imperialismus (1917). In der Sowjetunion erstarrte der Marxismus zur Staatsdoktrin. Im Westen entwickelten ihn Ökonomen wie Paul Sweezy und Ernest Mandel weiter, im Globalen Süden die Dependenztheorie und Samir Amin, später Immanuel Wallerstein mit der Weltsystemtheorie.
+Die nächste Generation wandte die Theorie auf einen veränderten Kapitalismus an: Rudolf Hilferding auf Banken und Konzerne („Das Finanzkapital“, 1910), Rosa Luxemburg auf die Ausdehnung in nichtkapitalistische Gebiete (1913), Lenin auf den [[Imperialismus]] (1917). In der Sowjetunion erstarrte der Marxismus zur Staatsdoktrin. Im Westen entwickelten ihn Ökonomen wie Paul Sweezy und Ernest Mandel weiter, im Globalen Süden die Dependenztheorie und Samir Amin, später Immanuel Wallerstein mit der Weltsystemtheorie.
 
 Seit den 1960er-Jahren liest die „Neue Marx-Lektüre“ (Hans-Georg Backhaus, Helmut Reichelt, heute Michael Heinrich) das „Kapital“ neu, als Theorie von Wert und Geld und nicht als Geschichtsprognose. David Harvey hat die Theorie auf Raum, Stadt und Finanzmärkte bezogen, Anwar Shaikh prüft sie an langen Datenreihen, Andreas Malm und Kohei Saito wenden sie auf die Klimakrise an. Grundlage ist heute die historisch-kritische Gesamtausgabe (MEGA). Ihre Abteilung zum „Kapital“ ist seit 2012 abgeschlossen und zeigt, wie unfertig Marx' Manuskripte waren und wie stark Engels sie geordnet hat.
 

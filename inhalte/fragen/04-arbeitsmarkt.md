@@ -8,13 +8,13 @@ frage: Wie stehen sich Arbeitgeber und Arbeitnehmer auf dem Arbeitsmarkt gegenü
 
 ### Kernsatz
 
-Als Tauschpartner: Unternehmen fragen Arbeit nach, solange sie mehr einbringt, als sie kostet, und Haushalte bieten sie an, solange der Lohn den Verzicht auf Freizeit aufwiegt. Bei Wettbewerb entspricht der Lohn der Produktivität, Suchkosten und Marktmacht von Arbeitgebern ([[Monopson]]) können ihn aber darunter drücken.
+Als Tauschpartner: Unternehmen fragen Arbeit nach, solange sie mehr einbringt, als sie kostet, und Haushalte bieten sie an, solange der Lohn den Verzicht auf Freizeit aufwiegt. Bei Wettbewerb entspricht der Lohn der [[Produktivität]], Suchkosten und Marktmacht von Arbeitgebern ([[Monopson]]) können ihn aber darunter drücken.
 
 ### Antwort
 
 Der Arbeitsmarkt ist für die Neoklassik zunächst ein Markt wie andere. Beide Seiten schließen freiwillig einen Vertrag, weil beide dabei gewinnen.
 
-Ein Unternehmen stellt so lange ein, wie eine zusätzliche Arbeitskraft mehr einbringt, als sie kostet. Haushalte bieten Arbeit an, solange der Lohn den Verzicht auf freie Zeit aufwiegt. Im Gleichgewicht entspricht der Lohn dem Wert dessen, was die zuletzt eingestellte Person zusätzlich erzeugt, dem Grenzprodukt. Unterschiede zwischen Löhnen spiegeln in diesem Modell Unterschiede in Ausbildung, Erfahrung und Knappheit. Auf Dauer steigen die Reallöhne mit der Produktivität. Der wichtigste Schutz der Beschäftigten ist die Konkurrenz der Arbeitgeber untereinander: Wer weniger zahlt, als eine Arbeitskraft einbringt, verliert sie an einen Wettbewerber.
+Ein Unternehmen stellt so lange ein, wie eine zusätzliche Arbeitskraft mehr einbringt, als sie kostet. Haushalte bieten Arbeit an, solange der Lohn den Verzicht auf freie Zeit aufwiegt. Im Gleichgewicht entspricht der Lohn dem Wert dessen, was die zuletzt eingestellte Person zusätzlich erzeugt, dem [[Grenzprodukt]]. Unterschiede zwischen Löhnen spiegeln in diesem Modell Unterschiede in Ausbildung, Erfahrung und Knappheit. Auf Dauer steigen die Reallöhne mit der Produktivität. Der wichtigste Schutz der Beschäftigten ist die Konkurrenz der Arbeitgeber untereinander: Wer weniger zahlt, als eine Arbeitskraft einbringt, verliert sie an einen Wettbewerber.
 
 Die neuere Forschung hat dieses Grundmodell an drei Stellen erweitert.
 
@@ -64,7 +64,7 @@ Das Verhältnis ist ein Konflikt um die Verteilung, aber kein reines Nullsummens
 - John Maynard Keynes: *The General Theory of Employment, Interest and Money*. Macmillan, London 1936 (Kapitel 19 zu Änderungen der Geldlöhne).
 - Heiner Flassbeck und Friederike Spiecker: *Das Ende der Massenarbeitslosigkeit. Mit richtiger Wirtschaftspolitik die Zukunft gewinnen*. Westend, Frankfurt am Main 2007.
 - Michał Kalecki: „Political Aspects of Full Employment“. *The Political Quarterly* 14 (4), 1943, S. 322–331.
-- Auswertung des IAB-Betriebspanels zur Tarifbindung 2024, erschienen in den [WSI-Mitteilungen 4/2025](https://www.boeckler.de/data/wsimit_2025_04_hohendanner-1.pdf).
+- Christian Hohendanner und Susanne Kohaut: [„Tarifbindung und betriebliche Interessenvertretung: Ergebnisse aus dem IAB-Betriebspanel 2024“](https://www.boeckler.de/data/wsimit_2025_04_hohendanner-1.pdf). *WSI-Mitteilungen* 4/2025, S. 297 ff.
 
 ## Marxismus
 
@@ -86,7 +86,7 @@ Darin liegt keine Täuschung. Die Arbeitskraft wird zu ihrem Wert bezahlt, und t
 
 Hinter dem Werkstor endet die Gleichheit. Dort bestimmt das Unternehmen, was, wie und wie schnell gearbeitet wird. Harry Braverman hat 1974 beschrieben, wie Tätigkeiten zerlegt und Planung und Ausführung getrennt werden, damit die Kontrolle beim Management liegt.
 
-Dass die Löhne den Mehrwert nicht aufzehren, dafür sorgt die „industrielle Reservearmee“. Neue Maschinen und Krisen setzen laufend Arbeitskräfte frei. Die Arbeitslosen drücken auf die Löhne der Beschäftigten und halten sie in Schach.
+Dass die Löhne den Mehrwert nicht aufzehren, dafür sorgt die „[[Industrielle Reservearmee|industrielle Reservearmee]]“. Neue Maschinen und Krisen setzen laufend Arbeitskräfte frei. Die Arbeitslosen drücken auf die Löhne der Beschäftigten und halten sie in Schach.
 
 Die Interessen sind deshalb gegensätzlich, bei Lohn, Arbeitszeit und Arbeitstempo, und kein guter Wille hebt das auf. Einzeln sind Lohnabhängige unterlegen. Nur gemeinsam, in Gewerkschaften, können sie die Bedingungen des Verkaufs beeinflussen. Marx fasst es so: „Zwischen gleichen Rechten entscheidet die Gewalt.“
 

@@ -2,7 +2,7 @@
 
 :root {
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", P052, Georgia, serif;
-  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --sans: ui-rounded, "SF Pro Rounded", "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   /* Papier: immer warm-hell, bei Tag und bei Nacht */
   --papier: #f5eedd;
@@ -23,10 +23,10 @@
 :root,
 :root[data-thema="nacht"] {
   color-scheme: dark;
-  --wand: #2a2640;
-  --leiste: #1d1a2f;
-  --boden: #2b2231;
-  --boden-linie: #1f1826;
+  --wand: #33293d;
+  --leiste: #241c2c;
+  --boden: #35262c;
+  --boden-linie: #261b20;
   --teppich: #37325a;
   --teppich-linie: #4b4573;
   --rahmen: #3d3756;
@@ -250,5 +250,6 @@ body {
 @media (max-width: 34rem) {
   .leiste { padding-top: .6rem; }
   .marke-unter { display: none; }
-  .knopf { min-height: 2.25rem; padding: .3rem .7rem; font-size: .82rem; }
+  .knopf { min-height: 2.25rem; padding: .3rem .58rem; font-size: .8rem; }
+  .werkzeuge { gap: .3rem; }
 }

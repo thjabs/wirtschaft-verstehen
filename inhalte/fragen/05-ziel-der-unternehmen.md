@@ -47,7 +47,7 @@ Solche Unternehmen können ihren Gewinn nicht maximieren, selbst wenn sie wollte
 
 Das zeigt sich an der Preissetzung. Unternehmen berechnen ihre Kosten je Stück bei normaler Auslastung und schlagen einen festen Satz auf. Schwankt die Nachfrage, ändern sie die Menge und kaum den Preis. Wie hoch der Aufschlag ist, hängt von der Marktmacht ab und, so Eichner, davon, wie viel Geld das Unternehmen für geplante Investitionen braucht. Der Preis dient dem Wachstum.
 
-In den Jahrzehnten nach 1945 folgten die großen Unternehmen dem Grundsatz, Gewinne einzubehalten und wieder zu investieren. William Lazonick und Mary O'Sullivan haben beschrieben, wie sich das seit den 1980er-Jahren umkehrte. Unter dem Leitbild des Shareholder-Value werden Belegschaften verkleinert und Gewinne ausgeschüttet, über Dividenden und Aktienrückkäufe. Manager werden in Aktien bezahlt und richten sich nach dem Kurs. Das Ergebnis ist ein Rätsel für die Standardtheorie und für Postkeynesianer keins: hohe Gewinne bei schwachen Investitionen. Eckhard Hein spricht von einem finanzdominierten Kapitalismus.
+In den Jahrzehnten nach 1945 folgten die großen Unternehmen dem Grundsatz, Gewinne einzubehalten und wieder zu investieren. William Lazonick und Mary O'Sullivan haben beschrieben, wie sich das seit den 1980er-Jahren umkehrte. Unter dem Leitbild des [[Finanzialisierung|Shareholder-Value]] werden Belegschaften verkleinert und Gewinne ausgeschüttet, über Dividenden und Aktienrückkäufe. Manager werden in Aktien bezahlt und richten sich nach dem Kurs. Das Ergebnis ist ein Rätsel für die Standardtheorie und für Postkeynesianer keins: hohe Gewinne bei schwachen Investitionen. Eckhard Hein spricht von einem finanzdominierten Kapitalismus.
 
 Hinzu kommt der Blick auf das Ganze. Wie hoch die Gewinne aller Unternehmen zusammen sind, hängt nicht vom Fleiß der einzelnen ab. Nach Michał Kalecki ergeben sie sich aus den Ausgaben: aus den Investitionen, dem Konsum der Gewinnbezieher, dem Staatsdefizit und dem Exportüberschuss, vermindert um das, was die Beschäftigten sparen. Jedes Unternehmen will Kosten senken und Löhne drücken. Tun es alle, fehlt allen der Absatz. Was einzeln vernünftig ist, schadet gemeinsam.
 
@@ -55,7 +55,7 @@ Unternehmensziele sind in dieser Sicht keine Naturkonstante. Sie hängen davon a
 
 ### Quellen
 
-- Alfred S. Eichner: *The Megacorp and Oligopoly*. Cambridge University Press, Cambridge 1976.
+- Alfred S. Eichner: *The Megacorp and Oligopoly. Micro Foundations of Macro Dynamics*. Cambridge University Press, Cambridge 1976.
 - Marc Lavoie: *Post-Keynesian Economics: New Foundations*. 2. Auflage, Edward Elgar, Cheltenham 2022 (Kapitel zur Theorie des Unternehmens).
 - William Lazonick und Mary O'Sullivan: „Maximizing Shareholder Value: A New Ideology for Corporate Governance“. *Economy and Society* 29 (1), 2000, S. 13–35.
 - Michał Kalecki: *Selected Essays on the Dynamics of the Capitalist Economy 1933–1970*. Cambridge University Press, Cambridge 1971.

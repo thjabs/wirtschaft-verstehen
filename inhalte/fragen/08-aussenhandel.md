@@ -35,7 +35,7 @@ Seit der Finanzkrise wächst der Handel nicht mehr schneller als die Produktion,
 
 ### Kernsatz
 
-Handel nützt allen nur bei Vollbeschäftigung und ausgeglichenen Bilanzen; tatsächlich entscheiden absolute Kostenvorteile, also [[Lohnstückkosten]] und Wechselkurse: Überschussländer exportieren Arbeitslosigkeit, Defizitländer häufen Schulden an. Seit dem Ende des Systems von Bretton Woods (1971 bis 1973) verstärken freie Kapitalströme diese Ungleichgewichte.
+Handel nützt allen nur bei Vollbeschäftigung und ausgeglichenen Bilanzen; tatsächlich entscheiden absolute Kostenvorteile, also [[Lohnstückkosten]] und Wechselkurse: Überschussländer exportieren Arbeitslosigkeit, Defizitländer häufen Schulden an. Seit dem Ende des Systems von [[Bretton Woods]] (1971 bis 1973) verstärken freie Kapitalströme diese Ungleichgewichte.
 
 ### Antwort
 
@@ -60,13 +60,13 @@ Allen nützen kann Handel unter anderen Regeln: Wechselkurse, die den Kostenunte
 - Heiner Flassbeck und Paul Steinhardt: *Gescheiterte Globalisierung. Ungleichheit, Geld und die Renaissance des Staates*. Suhrkamp, Berlin 2018.
 - Anthony P. Thirlwall: „The Balance of Payments Constraint as an Explanation of International Growth Rate Differences“. *Banca Nazionale del Lavoro Quarterly Review* 32 (128), 1979, S. 45–53.
 - Raúl Prebisch: *The Economic Development of Latin America and its Principal Problems*. United Nations, Lake Success (New York) 1950.
-- John Maynard Keynes: „Proposals for an International Clearing Union“ (1943). In: *The Collected Writings of John Maynard Keynes*, Band 25.
+- John Maynard Keynes: „Proposals for an International Clearing Union“ (1943). In: *The Collected Writings of John Maynard Keynes*, Band XXV, hrsg. von Donald Moggridge, Macmillan und Cambridge University Press, London 1980.
 
 ## Marxismus
 
 ### Kernsatz
 
-Vom Welthandel profitiert vor allem das Kapital der Zentren: Es erschließt Absatzmärkte, billige Rohstoffe und billige Arbeitskraft und stützt so seine Profitrate. Zwischen Ländern mit ungleichen Löhnen fließt dabei Wert von der Peripherie ins Zentrum ([[Ungleicher Tausch|ungleicher Tausch]]), und die Nachkriegsordnung unter Führung der USA hat diese Hierarchie in neuer Form fortgeschrieben.
+Vom Welthandel profitiert vor allem das Kapital der Zentren: Es erschließt Absatzmärkte, billige Rohstoffe und billige Arbeitskraft und stützt so seine [[Profitrate]]. Zwischen Ländern mit ungleichen Löhnen fließt dabei Wert von der Peripherie ins Zentrum ([[Ungleicher Tausch|ungleicher Tausch]]), und die Nachkriegsordnung unter Führung der USA hat diese Hierarchie in neuer Form fortgeschrieben.
 
 ### Antwort
 

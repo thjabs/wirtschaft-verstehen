@@ -17,8 +17,10 @@
     if (!b || !h) { return; }
     var s = Math.max(b / 1600, h / 900, Math.min(b / 385, 0.82));
     szene.style.setProperty('--s', s.toFixed(4));
-    /* Der Lichtschalter liegt bei schmalen Fenstern außerhalb des Bildes. */
+    /* Lichtschalter und Wandkalender liegen bei schmalen Fenstern außerhalb des Bildes. */
     schalter.hidden = (b / s) / 2 < 485;
+    var kal = document.getElementById('kalender');
+    if (kal) { kal.hidden = (b / s) / 2 < 505; }
   }
   window.addEventListener('resize', skaliere);
   buehne.addEventListener('scroll', function () { buehne.scrollLeft = 0; buehne.scrollTop = 0; });
@@ -122,6 +124,87 @@
     reihe(nah, lichterNah, 1118, 1172, 434, oNah);
   })();
 
+  /* --- Bäume zwischen den Häusern (Farbe folgt der Jahreszeit) */
+  (function () {
+    var fern = document.getElementById('baeume-fern');
+    var nah = document.getElementById('baeume-nah');
+    if (!fern || !nah) { return; }
+    function baum(ziel, x, basis, h, schlank) {
+      svg('rect', { 'class': 'f-stamm', x: r1(x - h * 0.05), y: r1(basis - h * 0.45), width: r1(h * 0.1), height: r1(h * 0.47) }, ziel);
+      if (schlank) {
+        svg('ellipse', { 'class': 'f-baum', cx: x, cy: r1(basis - h * 0.62), rx: r1(h * 0.2), ry: r1(h * 0.42) }, ziel);
+      } else {
+        svg('circle', { 'class': 'f-baum', cx: r1(x - h * 0.16), cy: r1(basis - h * 0.55), r: r1(h * 0.26) }, ziel);
+        svg('circle', { 'class': 'f-baum', cx: r1(x + h * 0.18), cy: r1(basis - h * 0.58), r: r1(h * 0.24) }, ziel);
+        svg('circle', { 'class': 'f-baum2', cx: x, cy: r1(basis - h * 0.74), r: r1(h * 0.27) }, ziel);
+      }
+    }
+    [[452, 26, 0], [520, 22, 1], [606, 28, 0], [668, 20, 1], [742, 24, 0], [1076, 22, 1], [1104, 28, 0], [1158, 24, 0]].forEach(function (b) {
+      baum(fern, b[0], 378, b[1], b[2]);
+    });
+    [[818, 58, 0], [846, 40, 1], [1096, 46, 0]].forEach(function (b) {
+      baum(nah, b[0], 438, b[1], b[2]);
+    });
+  })();
+
+  /* --- Was vor dem Fenster fällt oder schwebt: Blüten, Glühwürmchen, Laub, Schnee */
+  (function () {
+    var g = document.getElementById('wetter');
+    if (!g) { return; }
+    for (var i = 0; i < 30; i++) {
+      var t = svg('g', {
+        'class': 'teilchen',
+        style: '--x:' + Math.round(430 + rnd() * 740) + 'px;--y:' + Math.round(300 + rnd() * 120) + 'px;--dx:' +
+          Math.round(-30 + rnd() * 60) + 'px;--d:' + r1(9 + rnd() * 9) + 's;--v:-' + r1(rnd() * 18) + 's'
+      }, g);
+      svg('ellipse', { rx: r1(1.5 + rnd() * 1.3), ry: r1(1.5 + rnd() * 1.3) }, t);
+    }
+  })();
+
+  /* --- Lichterkette: Birnen entlang des Drahts */
+  (function () {
+    var draht = document.getElementById('kette');
+    var g = document.getElementById('birnen');
+    if (!draht || !g || !draht.getTotalLength) { return; }
+    var laenge = draht.getTotalLength();
+    var anzahl = 15;
+    for (var i = 0; i < anzahl; i++) {
+      var p = draht.getPointAtLength(laenge * (i + 0.5) / anzahl);
+      var b = svg('g', { 'class': 'birne', transform: 'translate(' + r1(p.x) + ' ' + r1(p.y + 5) + ')', style: '--v:-' + r1(rnd() * 4) + 's' }, g);
+      svg('circle', { 'class': 'birne-hof', r: 12 }, b);
+      svg('circle', { 'class': 'birne-kern', r: 4 }, b);
+    }
+  })();
+
+  /* --- Jahreszeiten */
+  var JAHRESZEITEN = ['fruehling', 'sommer', 'herbst', 'winter'];
+  var NAMEN = { fruehling: 'Frühling', sommer: 'Sommer', herbst: 'Herbst', winter: 'Winter' };
+  var jahreszeitKnopf = document.getElementById('jahreszeit-knopf');
+  var kalender = document.getElementById('kalender');
+  var kalName = document.getElementById('kal-name');
+
+  function setzeJahreszeit(j, merken) {
+    if (JAHRESZEITEN.indexOf(j) === -1) { j = 'herbst'; }
+    wurzel.setAttribute('data-jahreszeit', j);
+    var naechste = NAMEN[JAHRESZEITEN[(JAHRESZEITEN.indexOf(j) + 1) % 4]];
+    if (jahreszeitKnopf) {
+      jahreszeitKnopf.textContent = NAMEN[j];
+      jahreszeitKnopf.setAttribute('title', 'Jahreszeit wechseln (als Nächstes: ' + naechste + ')');
+    }
+    if (kalName) { kalName.textContent = NAMEN[j]; }
+    if (kalender) { kalender.setAttribute('aria-label', 'Wandkalender, jetzt ' + NAMEN[j] + ': zum ' + naechste + ' wechseln'); }
+    if (merken) {
+      try { localStorage.setItem('wv-jahreszeit', j); } catch (e) { /* ohne Speicher geht es auch */ }
+    }
+  }
+  function wechsleJahreszeit() {
+    var i = JAHRESZEITEN.indexOf(wurzel.getAttribute('data-jahreszeit'));
+    setzeJahreszeit(JAHRESZEITEN[(i + 1) % 4], true);
+  }
+  if (jahreszeitKnopf) { jahreszeitKnopf.addEventListener('click', wechsleJahreszeit); }
+  if (kalender) { kalender.addEventListener('click', wechsleJahreszeit); }
+  setzeJahreszeit(wurzel.getAttribute('data-jahreszeit'), false);
+
   /* --- Tag und Nacht */
   function setzeThema(thema, merken) {
     var nacht = thema !== 'tag';
@@ -129,7 +212,7 @@
     themaKnopf.textContent = nacht ? 'Zum Tag' : 'Zur Nacht';
     schalter.setAttribute('aria-label', 'Lichtschalter: ' + (nacht ? 'zum Tag wechseln' : 'zur Nacht wechseln'));
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) { meta.setAttribute('content', nacht ? '#2a2640' : '#eadfc8'); }
+    if (meta) { meta.setAttribute('content', nacht ? '#33293d' : '#eadfc8'); }
     if (merken) {
       try { localStorage.setItem('wv-thema', nacht ? 'nacht' : 'tag'); } catch (e) { /* ohne Speicher geht es auch */ }
     }

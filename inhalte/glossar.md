@@ -146,3 +146,95 @@ Zwischen den Schulen umstritten: Für die Neoklassik ist Wert subjektiv und zeig
 - **Neoklassik:** Ein Gut ist so viel wert, wie Menschen für die letzte Einheit zu geben bereit sind ([[Grenznutzen]]). Wert und Marktpreis fallen im Gleichgewicht zusammen.
 - **Postkeynesianismus:** Keine eigene Werttheorie im engen Sinn. Preise entstehen aus Kosten plus Aufschlag und hängen von Marktmacht und Verteilung ab.
 - **Marxismus:** Wert ist ein gesellschaftliches Verhältnis: die in Waren steckende, im Tausch anerkannte Arbeit ([[Arbeitswerttheorie]]). Preise schwanken um die Werte.
+
+## Austerität
+
+Sparpolitik des Staates: Er kürzt Ausgaben oder erhöht Steuern, um sein Defizit zu senken.
+
+**Umstritten:** Im Mainstream gilt sie bei hohen Schulden als nötig, um Vertrauen zu erhalten, wobei Zeitpunkt und Tempo strittig sind. Postkeynesianer halten sie in einer Krise für schädlich, weil sinkende Staatsausgaben die Einkommen und damit auch die Steuereinnahmen drücken.
+
+## Bretton Woods
+
+Ort der Konferenz von 1944, auf der die Weltwährungsordnung der Nachkriegszeit entstand: feste, aber anpassbare Wechselkurse zum Dollar, der Dollar an Gold gebunden, dazu Währungsfonds und Weltbank. Das System endete zwischen 1971 und 1973.
+
+## Deflation
+
+Anhaltender Rückgang des Preisniveaus. Schulden werden dadurch real schwerer, Käufe und Investitionen werden aufgeschoben, was die Preise weiter drückt.
+
+## Emissionshandel
+
+Der Staat legt eine Höchstmenge an Emissionen fest und gibt dafür Zertifikate aus, die gehandelt werden können. Der Preis je Tonne CO₂ bildet sich am Markt, die Menge ist politisch bestimmt.
+
+## Finanzialisierung
+
+Wachsendes Gewicht von Finanzmärkten, Finanzunternehmen und Renditezielen in der gesamten Wirtschaft. Unternehmen richten sich stärker nach ihren Aktionären, Haushalte finanzieren mehr über Kredit.
+
+## Green New Deal
+
+Programm für einen staatlich geführten Umbau zur klimaneutralen Wirtschaft: große öffentliche Investitionen, Industriepolitik und soziale Absicherung. Der Name erinnert an den New Deal der USA in den 1930er-Jahren.
+
+## Grenzprodukt
+
+Der zusätzliche Ertrag, den eine weitere Einheit eines Produktionsfaktors bringt, etwa eine weitere Arbeitsstunde. In der Neoklassik entspricht der Lohn bei Wettbewerb dem Wert dieses Grenzprodukts.
+
+## Imperialismus
+
+Allgemein die Herrschaft eines Staates über fremde Gebiete. Im Marxismus seit Lenin eine Stufe des Kapitalismus, in der große Konzerne und Staaten um Märkte, Rohstoffe und Anlagegebiete konkurrieren.
+
+## Industrielle Reservearmee
+
+Bei Marx die Arbeitslosen und Unterbeschäftigten, die der Kapitalismus durch neue Technik und Krisen ständig hervorbringt. Sie drücken auf die Löhne der Beschäftigten und stehen bereit, wenn die Wirtschaft wächst.
+
+## Inflation
+
+Anhaltender Anstieg des Preisniveaus, also sinkende Kaufkraft des Geldes.
+
+**Umstritten:** Die Neoklassik erklärt sie vor allem aus zu hoher Nachfrage und Erwartungen, für die die Geldpolitik verantwortlich ist. Postkeynesianer sehen meist steigende Kosten und den Streit um die Verteilung am Werk.
+
+## Leistungsbilanz
+
+Sie erfasst, was ein Land im Handel mit Waren und Dienstleistungen sowie über Einkommen aus dem Ausland einnimmt und ausgibt. Ein Überschuss bedeutet, dass das Land Forderungen gegenüber dem Ausland aufbaut, ein Defizit, dass es sich dort verschuldet.
+
+## Optimaler Währungsraum
+
+Gebiet, für das sich eine gemeinsame Währung lohnt. Nach Robert Mundell ist das der Fall, wenn Krisen alle Teile ähnlich treffen oder wenn bewegliche Arbeitskräfte, anpassungsfähige Preise oder Ausgleichszahlungen den Wechselkurs ersetzen können.
+
+## Produktivität
+
+Verhältnis von Ergebnis zu Einsatz, meist als Wertschöpfung je Arbeitsstunde gemessen. Steigt sie, kann mit derselben Arbeit mehr hergestellt werden.
+
+## Schattenbank
+
+Finanzunternehmen, das wie eine Bank kurzfristig Geld aufnimmt und langfristig anlegt, aber weder der Bankenaufsicht unterliegt noch durch Einlagensicherung und Zentralbank abgesichert ist. Beispiele sind Geldmarktfonds und Zweckgesellschaften.
+
+## Schuldenbremse
+
+Regel im Grundgesetz seit 2009: Der Bund darf sich in normalen Zeiten nur in Höhe von 0,35 Prozent der Wirtschaftsleistung neu verschulden. 2025 wurden Verteidigungsausgaben oberhalb von einem Prozent der Wirtschaftsleistung ausgenommen und ein Sondervermögen für Infrastruktur und Klimaschutz geschaffen.
+
+## Schuldenquote
+
+Staatsschulden im Verhältnis zur jährlichen Wirtschaftsleistung. Sie sinkt auch ohne Tilgung, wenn die Wirtschaft schneller wächst als die Schulden.
+
+## Staatsquote
+
+Staatsausgaben im Verhältnis zur Wirtschaftsleistung. Mitgezählt werden die Sozialversicherungen und Zahlungen wie Renten, die der Staat nur weiterleitet.
+
+## Terms of Trade
+
+Verhältnis der Preise, die ein Land für seine Exporte erhält, zu den Preisen, die es für seine Importe zahlt. Verschlechtern sie sich, muss das Land mehr ausführen, um dieselbe Menge einzuführen.
+
+## Ursprüngliche Akkumulation
+
+Bei Marx der geschichtliche Vorgang, der die Voraussetzungen des Kapitalismus schuf: Bauern wurden von ihrem Land getrennt und mussten ihre Arbeitskraft verkaufen, während sich Vermögen durch Raub, Kolonien und Staatsschulden in wenigen Händen sammelte.
+
+## Verbriefung
+
+Kredite werden gebündelt und als handelbare Wertpapiere verkauft. Die Bank, die den Kredit vergeben hat, trägt das Risiko dann nicht mehr selbst.
+
+## Zahlungsbilanz
+
+Aufstellung aller wirtschaftlichen Vorgänge zwischen einem Land und dem Ausland in einem Zeitraum. Ihr wichtigster Teil ist die [[Leistungsbilanz]]. Ein Land hat Zahlungsbilanzprobleme, wenn ihm die Devisen für seine Importe und Schulden ausgehen.
+
+## Zusatzlast
+
+Auch Wohlfahrtsverlust: der Wohlstand, der durch eine Steuer verloren geht, weil lohnende Geschäfte unterbleiben. Er kommt zu dem Betrag hinzu, den der Staat einnimmt.

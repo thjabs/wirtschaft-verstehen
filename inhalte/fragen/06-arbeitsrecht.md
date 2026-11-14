@@ -26,7 +26,7 @@ Beim Kündigungsschutz zeigt die Forschung ein anderes Muster. Strenge Regeln ve
 
 Die OECD hat daraus 2018 in ihrer Beschäftigungsstrategie den Schluss gezogen, dass Flexibilität allein nicht genügt. Gute Ergebnisse erzielen Länder, die Anpassungsfähigkeit mit Schutz verbinden: berechenbare, maßvolle Regeln für Kündigungen, eine großzügige Absicherung bei Arbeitslosigkeit und eine aktive Vermittlung und Weiterbildung. Dänemark steht für dieses Modell, das oft „Flexicurity“ genannt wird.
 
-Zum Wort „national“: In einer offenen Volkswirtschaft wandern Investitionen ab, wenn die Arbeitskosten über der Produktivität liegen. Ein Wettlauf nach unten folgt daraus nicht. Länder mit hoher Produktivität können sich hohe Löhne und Standards leisten, wie Deutschland und Skandinavien zeigen. Das Arbeitsrecht muss zur Leistungsfähigkeit passen.
+Zum Wort „national“: In einer offenen Volkswirtschaft wandern Investitionen ab, wenn die Arbeitskosten über der [[Produktivität]] liegen. Ein Wettlauf nach unten folgt daraus nicht. Länder mit hoher Produktivität können sich hohe Löhne und Standards leisten, wie Deutschland und Skandinavien zeigen. Das Arbeitsrecht muss zur Leistungsfähigkeit passen.
 
 ### Quellen
 

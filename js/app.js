@@ -566,7 +566,7 @@
 
     fachZu.addEventListener('click', function () { geheZu(''); });
     buehne.addEventListener('click', function (e) {
-      if (offenesFach && !e.target.closest('.nachttisch') && !e.target.closest('.lichtschalter')) { geheZu(''); }
+      if (offenesFach && !e.target.closest('.nachttisch') && !e.target.closest('.lichtschalter') && !e.target.closest('.kalender')) { geheZu(''); }
     });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && offenesFach && !lesen.open) { geheZu(''); }

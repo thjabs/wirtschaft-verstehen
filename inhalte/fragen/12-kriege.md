@@ -43,7 +43,7 @@ Die Antwort lautet also: Kriege haben politische Ursachen. Die Marktwirtschaft v
 
 ### Kernsatz
 
-Kriege haben politische Ursachen, aber wirtschaftliche Fehlentwicklungen bereiten ihnen den Boden: Massenarbeitslosigkeit, Deflation und untragbare Schulden radikalisieren Gesellschaften, wovor Keynes schon 1919 nach dem Versailler Vertrag warnte. Vollbeschäftigung im Innern und eine Weltwährungsordnung, die Überschüsse und Defizite ausgleicht, sind deshalb auch Friedenspolitik.
+Kriege haben politische Ursachen, aber wirtschaftliche Fehlentwicklungen bereiten ihnen den Boden: Massenarbeitslosigkeit, [[Deflation]] und untragbare Schulden radikalisieren Gesellschaften, wovor Keynes schon 1919 nach dem Versailler Vertrag warnte. Vollbeschäftigung im Innern und eine Weltwährungsordnung, die Überschüsse und Defizite ausgleicht, sind deshalb auch Friedenspolitik.
 
 ### Antwort
 
@@ -66,13 +66,13 @@ Das Wirtschaftssystem hat also mit Kriegen zu tun. Ein Schicksal ist das für Po
 - John Maynard Keynes: *The Economic Consequences of the Peace*. Macmillan, London 1919. Deutsch: *Die wirtschaftlichen Folgen des Friedensvertrages*.
 - John Maynard Keynes: *The General Theory of Employment, Interest and Money*. Macmillan, London 1936 (Kapitel 24).
 - Michał Kalecki: „Political Aspects of Full Employment“. *The Political Quarterly* 14 (4), 1943, S. 322–331.
-- John Maynard Keynes: „Proposals for an International Clearing Union“ (1943). In: *The Collected Writings of John Maynard Keynes*, Band 25.
+- John Maynard Keynes: „Proposals for an International Clearing Union“ (1943). In: *The Collected Writings of John Maynard Keynes*, Band XXV, hrsg. von Donald Moggridge, Macmillan und Cambridge University Press, London 1980.
 
 ## Marxismus
 
 ### Kernsatz
 
-Ja: Kapitalismus bedeutet Konkurrenz um Märkte, Rohstoffe und Anlagemöglichkeiten, und im Imperialismus tragen Staaten diese Konkurrenz für ihr Kapital aus, notfalls militärisch (Lenin, Luxemburg). Krieg und Rüstung sind dabei kein Betriebsunfall, sie sind auch ein Geschäft und ein Weg, überschüssiges Kapital anzulegen oder zu entwerten.
+Ja: Kapitalismus bedeutet Konkurrenz um Märkte, Rohstoffe und Anlagemöglichkeiten, und im [[Imperialismus]] tragen Staaten diese Konkurrenz für ihr Kapital aus, notfalls militärisch (Lenin, Luxemburg). Krieg und Rüstung sind dabei kein Betriebsunfall, sie sind auch ein Geschäft und ein Weg, überschüssiges Kapital anzulegen oder zu entwerten.
 
 ### Antwort
 

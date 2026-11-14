@@ -8,7 +8,7 @@ frage: Warum verschulden sich Staaten? Was sind die Konsequenzen?
 
 ### Kernsatz
 
-Schulden sind sinnvoll, um Steuersätze über die Zeit zu glätten, Krisen abzufedern und Investitionen zu finanzieren, von denen auch künftige Steuerzahler profitieren. Dauerhaft hohe Defizite können aber private Investitionen verdrängen ([[Crowding-out]]) und die Tragfähigkeit gefährden, deshalb muss die Schuldenquote auf lange Sicht stabil bleiben.
+Schulden sind sinnvoll, um Steuersätze über die Zeit zu glätten, Krisen abzufedern und Investitionen zu finanzieren, von denen auch künftige Steuerzahler profitieren. Dauerhaft hohe Defizite können aber private Investitionen verdrängen ([[Crowding-out]]) und die Tragfähigkeit gefährden, deshalb muss die [[Schuldenquote]] auf lange Sicht stabil bleiben.
 
 ### Antwort
 
@@ -16,7 +16,7 @@ Für die Neoklassik gibt es gute und schlechte Gründe für Staatsschulden.
 
 Die guten: Erstens die Steuerglättung, die Robert Barro 1979 beschrieben hat. Staatsausgaben schwanken, etwa durch Kriege, Krisen oder Pandemien. Müssten die Steuersätze jedes Mal mitschwanken, wäre der Schaden groß, weil die Zusatzlast von Steuern überproportional mit dem Satz steigt. Besser ist es, in schlechten Zeiten Schulden aufzunehmen und sie in guten zu tilgen. Zweitens die Stabilisierung: In der Rezession sinken die Steuereinnahmen und steigen die Sozialausgaben von selbst, das stützt die Nachfrage. Drittens Investitionen: Eine Brücke nutzt auch der nächsten Generation, also darf diese mitbezahlen.
 
-Der schlechte Grund liegt in der Politik. Die Vorteile zusätzlicher Ausgaben fallen heute an, die Kosten später und bei anderen. Regierungen neigen deshalb zu Defiziten. Dagegen stehen Fiskalregeln wie die europäischen Grenzen (drei Prozent Defizit, 60 Prozent Schuldenstand) und die deutsche Schuldenbremse.
+Der schlechte Grund liegt in der Politik. Die Vorteile zusätzlicher Ausgaben fallen heute an, die Kosten später und bei anderen. Regierungen neigen deshalb zu Defiziten. Dagegen stehen Fiskalregeln wie die europäischen Grenzen (drei Prozent Defizit, 60 Prozent Schuldenstand) und die deutsche [[Schuldenbremse]].
 
 Die Konsequenzen hängen an einer einfachen Rechnung. Der Staat muss seine Schulden bedienen können. Ob die Schuldenquote steigt oder fällt, entscheiden der Zins, das Wirtschaftswachstum und der Haushaltssaldo ohne Zinsen. Liegt der Zins über der Wachstumsrate, braucht der Staat Überschüsse, sonst wächst die Quote immer weiter. Liegt er darunter, kann die Quote auch bei mäßigen Defiziten sinken. Olivier Blanchard hat 2019 gezeigt, dass dieser günstige Fall in der Geschichte häufig war und Schulden dann weniger kosten als lange angenommen. Er ist aber nicht garantiert.
 
@@ -42,7 +42,7 @@ Wie streng Regeln sein sollen, ist in der Schule umstritten. Der Sachverständig
 
 ### Kernsatz
 
-Staatsdefizite sind die Kehrseite privater Überschüsse ([[Sektorensalden]]): Wenn Haushalte und Unternehmen netto sparen und das Ausland das nicht ausgleicht, muss der Staat sich verschulden, sonst schrumpfen Einkommen und Beschäftigung. Für einen Staat mit eigener Währung liegt die Grenze nicht bei der Zahlungsfähigkeit, sondern bei Inflation und realen Ressourcen.
+Staatsdefizite sind die Kehrseite privater Überschüsse ([[Sektorensalden]]): Wenn Haushalte und Unternehmen netto sparen und das Ausland das nicht ausgleicht, muss der Staat sich verschulden, sonst schrumpfen Einkommen und Beschäftigung. Für einen Staat mit eigener Währung liegt die Grenze nicht bei der Zahlungsfähigkeit, sondern bei [[Inflation]] und realen Ressourcen.
 
 ### Antwort
 

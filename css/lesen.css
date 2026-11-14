@@ -339,3 +339,50 @@
   .prosa figure img { width: 34rem; max-width: none; }
   .prosa figcaption { position: sticky; left: 0; }
 }
+
+/* --- Gemütlicher: weichere Formen, wärmerer Hintergrund, kleine Zierde --------- */
+
+.lesen::backdrop { background: rgba(42, 26, 22, .44); }
+
+.blatt {
+  border-radius: 16px;
+  background-image:
+    radial-gradient(ellipse at 18% 0%, rgba(255, 244, 214, .7), transparent 55%),
+    linear-gradient(90deg, rgba(120, 90, 40, .07), transparent 2.5rem, transparent calc(100% - 2.5rem), rgba(120, 90, 40, .06));
+  box-shadow: 0 1px 0 #fffaf0 inset, 0 26px 64px rgba(32, 16, 6, .5);
+}
+/* gesteppter Rand wie bei einer Decke */
+.blatt::before {
+  content: "";
+  position: absolute;
+  inset: .55rem;
+  border: 1.5px dashed rgba(138, 102, 46, .28);
+  border-radius: 11px;
+  pointer-events: none;
+}
+/* drei Punkte in den Farben der Schulen */
+.blatt-titel::after {
+  content: "";
+  display: block;
+  width: 4.2rem;
+  height: .55rem;
+  margin-top: 1rem;
+  background:
+    radial-gradient(circle at .28rem 50%, var(--petrol) .24rem, transparent .27rem),
+    radial-gradient(circle at 2.1rem 50%, var(--ocker) .24rem, transparent .27rem),
+    radial-gradient(circle at 3.92rem 50%, var(--aubergine) .24rem, transparent .27rem);
+}
+
+.kernsatz { border-radius: 12px; box-shadow: 0 2px 8px rgba(70, 45, 10, .09); }
+.lade { border-radius: 12px; }
+.lade-griff { border-radius: 12px; }
+.lade.offen > .lade-kopf > .lade-griff { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.lade-leiste { background: linear-gradient(#d8c79f, #b09d76); }
+.prosa figure { padding: .9rem; border-radius: 12px; background: #fffaf0; box-shadow: 0 1px 4px rgba(70, 45, 10, .1); }
+.tipp { border-radius: 12px; background: #352a22; }
+.glossar-filter { border-radius: 999px; padding-left: 1.1rem; }
+
+@media (max-width: 46rem) {
+  .blatt { border-radius: 12px; }
+  .blatt::before { inset: .35rem; border-radius: 9px; }
+}

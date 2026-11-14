@@ -24,7 +24,7 @@ Daraus folgt kein Rückzug des Staates, wohl aber eine Prüfreihenfolge. Wer ein
 
 **Stabilisierung.** Weil Preise und Löhne träge reagieren, kann die Nachfrage in Rezessionen hinter den Möglichkeiten zurückbleiben. Zuerst ist die Zentralbank gefragt, die den Zins senkt. Daneben wirken Arbeitslosenversicherung und Steuersystem von selbst stabilisierend. In schweren Krisen wie 2008 und 2020 sind zusätzlich Konjunkturprogramme angebracht.
 
-Auch der Staat kann versagen: Politiker und Behörden haben eigene Interessen, ihnen fehlt Wissen, und gut organisierte Gruppen setzen Sondervorteile durch. Deshalb bevorzugt die Schule feste Regeln vor Einzelfallentscheidungen, etwa eine unabhängige Zentralbank und allgemeine Wettbewerbsregeln. In Deutschland entspricht dem das Leitbild der Sozialen Marktwirtschaft. Klein ist dieser Staat nicht: Die Staatsquote lag 2024 bei 49,5 Prozent der Wirtschaftsleistung.
+Auch der Staat kann versagen: Politiker und Behörden haben eigene Interessen, ihnen fehlt Wissen, und gut organisierte Gruppen setzen Sondervorteile durch. Deshalb bevorzugt die Schule feste Regeln vor Einzelfallentscheidungen, etwa eine unabhängige Zentralbank und allgemeine Wettbewerbsregeln. In Deutschland entspricht dem das Leitbild der Sozialen Marktwirtschaft. Klein ist dieser Staat nicht: Die [[Staatsquote]] lag 2024 bei 49,5 Prozent der Wirtschaftsleistung.
 
 ### Quellen
 

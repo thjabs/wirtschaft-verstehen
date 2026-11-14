@@ -1,6 +1,6 @@
 # PROGRESS
 
-Stand: 11.11.2026, Ende Sitzung 4. Alle Inhalte aus dem Sitzungsplan sind geschrieben. Bei „mach weiter“ geht es beim ersten offenen Punkt weiter.
+Stand: 14.11.2026, Ende Sitzung 5. Inhalte, Glossar und Gestaltung sind abgeschlossen, offene Prüfpunkte stehen in `REVIEW.md`. Bei „mach weiter“ geht es beim ersten offenen Punkt weiter.
 
 ## Sitzung 1 – Fundament
 
@@ -86,8 +86,26 @@ Stand: 11.11.2026, Ende Sitzung 4. Alle Inhalte aus dem Sitzungsplan sind geschr
 
 ## Was als Nächstes sinnvoll ist (nach dem Sitzungsplan)
 
-- [ ] `REVIEW.md` durchgehen: Die offenen Punkte aus allen vier Sitzungen sind die eigentliche Restarbeit am Inhalt.
-- [ ] Wörtliche Marx-Zitate und alle Seitenangaben an den Originalen prüfen.
-- [ ] Glossar gegen ein Lehrbuch abgleichen und um Begriffe aus den Fragen 7 bis 12 ergänzen (z. B. Leistungsbilanz, Emissionshandel, Verbriefung, Imperialismus).
+- [x] `REVIEW.md` durchgegangen (Sitzung 5), Rest steht dort unter „Weiter offen“
+- [x] Wörtliche Marx-Zitate am Volltext geprüft (Seitenangaben stehen nicht im Text)
+- [x] Glossar um Begriffe aus den Fragen 7 bis 12 ergänzt (Lehrbuchabgleich weiter offen)
 - [ ] Echte Datengrafiken mit geprüften Reihen: Lohnstückkosten im Euroraum, Schuldenquoten, Leistungsbilanzen.
-- [ ] Design-Feinschliff durch ein anderes Modell (Szene, Schubladen-Animation am Nachttisch, Druckansicht).
+- [x] Design-Feinschliff: Jahreszeiten und gemütlichere Szene (Sitzung 5)
+
+## Sitzung 5 – Abschluss (14.11.2026)
+
+- [x] Offene Aussagen und Quellen aus allen Sitzungen per Websuche nachgeprüft, Texte korrigiert und mit Zahlen unterlegt (Einzelheiten in `REVIEW.md`)
+- [x] `REVIEW.md` neu geordnet: bestätigt und weiter offen
+- [x] Glossar von 31 auf 53 Begriffe erweitert, neue Begriffe in den Texten markiert (120 Markierungen)
+- [x] Vier Jahreszeiten, jeweils bei Tag und Nacht: Wandkalender in der Szene und Knopf in der Kopfleiste, Wahl wird gespeichert
+- [x] Szene gemütlicher: Tapete und Wandvertäfelung, Lichterkette, Sessel mit Kissen und Decke, Strickdecke, Wandbrett mit Pflanze, dampfende Tasse, Hausschuhe, wärmeres Lampenlicht
+- [x] Leseebene wärmer: runde Ecken, gesteppter Rand, drei Punkte in den Farben der Schulen
+- [ ] Glossar gegen ein Lehrbuch abgleichen (nicht möglich ohne das Lehrbuch, steht weiter in `REVIEW.md`)
+- [ ] Echte Datengrafiken mit geprüften Reihen (nicht gemacht, die Modellbilder bleiben schematisch)
+
+## Geprüft in Sitzung 5
+
+- Wortzahl-Skript: 195 Abschnitte (mit 53 Glossareinträgen), 195 ok, 0 Ausreißer.
+- Per Skript im Browser: alle 120 markierten Begriffe haben einen Glossareintrag, keine langen Gedankenstriche.
+- Im Browser angesehen: Herbst und Winter bei Nacht, Frühling, Herbst und Winter bei Tag, Sommer bei Nacht (Desktop), Frühling bei Nacht bei 375 px, Frage 8 und Glossar. Kalender und Kopfleisten-Knopf schalten weiter und speichern die Wahl. Keine Konsolenfehler.
+- Nicht geprüft: Sommer bei Tag und Frühling bei Tag in Mobilbreite, andere Browser, echte Telefone.
