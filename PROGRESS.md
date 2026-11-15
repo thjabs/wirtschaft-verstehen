@@ -1,111 +1,65 @@
 # PROGRESS
 
-Stand: 14.11.2026, Ende Sitzung 5. Inhalte, Glossar und Gestaltung sind abgeschlossen, offene Prüfpunkte stehen in `REVIEW.md`. Bei „mach weiter“ geht es beim ersten offenen Punkt weiter.
+Stand: 15.11.2026, nach Sitzung 5. Der ursprüngliche Sitzungsplan ist abgearbeitet, die Seite ist veröffentlicht. Diese Datei ist die Übergabe für jede neue Sitzung.
 
-## Sitzung 1 – Fundament
+## Start hier (neue Sitzung)
 
-- [x] Git-Repo (lokal, Zweig `main`), Dateistruktur, `README.md`, `PROGRESS.md`, `REVIEW.md`
-- [x] Inhalts-Pipeline: Manifest, Markdown laden und parsen, Schubladen-Komponenten, Deep-Links, Inhaltsverzeichnis, Glossar-Tooltips
-- [x] Nachtszene in Grundform: Zimmer, Nachttisch mit 5 Schubladen, Fenster mit Stadt, Tag/Nacht-Schalter, Pause-Knopf, Leseebene
-- [x] Wortzahl-Skript (`tools/wortzahl.ps1`) und Vorschau-Server (`tools/serve.ps1`)
-- [x] Alle Kernsätze für alle 12 Fragen (36 Stück)
-- [x] Vorgezogen: Glossar-Grundstock mit 17 Begriffen (nur die, die in den Kernsätzen vorkommen)
-- [x] GitHub-Repo `thjabs/wirtschaft-verstehen` angelegt, GitHub Pages eingeschaltet (`main`, `/`), `.nojekyll` liegt im Wurzelordner. Live: https://thjabs.github.io/wirtschaft-verstehen/
-- [x] Entscheidung: `CLAUDE.md` bleibt nur lokal (steht in `.gitignore`), weil sie lokale Pfade enthält
+1. Diese Datei lesen, danach `REVIEW.md` (Abschnitt „Weiter offen“) und bei Bedarf `README.md` (Aufbau, Schreibkonventionen, Jahreszeiten).
+2. `git status` und `git log --oneline -5` ansehen. Der Arbeitsstand ist sauber und vollständig gepusht (letzter Commit vor dieser Übergabe: `4365ce1`).
+3. Vorschau starten (`tools/serve.ps1`, Port 8765) und die Seite einmal ansehen.
+4. Bei „mach weiter“ ohne weiteren Auftrag: beim ersten offenen Punkt unter „Offen“ beginnen.
 
-## Sitzung 2 – Grundlagen
+Live: https://thjabs.github.io/wirtschaft-verstehen/ · Repo: `thjabs/wirtschaft-verstehen` (öffentlich, GitHub Pages aus `main`, Ordner `/`).
 
-- [x] Neoklassik: Entstehung (513 Wörter), Aktueller Stand (291), Debatten (314), Strömungen (207)
-- [x] Postkeynesianismus: Entstehung (480), Aktueller Stand (285), Debatten (307), Strömungen (195)
-- [x] Marxismus: Entstehung (510), Aktueller Stand (293), Debatten (335), Strömungen (206)
-- [x] „Weitere Theorien“: sieben Steckbriefe (74 bis 87 Wörter) mit Verweis auf Exploring Economics
-- [x] Zusätzlich je Schule eine Schublade „Zum Weiterlesen“ mit geprüften Titeln (`literatur.md`)
-- [x] Glossar auf 31 Begriffe ausgebaut, umstritten markiert: Kapital, Wert, Geld, Gleichgewicht
-- [ ] Glossar gegen ein Lehrbuch abgleichen (steht in `REVIEW.md`)
+## Was es gibt
 
-## Sitzung 3 – Problemfelder I und II
+- **Inhalte, vollständig:** 12 Fragen mit je drei Kernsätzen, drei ausführlichen Antworten, Quellen und Konflikt-Schublade. Grundlagen für drei Schulen (je fünf Schubladen, die fünfte ist „Zum Weiterlesen“), sieben Steckbriefe „Weitere Theorien“, Glossar mit 53 Begriffen.
+- **Modellbilder:** zehn schematische SVGs unter `assets/diagramme/` (Frage 10 verwendet das Bild aus Frage 1, Frage 12 hat keines).
+- **Szene:** Zimmer mit Nachttisch (fünf Schubladen), Fenster mit Altstadt, Tag/Nacht, vier Jahreszeiten, Pause-Knopf, Wandkalender, Lichtschalter.
+- **Leseebene:** Papierbogen mit Kernsätzen, Schubladen, Glossar-Tooltips, Inhaltsverzeichnis, Glossar-Ansicht, Deep-Links.
+- **Werkzeuge:** `tools/serve.ps1` (Vorschau), `tools/wortzahl.ps1` (Wortzahlen).
 
-- [x] Frage 1: Antworten, Quellen, Konflikt, Modellbild (externer Effekt)
-- [x] Frage 2 (Modellbild: Zusatzlast einer Steuer)
-- [x] Frage 3 (Modellbild: Sektorensalden, schematisch)
-- [x] Frage 4 (Modellbild: Arbeitstag und Mehrwert)
-- [x] Frage 5 (Modellbild: G–W–G′)
-- [x] Frage 6 (Modellbild: Arbeitsmarkt mit Mindestlohn)
+## Offen
 
-## Sitzung 4 – Problemfelder III und IV
+Nach Wichtigkeit geordnet. Nichts davon blockiert die Seite.
 
-- [x] Frage 7 (Modellbild: Lohnstückkosten in der Währungsunion, schematisch)
-- [x] Frage 8 (Modellbild: Ricardos Zahlenbeispiel)
-- [x] Frage 9 (Modellbild: Zentrum und Peripherie)
-- [x] Frage 10 (Modellbild: externer Effekt, wie Frage 1)
-- [x] Frage 11 (Modellbild: Minskys drei Finanzierungsformen)
-- [x] Frage 12 (ohne Modellbild)
+- [ ] **Inhalt gegenlesen (Mensch):** Die Punkte unter „Weiter offen“ in `REVIEW.md`, vor allem die sinngemäß wiedergegebenen Positionen einzelner Autoren und die dort genannten Entscheidungen.
+- [ ] **Glossar gegen ein Lehrbuch abgleichen.** Die 53 Einträge folgen dem üblichen Gebrauch, sind aber nicht mit einem Lehrbuch verglichen.
+- [ ] **Restliche Quellenangaben prüfen:** Ramsey 1927 (Band und Seiten), Brenner 2006, Kliman 2012, Amin 1976 (Verlag), Seiten bei Hart/Zingales 2017, Titel der IMK/IW-Studie 2024.
+- [ ] **Zahlen mit schwachem Beleg:** Tarifbindung 2024 (Frage 4), Unternehmen als Sparer (Fragen 1 und 3), Welthandel seit 1950 (Frage 8), UNCTAD-Wert zu Rohstoffen (Frage 9).
+- [ ] **Echte Datengrafiken** mit geprüften Reihen statt Schemata: Lohnstückkosten im Euroraum, Schuldenquoten, Leistungsbilanzen.
+- [ ] **Weitere Modellbilder** aus den Vorschlägen der Spezifikation: Crowding-out, Multiplikator, Laffer-Kurve, tendenzieller Fall der Profitrate.
+- [ ] **Geräte und Browser:** Die Seite ist nur im eingebauten Browser der Claude-App geprüft. Offen sind echte Telefone, Firefox und Safari, dazu Sommer bei Tag und die verschiebbaren Diagramme auf schmalen Bildschirmen.
+- [ ] **Feinschliff-Ideen:** Schublade am Nachttisch sichtbar herausfahren lassen, Druckansicht, sehr breite Bildschirme (oberer Fensterrand wird beschnitten), Kopfleiste bei 320 px (fünf Knöpfe brechen um).
 
-## Zum Schluss jeder Sitzung
+## Am Ende jeder Sitzung
 
-- [ ] Wortzahl-Skript laufen lassen
-- [ ] Seite lokal durchklicken (Desktop- und Mobilbreite, Tag und Nacht)
-- [ ] `REVIEW.md` und `PROGRESS.md` aktualisieren, committen
-- [ ] Kurzbericht in 3–5 Sätzen
+- Wortzahl-Skript laufen lassen: `powershell -NoProfile -ExecutionPolicy Bypass -File tools\wortzahl.ps1 -NurProbleme`
+- Seite lokal durchklicken (Desktop und 375 px, Tag und Nacht, mindestens zwei Jahreszeiten).
+- `REVIEW.md` und diese Datei aktualisieren, gezielt committen (kein `git add .`), vor dem Push in einem Satz sagen, was hochgeht.
+- Vor jedem Push prüfen, dass keine lokalen Pfade oder Namen im Stand sind: `git grep -n -i -E "One[D]rive|U[s]ers" HEAD -- . ":!vendor"` muss leer sein. `CLAUDE.md` bleibt lokal (steht in `.gitignore`).
 
-## Geprüft in Sitzung 1
+## Stolpersteine, die schon Zeit gekostet haben
 
-- Wortzahl-Skript: 156 Abschnitte, 53 ok, 103 leer, 0 Ausreißer.
-- Im eingebauten Browser durchgeklickt: 1366 × 768, Tablet (768 × 1024), 375 × 812 und 320 × 568, jeweils Szene, Schublade und Leseebene, Tag und Nacht. Keine Konsolenfehler.
-- Tastatur: Escape schließt erst die Leseebene (zurück zur Schublade), dann die Schublade, der Fokus kehrt zum Schubladen-Knopf zurück.
-- Startseite überträgt rund 115 KB, größte Datei ist `vendor/marked.min.js` mit 35 KB.
+- **GitHub Pages braucht `.nojekyll`** im Wurzelordner, sonst werden die Markdown-Dateien mit Kopfzeilen nicht ausgeliefert. Die Datei ist da und muss bleiben.
+- **Zwischenüberschriften in Grundlagentexten** mit `###`, weil der Schubladentitel schon Ebene 2 ist.
+- **Kein `&amp;` in Markdown** schreiben, einfach `&`.
+- **Abbildungen ohne verzögertes Laden**, sonst fehlen sie in frisch aufgeklappten Schubladen.
+- **Animationen der Leseebene ändern nur die Position, nicht die Deckkraft**, damit Inhalt nie unsichtbar hängen bleibt.
+- **Neue Glossarbegriffe:** Eintrag in `inhalte/glossar.md` anlegen (Reihenfolge egal) und im Text als `[[Eintrag]]` oder `[[Eintrag|Text im Satz]]` markieren. Jede Markierung braucht einen Eintrag.
+- **PowerShell-Skripte bleiben reines ASCII**, weil PowerShell 5.1 Dateien ohne BOM als ANSI liest.
 
-## Notizen für spätere Sitzungen
+## Erledigt
 
-- Zehn Modellbilder liegen unter `assets/diagramme/` (je rund 2 KB, einheitlicher Stil: 640 Einheiten breit, Schulfarbe, Systemschrift). Noch offen aus den Vorschlägen: Crowding-out, Multiplikator, Laffer-Kurve, tendenzieller Fall der Profitrate.
-- Die Kernsätze sind aus Fachwissen formuliert und noch nicht einzeln mit Quellen belegt. Die Belege entstehen zusammen mit den ausführlichen Antworten. Heikle Stellen stehen in `REVIEW.md`.
-- Feinschliff-Ideen für später: Schublade am Nachttisch sichtbar herausfahren lassen, Szene auf sehr breiten Bildschirmen (oberer Fensterrand wird beschnitten), Druckansicht, `assets/szene/` ist ungenutzt, weil die Szene inline in `index.html` liegt.
+- **Sitzung 1:** Fundament, Szene in Grundform, Leseebene, Inhalts-Pipeline, alle 36 Kernsätze, Veröffentlichung auf GitHub Pages.
+- **Sitzung 2:** Grundlagen der drei Schulen, Weitere Theorien, Glossar-Grundstock.
+- **Sitzung 3:** Fragen 1 bis 6 mit Antworten, Quellen, Konflikt und sechs Modellbildern.
+- **Sitzung 4:** Fragen 7 bis 12 mit Antworten, Quellen, Konflikt und vier Modellbildern.
+- **Sitzung 5:** Abschlussprüfung aller offenen Quellen und Zahlen per Websuche, Korrekturen in den Texten, Glossar auf 53 Begriffe, vier Jahreszeiten, gemütlichere Szene und Leseebene.
 
-## Geprüft in Sitzung 2
+## Letzter Prüfstand (Sitzung 5)
 
-- Wortzahl-Skript: 173 Abschnitte, 89 ok, 84 leer, 0 Ausreißer. Alle Grundlagentexte liegen im Sollbereich.
-- Alle `[[Begriffe]]` in allen Inhaltsdateien haben einen Glossareintrag (per Skript im Browser geprüft), keine langen Gedankenstriche.
-- Fakten per Websuche geprüft, Liste und offene Punkte in `REVIEW.md` unter „Sitzung 2“.
-- Im Browser angesehen (Nacht): Postkeynesianismus und „Weitere Theorien“ in Desktopbreite, Marxismus mit allen fünf Schubladen und das Glossar bei 375 px. Keine Konsolenfehler. Den Tagmodus habe ich in dieser Sitzung nicht erneut geprüft.
-- Zwischenüberschriften in Grundlagentexten stehen auf Ebene 3 (`###`), weil der Schubladentitel schon Ebene 2 ist.
-
-## Geprüft in Sitzung 3
-
-- Wortzahl-Skript: 173 Abschnitte, 131 ok, 42 leer (Fragen 7 bis 12), 0 Ausreißer.
-- Per Skript im Browser: Alle `[[Begriffe]]` der Fragen 1 bis 6 haben einen Glossareintrag, alle sechs Abbildungen werden ausgeliefert, keine langen Gedankenstriche.
-- Im Browser angesehen (Desktopbreite, Nacht): alle sechs Diagramme einzeln, Frage 3 und Frage 5 mit geöffneten Schubladen. Keine Konsolenfehler. Mobilbreite und Tagmodus in dieser Sitzung nicht erneut geprüft.
-- Quellen per Websuche geprüft, offene Punkte in `REVIEW.md` unter „Sitzung 3“.
-
-## Geprüft in Sitzung 4
-
-- Wortzahl-Skript: 173 Abschnitte, 173 ok, 0 leer, 0 Ausreißer.
-- Per Skript im Browser über alle 29 Inhaltsdateien: jeder `[[Begriff]]` hat einen Glossareintrag, alle 11 Bildverweise werden ausgeliefert, keine langen Gedankenstriche.
-- Im Browser angesehen: alle vier neuen Diagramme einzeln (Desktop), Frage 11 mit geöffneten Schubladen bei 375 px, Startszene bei 375 px im Tagmodus. Keine Konsolenfehler.
-- Behoben: Abbildungen wurden mit verzögertem Laden eingebunden und erschienen in aufgeklappten Schubladen teils nicht sofort. Sie laden jetzt direkt.
-- Neu und nur teilweise geprüft: Auf schmalen Bildschirmen sind Diagramme seitlich verschiebbar (Stilregel in `css/lesen.css`).
-
-## Was als Nächstes sinnvoll ist (nach dem Sitzungsplan)
-
-- [x] `REVIEW.md` durchgegangen (Sitzung 5), Rest steht dort unter „Weiter offen“
-- [x] Wörtliche Marx-Zitate am Volltext geprüft (Seitenangaben stehen nicht im Text)
-- [x] Glossar um Begriffe aus den Fragen 7 bis 12 ergänzt (Lehrbuchabgleich weiter offen)
-- [ ] Echte Datengrafiken mit geprüften Reihen: Lohnstückkosten im Euroraum, Schuldenquoten, Leistungsbilanzen.
-- [x] Design-Feinschliff: Jahreszeiten und gemütlichere Szene (Sitzung 5)
-
-## Sitzung 5 – Abschluss (14.11.2026)
-
-- [x] Offene Aussagen und Quellen aus allen Sitzungen per Websuche nachgeprüft, Texte korrigiert und mit Zahlen unterlegt (Einzelheiten in `REVIEW.md`)
-- [x] `REVIEW.md` neu geordnet: bestätigt und weiter offen
-- [x] Glossar von 31 auf 53 Begriffe erweitert, neue Begriffe in den Texten markiert (120 Markierungen)
-- [x] Vier Jahreszeiten, jeweils bei Tag und Nacht: Wandkalender in der Szene und Knopf in der Kopfleiste, Wahl wird gespeichert
-- [x] Szene gemütlicher: Tapete und Wandvertäfelung, Lichterkette, Sessel mit Kissen und Decke, Strickdecke, Wandbrett mit Pflanze, dampfende Tasse, Hausschuhe, wärmeres Lampenlicht
-- [x] Leseebene wärmer: runde Ecken, gesteppter Rand, drei Punkte in den Farben der Schulen
-- [ ] Glossar gegen ein Lehrbuch abgleichen (nicht möglich ohne das Lehrbuch, steht weiter in `REVIEW.md`)
-- [ ] Echte Datengrafiken mit geprüften Reihen (nicht gemacht, die Modellbilder bleiben schematisch)
-
-## Geprüft in Sitzung 5
-
-- Wortzahl-Skript: 195 Abschnitte (mit 53 Glossareinträgen), 195 ok, 0 Ausreißer.
-- Per Skript im Browser: alle 120 markierten Begriffe haben einen Glossareintrag, keine langen Gedankenstriche.
-- Im Browser angesehen: Herbst und Winter bei Nacht, Frühling, Herbst und Winter bei Tag, Sommer bei Nacht (Desktop), Frühling bei Nacht bei 375 px, Frage 8 und Glossar. Kalender und Kopfleisten-Knopf schalten weiter und speichern die Wahl. Keine Konsolenfehler.
-- Nicht geprüft: Sommer bei Tag und Frühling bei Tag in Mobilbreite, andere Browser, echte Telefone.
+- Wortzahl-Skript: 195 Abschnitte, 195 ok, 0 Ausreißer.
+- Alle 120 markierten Begriffe haben einen Glossareintrag, keine langen Gedankenstriche in den Inhalten.
+- Im Browser angesehen: Herbst und Winter bei Nacht, Frühling und Herbst bei Tag (Desktop), Sommer bei Nacht und Winter bei Tag als Ausschnitt, Frühling bei Nacht bei 375 px, Frage 8 und Glossar. Keine Konsolenfehler.
+- Live-Seite nach dem letzten Push geladen: Szene, Lichterkette und Kalender da, keine Konsolenfehler.
