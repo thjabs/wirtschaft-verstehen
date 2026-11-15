@@ -37,7 +37,7 @@ Nach Wichtigkeit geordnet. Nichts davon blockiert die Seite.
 - Wortzahl-Skript laufen lassen: `powershell -NoProfile -ExecutionPolicy Bypass -File tools\wortzahl.ps1 -NurProbleme`
 - Seite lokal durchklicken (Desktop und 375 px, Tag und Nacht, mindestens zwei Jahreszeiten).
 - `REVIEW.md` und diese Datei aktualisieren, gezielt committen (kein `git add .`), vor dem Push in einem Satz sagen, was hochgeht.
-- Vor jedem Push prüfen, dass keine lokalen Pfade oder Namen im Stand sind: `git grep -n -i -E "One[D]rive|U[s]ers" HEAD -- . ":!vendor"` muss leer sein. `CLAUDE.md` bleibt lokal (steht in `.gitignore`).
+- Vor jedem Push prüfen, dass keine lokalen Pfade oder Namen im Stand sind: `git grep -n -E "One[D]rive|U[s]ers" HEAD -- . ":!vendor"` muss leer sein. `CLAUDE.md` bleibt lokal (steht in `.gitignore`).
 
 ## Stolpersteine, die schon Zeit gekostet haben
 
